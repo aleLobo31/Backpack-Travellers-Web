@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Utilidad para accesibilidad */
+.visually-hidden {
+    position: absolute;
+    left: -9999px;
+}
+
+/***********************
+    HEADER GENERAL
+************************/
+header {
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e2e2;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* CONTENEDOR DEL NAV */
+header nav {
+    width: 100%;
+    padding: 16px 24px; /* SOLO PX */
+    display: flex;
+    align-items: center;
+    position: relative; /* Necesario para centrar el menú */
+}
+
+/* LOGO IZQUIERDA */
+.logo {
+    font-weight: bold;
+    font-size: 20px; /* px */
+}
+
+/* MENÚ TOTALMENTE CENTRADO (SOLUCIÓN DEFINITIVA) */
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 32px; /* px */
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-menu li a {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* ACCIONES DERECHA */
+.nav-actions {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 12px; /* px */
+}
+
+.nav-actions button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background: #ffffff;
+    font-size: 16px;
+}
+
+/* BOTÓN DE REGISTRO */
+#register-btn {
+    background: #0077ff;
+    color: #ffffff;
+    border: none;
+}
+
+#register-btn:hover {
+    background: #005fcc;
+}
+
+/* BOTONES DE IDIOMA Y ACCESIBILIDAD */
+#language-btn,
+#accessibility-btn {
+    padding: 0.5rem 0.8rem;
+    border-radius: 6px;
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+    font-size: 1.1rem;
+}
+
+#language-btn:hover,
+#accessibility-btn:hover {
+    background: #e8e8e8;
+}
+
+/***********************
+        FOOTER
+************************/
+footer {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+/* CONTENEDOR GENERAL DEL FOOTER */
+footer .footer-content {
+    width: 100%;
+    padding: 0 24px; /* Márgenes laterales */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* TÍTULO IZQUIERDA */
+footer .footer-left {
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+/* ENLACES CENTRO */
+footer .footer-center {
+    display: flex;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+footer .footer-center a {
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+footer .footer-center a:hover {
+    text-decoration: underline;
+}
+
+/* REDES SOCIALES DERECHA */
+footer .footer-right {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.3rem;
+}
+
+footer .footer-right a {
+    color: #ffffff;
+}
+
+footer .footer-right a:hover {
+    opacity: 0.7;
+}

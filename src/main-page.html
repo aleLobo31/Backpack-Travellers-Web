@@ -21,11 +21,25 @@
             </ul>
 
             <div class="nav-actions">
-                <button id="theme-toggle" aria-label="Cambiar tema"></button>
+
+                <!-- BOTÓN DE IDIOMA -->
+                <button id="language-btn" aria-label="Cambiar idioma">
+                    🌐
+                </button>
+
+                <!-- BOTÓN DE ACCESIBILIDAD -->
+                <button id="accessibility-btn" aria-label="Opciones de accesibilidad">
+                    ♿
+                </button>
+
+                <!-- INICIAR SESIÓN -->
                 <button id="login-btn">Iniciar sesión</button>
+
+                <!-- REGISTRARSE -->
                 <button id="register-btn">Registrarse</button>
             </div>
         </nav>
+
     </header>
 
     <!-- HERO SECTION -->
@@ -72,23 +86,32 @@
         </div>
     </section>
 
-    <!-- FOOTER -->
     <footer>
-        <p>Título de la web © 2025</p>
+        <div class="footer-content">
 
-        <nav aria-label="Enlaces legales">
-            <a href="security-page.html">¿Quiénes somos?</a>
-            <a href="#">Política de privacidad</a>
-            <a href="#">FAQs</a>
-            <a href="contact.html">Contacto</a>
-        </nav>
+            <!-- IZQUIERDA -->
+            <div class="footer-left">
+                <p>Título de la web © 2025</p>
+            </div>
 
-        <div class="social">
-            <a href="#" aria-label="Instagram"></a>
-            <a href="#" aria-label="Twitter"></a>
-            <a href="#" aria-label="YouTube"></a>
+            <!-- CENTRO -->
+            <nav class="footer-center" aria-label="Enlaces legales">
+                <a href="security-page.html">¿Quiénes somos?</a>
+                <a href="#">Política de privacidad</a>
+                <a href="#">FAQs</a>
+                <a href="contact.html">Contacto</a>
+            </nav>
+
+            <!-- DERECHA -->
+            <div class="footer-right">
+                <a href="#" aria-label="Instagram">📸</a>
+                <a href="#" aria-label="Twitter">🐦</a>
+                <a href="#" aria-label="YouTube">▶️</a>
+            </div>
+
         </div>
     </footer>
+
 
 </body>
 </html>
