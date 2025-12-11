@@ -1,0 +1,184 @@
+/* RESET GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/***********************
+    HEADER GENERAL
+************************/
+header {
+    width: 100%;
+    background-color: #fffaf5;
+    border-bottom: 1px solid #d7c9b8;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Navegador */
+.nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 24px; /* Ajusta separación entre logo y enlaces */
+}
+
+/* Logo */
+.logo img {
+    height: 55px;
+    width: auto;
+    display: block;
+}
+
+/* Menú */
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu a {
+    font-size: 15px;
+    font-weight: 500;
+    color: #6c5b4a;
+}
+
+.nav-menu a:hover {
+    color: #a26a33;
+}
+
+/* Botones Accesibilidad y Sign In/Sign Up*/
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.icon-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 999px;
+    border: 1px solid #a26a33;
+    background: #fffaf5;
+    color: #a26a33;
+    font-size: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-login,
+.btn-register {
+    text-decoration: none;
+    padding: 6px 16px;
+    border-radius: 999px;
+    border: 1px solid #a26a33;
+    font-size: 14px;
+}
+
+.btn-login {
+    background: #fffaf5;
+    color: #a26a33;
+}
+
+.btn-register {
+    background: #a26a33;
+    color: #ffffff;
+}
+
+.btn-login:hover {
+    background: #f3eee7;
+}
+
+.btn-register:hover {
+    background: #8e5528;
+    border-color: #8e5528;
+}
+
+/***********************
+    FOOTER GENERAL
+************************/
+footer {
+    background-color: #3f2f1e;       
+    padding: 20px 24px;
+    color: #fef6ee;                   
+}
+
+/* CONTENEDOR PRINCIPAL */
+footer .footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* IZQUIERDA — TÍTULO */
+footer .footer-left {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fef6ee;                   
+    text-align: left;
+}
+
+/* CENTRO — ENLACES */
+footer .footer-center {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+footer .footer-center a {
+    font-size: 14px;
+    color: #fef6ee;                  
+    transition: color 0.2s;
+}
+
+footer .footer-center a:hover {
+    color: #a26a33;                    
+}
+
+/* DERECHA — REDES SOCIALES */
+footer .footer-right {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-right a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-right img {
+    width: 20px;
+    height: 20px;
+    display: block;
+    filter: brightness(0) invert(1);
+}
+
+footer .footer-right a:hover {
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 4px;
+}
