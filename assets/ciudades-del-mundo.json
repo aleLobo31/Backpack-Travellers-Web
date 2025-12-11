@@ -2,13 +2,27 @@
   "continents": [
     {
       "name": "Europa",
+      "banner": {
+        "image": "https://plus.unsplash.com/premium_photo-1675975706513-9daba0ec12a8?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "alt": "Europa",
+        "overlayText": "Explora la historia y cultura del viejo continente"
+      },
+
       "countries": [
         {
           "name": "Austria",
+          "description": "Elegancia imperial entre montañas alpinas, palacios barrocos y ciudades donde la música clásica sigue marcando el ritmo cotidiano.",
+          "banner":{
+            "image": "https://plus.unsplash.com/premium_photo-1690372793932-3e27121dd868?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Austria"
+          },
           "cities": [
             {
               "name": "Viena",
               "description": "Ciudad imperial con museos y música clásica a cada paso. El Palacio de Schönbrunn y la Ringstrasse condensan el barroco y el historicismo, mientras cafés como Demel mantienen la tradición pastelera. Ideal para caminar entre parques y teatros de ópera.",
+              "description_extended": "Viena es una ciudad donde la historia y la sofisticación dialogan en cada esquina. Sus palacios imperiales, como Schönbrunn y Hofburg, conviven con museos de talla mundial, cafés literarios y avenidas diseñadas para pasear sin prisa. La vida cultural es intensa: conciertos diarios, óperas con siglos de tradición y una arquitectura que abarca desde el barroco más ornamentado hasta la Secesión vienesa. Los parques y jardines ofrecen rincones tranquilos para desconectar, mientras que los barrios residenciales muestran una ciudad moderna y eficiente que no ha perdido su encanto clásico. Viena es, en esencia, un lugar donde el pasado no pesa, sino que acompaña.",
+              "footer": "Viena, donde la elegancia es parte del día a día.",
+              "motto": "La capital imperial del arte",
               "image": {
                 "url": "https://images.unsplash.com/photo-1731223832507-ebe5373129e6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dmllbmElMkMlMjBhdXRyaWF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "Viena"
@@ -18,10 +32,18 @@
         },
         {
           "name": "Bélgica",
+          "description": "Pequeños tesoros medievales, canales tranquilos y una tradición artesanal que combina historia, chocolate y arquitectura gremial.",
+          "banner":{
+            "image": "https://plus.unsplash.com/premium_photo-1661886882389-e99d9a5299c0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Bélgica"
+          },
           "cities": [
             {
               "name": "Brujas",
               "description": "Centro medieval perfectamente conservado, canales bordeados de árboles y plazas adoquinadas como el Markt. Campanarios, casas gremiales y chocolaterías crean un ambiente de cuento que invita a perderse sin prisa.",
+              "description_extended": "Brujas ofrece una inmersión total en la Europa medieval. Sus calles adoquinadas serpentean entre casas de ladrillo con frontones escalonados, mientras los canales reflejan torres, puentes y fachadas históricas. El sonido distante de las campanas y los aromas de chocolate artesanal marcan un ritmo pausado, casi irreal. La ciudad invita a explorar cada rincón: molinos de viento, iglesias antiguas y plazas donde la vida transcurre sin prisa. Sus museos relatan el poder comercial que tuvo en la Edad Media, y los atardeceres doran los tejados creando un ambiente que parece detenido en el tiempo. Brujas no se visita: se contempla.",
+              "footer": "Brujas, una postal viva en cada canal.",
+              "motto": "La Venecia del Norte",
               "image": {
                 "url": "https://plus.unsplash.com/premium_photo-1661963659103-9602b3811297?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
                 "alt": "Brujas"
@@ -31,10 +53,18 @@
         },
         {
           "name": "Dinamarca",
+          "description": "Cultura nórdica moderna y cálida, ciudades diseñadas para vivir despacio y un equilibrio perfecto entre diseño, historia y naturaleza.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Dinamarca"
+          },
           "cities": [
             {
               "name": "Copenhague",
               "description": "Equilibrio entre diseño contemporáneo y tradición nórdica. Nyhavn, Tívoli y barrios ciclistas muestran una ciudad humana y acogedora; gastronomía de vanguardia y respeto por el espacio público.",
+              "description_extended": "Copenhague es una ciudad pensada para el bienestar: calles tranquilas, bicicletas dominando el paisaje urbano y barrios llenos de creatividad. El histórico Nyhavn, con sus casas de colores y barcos de madera, contrasta con la arquitectura moderna que define el nuevo perfil de la ciudad. La gastronomía local mezcla tradición y experimentación, convirtiendo a la capital en un referente mundial. Parques, canales y espacios públicos invitan a disfrutar al aire libre incluso en invierno. Su cultura del diseño se percibe en cada detalle: mobiliario urbano, interiores cálidos y una estética que combina funcionalidad y belleza.",
+              "footer": "Copenhague, donde el diseño se vuelve vida cotidiana.",
+              "motto": "La capital del hygge",
               "image": {
                 "url": "https://plus.unsplash.com/premium_photo-1691414363231-836e2e1bf0ed?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29wZW5oYWdlfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
                 "alt": "Copenhague"
@@ -42,12 +72,21 @@
             }
           ]
         },
+
         {
           "name": "Eslovenia",
+          "description": "Un país verde y sereno, con lagos cristalinos, montañas esculpidas y ciudades pequeñas llenas de encanto europeo.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1478088913771-e3a36f50bb63?q=80&w=1219&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Eslovenia"
+          },
           "cities": [
             {
               "name": "Liubliana",
               "description": "Capital pequeña y escénica, con casco peatonal, cafés junto al río y el castillo en lo alto. Base ideal para excursiones al lago Bled y los Alpes Julianos.",
+              "description_extended": "Liubliana es una capital íntima que combina modernidad, historia y naturaleza. El río Ljubljanica atraviesa el centro, rodeado de terrazas, librerías y mercados donde la vida fluye con tranquilidad. El castillo domina la ciudad desde lo alto, ofreciendo vistas hacia tejados coloridos y colinas verdes. La arquitectura del reconocido Jože Plečnik otorga una personalidad única a puentes, plazas y edificios. La ciudad es, además, una de las más sostenibles de Europa: peatones y bicicletas reinan en el casco antiguo. Su ubicación estratégica permite acceder a lagos, montañas y cuevas espectaculares en menos de una hora.",
+              "footer": "Liubliana, pequeña en tamaño, grande en encanto.",
+              "motto": "La joya verde de Europa",
               "image": {
                 "url": "https://images.unsplash.com/photo-1611576191056-3e6696029388?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TGl1YmxpYW5hfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
                 "alt": "Liubliana"
@@ -57,10 +96,18 @@
         },
         {
           "name": "España",
+          "description": "Diversidad cultural, gastronomía vibrante y ciudades llenas de vida que combinan historia monumental con paisajes mediterráneos.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "España"
+          },
           "cities": [
             {
               "name": "Barcelona",
               "description": "Modernismo de Gaudí, mar y montaña en un mismo plano. La Sagrada Familia, Park Güell y la vida de barrio conviven con mercados y museos; paseos desde Montjuïc a las playas.",
+              "description_extended": "Barcelona es una ciudad donde la creatividad se respira en cada esquina. Las formas imposibles de Gaudí marcan un horizonte único, mientras avenidas como Passeig de Gràcia muestran una mezcla de modernismo, diseño contemporáneo y vida urbana sofisticada. Desde las playas amplias hasta las colinas de Montjuïc y el Tibidabo, la ciudad se despliega en múltiples capas paisajísticas. Los mercados como La Boqueria o Santa Caterina exhiben una gastronomía mediterránea fresca y colorida. Barrios como Gràcia o El Born revelan plazas escondidas, cafés artesanales y talleres locales. Barcelona combina historia, arte, deporte, mar y cultura en un espacio que late constantemente.",
+              "footer": "Barcelona, donde el arte encuentra al Mediterráneo.",
+              "motto": "Creatividad frente al mar",
               "image": {
                 "url": "https://images.unsplash.com/photo-1630219694734-fe47ab76b15e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmFyY2Vsb25hfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
                 "alt": "Barcelona"
@@ -69,6 +116,9 @@
             {
               "name": "Sevilla",
               "description": "Casco histórico monumental, patios y azulejos. El Alcázar, la Catedral y el barrio de Santa Cruz se suman a una potente cultura de tapas y al flamenco.",
+              "description_extended": "Sevilla es una ciudad que vive hacia afuera: plazas llenas de vida, calles perfumadas por azahar en primavera y una luz cálida que realza cada fachada. El Alcázar y la Catedral forman un conjunto monumental espectacular, mientras el barrio de Santa Cruz ofrece callejones estrechos, patios llenos de flores y rincones donde el tiempo parece detenerse. La ciudad vibra con el flamenco, con tabernas donde se combinan pasión, música y tradición. Su gastronomía está hecha de tapeo, mercados y recetas andaluzas que mantienen raíces ancestrales. El Guadalquivir añade frescura, con paseos ribereños perfectos para disfrutar del atardecer.",
+              "footer": "Sevilla, pura luz y tradición.",
+              "motto": "La ciudad que enamora",
               "image": {
                 "url": "https://images.unsplash.com/photo-1559564477-6e8582270002?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2V2aWxsYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "Sevilla"
@@ -78,10 +128,18 @@
         },
         {
           "name": "Estonia",
+          "description": "Magia báltica entre murallas medievales, bosques infinitos y un estilo de vida que mezcla tradición con modernidad digital.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1452868195396-89c1af3b1b2e?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Estonia"
+          },
           "cities": [
             {
               "name": "Tallin",
               "description": "Ciudad vieja medieval amurallada, torres y tejados de colores con vistas al Báltico. Invierno frío, pero fotogénico desde Toompea.",
+              "description_extended": "Tallin combina el encanto de una ciudad medieval con la innovación de un país digital. Su casco histórico está protegido por murallas, torres puntiagudas y calles adoquinadas que conservan la esencia del Báltico antiguo. Cafeterías de estilo nórdico se esconden en antiguos almacenes hanseáticos, creando un ambiente acogedor incluso en los meses más fríos. Desde la colina de Toompea se aprecian vistas mágicas al puerto y al Golfo de Finlandia. La ciudad es compacta, caminable y está llena de museos, mercados artesanales y rincones fotográficos. Más allá del centro, barrios creativos muestran la Estonia moderna: tecnológica, verde y sorprendentemente cálida.",
+              "footer": "Tallin, un puente entre lo medieval y lo moderno.",
+              "motto": "Donde la historia abraza al norte",
               "image": {
                 "url": "https://images.unsplash.com/photo-1709862366377-54b16f3e51f9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGFsbGlufGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
                 "alt": "Tallin"
@@ -91,10 +149,18 @@
         },
         {
           "name": "Francia",
+          "description": "Arte, gastronomía y romanticismo urbano conviven con castillos, viñedos y paisajes que han inspirado a generaciones.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1566127444979-b3d2b654e3d7?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Francia"
+          },
           "cities": [
             {
               "name": "París",
               "description": "Romance urbano: Sena, bulevares y museos icónicos. Barrios con identidad propia y cafés a pie de calle; Notre Dame, Sacré-Coeur y la Torre Eiffel como hitos imprescindibles.",
+              "description_extended": "París es una composición perfecta de arte, arquitectura y vida cotidiana. Bulevares amplios, puentes emblemáticos y museos como el Louvre o el Orsay convierten la ciudad en un vasto escenario cultural. Cada barrio tiene su ritmo: Montmartre conserva su aire bohemio, Le Marais mezcla moda y tradición, y Saint-Germain respira literatura y cafés históricos. El Sena acompaña cada paseo, iluminado por embarcaciones y reflejos dorados al atardecer. Panaderías, mercados y terrazas mantienen el delicioso ritual gastronómico francés. París no se visita: se vive, se observa y se recuerda para siempre.",
+              "footer": "París, la luz que inspira al mundo.",
+              "motto": "La ciudad eterna del arte",
               "image": {
                 "url": "https://plus.unsplash.com/premium_photo-1661919210043-fd847a58522d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGFyaXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "París"
@@ -104,10 +170,18 @@
         },
         {
           "name": "Hungría",
+          "description": "Herencia imperial, arquitectura ornamentada y ciudades atravesadas por ríos que brillan bajo la luz del atardecer.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1616432902940-b7a1acbc60b3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Hungría"
+          },
           "cities": [
             {
               "name": "Budapest",
               "description": "Arquitectura Art Nouveau, baños termales y paseos nocturnos sobre el Danubio. El Parlamento brilla al caer la tarde desde el Puente de las Cadenas.",
+              "description_extended": "Budapest se extiende a ambos lados del Danubio como una postal monumental. El lado de Buda ofrece colinas tranquilas y arquitectura histórica, mientras que Pest vibra con cafés, teatros, bulevares y edificios Art Nouveau. Los baños termales, herencia otomana y centroeuropea, forman parte del día a día de locales y visitantes. Por la noche, la ciudad se ilumina: el Parlamento, puentes y avenidas adquieren tonos dorados reflejados en el agua. Barrios jóvenes, mercados cubiertos y ruinas bars dan a Budapest su carácter creativo. Es una ciudad histórica, pero siempre en movimiento.",
+              "footer": "Budapest, donde el Danubio cuenta historias.",
+              "motto": "Luz sobre el río",
               "image": {
                 "url": "https://images.unsplash.com/photo-1565426873118-a17ed65d74b9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8QnVkYXBlc3R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "Budapest"
@@ -117,10 +191,18 @@
         },
         {
           "name": "Italia",
+          "description": "Cuna del arte y del buen vivir, donde gastronomía, historia y paisajes mediterráneos forman una mezcla imposible de olvidar.",
+          "banner":{
+            "image": "https://plus.unsplash.com/premium_photo-1661963952208-2db3512ef3de?q=80&w=1244&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Italia"
+          },
           "cities": [
             {
               "name": "Florencia",
               "description": "Cuna del Renacimiento: Duomo, Uffizi y artesanías en el Oltrarno. Una ciudad-museo viva donde cada calle guarda esculturas, palacios y talleres.",
+              "description_extended": "Florencia es un viaje al corazón del Renacimiento. Sus plazas y calles están repletas de arte, desde el Duomo con su cúpula inconfundible hasta los palacios que albergan colecciones únicas en el mundo. Sin embargo, la ciudad también respira vida cotidiana: mercados florentinos, talleres artesanos en Oltrarno y miradores como Piazzale Michelangelo que regalan vistas inolvidables. Cada esquina despliega historia, arquitectura y una gastronomía que mantiene la esencia toscana. Es una ciudad para contemplar, caminar y dejarse envolver por siglos de inspiración.",
+              "footer": "Florencia, el alma del Renacimiento.",
+              "motto": "Arte en cada piedra",
               "image": {
                 "url": "https://images.unsplash.com/photo-1476362174823-3a23f4aa6d76?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmxvcmVuY2lhfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
                 "alt": "Florencia"
@@ -129,6 +211,9 @@
             {
               "name": "Roma",
               "description": "La “Ciudad Eterna” combina ruinas clásicas, plazas barrocas y vida de barrio. Del Panteón a la Fontana di Trevi, la historia convive con trattorias y terrazas.",
+              "description_extended": "Roma es un museo vivo donde el pasado y el presente convergen. Anfiteatros, foros y templos conviven con palacios barrocos, fuentes monumentales y barrios llenos de vida. Cada paseo revela rincones inesperados: desde calles estrechas en Trastevere hasta avenidas imperiales que recuerdan su antigua grandeza. La gastronomía romana completa la experiencia con recetas tradicionales que se transmiten desde hace generaciones. Roma no solo se visita: se escucha, se prueba y se recorre con calma, dejándose sorprender por su historia interminable.",
+              "footer": "Roma, donde cada piedra cuenta mil años.",
+              "motto": "La ciudad eterna",
               "image": {
                 "url": "https://images.unsplash.com/photo-1529154036614-a60975f5c760?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cm9tYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "Roma"
@@ -137,6 +222,9 @@
             {
               "name": "Venecia",
               "description": "Sin coches y con un trazado acuático único. Canales, palacios y puentes conectan islas; desde San Marcos a los barrios más tranquilos, es pura contemplación.",
+              "description_extended": "Venecia es una ciudad suspendida entre el agua y el tiempo. Sus canales serpentean entre palacios, iglesias y plazas silenciosas, creando un ambiente único en el mundo. Pasear por sus puentes es descubrir rincones íntimos, artesanos locales y edificios que reflejan siglos de historia marítima. La Plaza de San Marcos deslumbra con su arquitectura bizantina y el Palacio Ducal, mientras los barrios menos turísticos regalan calma, belleza y autenticidad. La luz veneciana, cambiante con las mareas, convierte cada momento en una escena irrepetible.",
+              "footer": "Venecia, poesía sobre el agua.",
+              "motto": "La ciudad flotante",
               "image": {
                 "url": "https://plus.unsplash.com/premium_photo-1661963047742-dabc5a735357?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dmVuZWNpYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "Venecia"
@@ -146,10 +234,18 @@
         },
         {
           "name": "Malta",
+          "description": "Islas bañadas por el Mediterráneo, llenas de arquitectura barroca, fortalezas legendarias y aguas transparentes.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1587974928552-4f4aac51b45d?q=80&w=1206&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Malta"
+          },
           "cities": [
             {
               "name": "La Valeta",
               "description": "Fortificada y barroca, con miradores al Gran Puerto. Palacios, iglesias y museos concentrados en un casco compacto y caminable.",
+              "description_extended": "La Valeta es una de las capitales más pequeñas y con mayor personalidad de Europa. Sus calles rectilíneas descienden hacia el mar, flanqueadas por fachadas de piedra dorada y miradores cerrados de madera. La ciudad fue diseñada como fortaleza, y aún hoy conserva la imponencia de sus murallas y baluartes. Museos, iglesias barrocas y palacios de la Orden de Malta recuerdan su pasado militar y religioso. Cafés, terrazas y rincones con sombra ofrecen pausas con vistas al Gran Puerto. La combinación de mar, historia y calma mediterránea hacen de La Valeta un destino inolvidable.",
+              "footer": "La Valeta, historia dorada frente al mar.",
+              "motto": "La joya fortificada del Mediterráneo",
               "image": {
                 "url": "https://images.unsplash.com/photo-1560365337-6f42f70dd874?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGElMjB2YWxldGF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "La Valeta"
@@ -159,10 +255,18 @@
         },
         {
           "name": "Noruega",
+          "description": "Naturaleza imponente de fiordos, montañas y pueblos de madera que se asoman a uno de los paisajes más puros del planeta.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1507272931001-fc06c17e4f43?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Noruega"
+          },
           "cities": [
             {
               "name": "Bergen",
               "description": "Casas de madera en Bryggen, puerto vivo y montañas que caen a fiordos. Punto de partida perfecto para rutas escénicas.",
+              "description_extended": "Bergen es una ciudad moldeada por la naturaleza. Sus casas de madera de Bryggen forman uno de los puertos más pintorescos del norte de Europa, con colores vibrantes que contrastan con el cielo nublado característico de la región. A pocos pasos del centro, funiculares y senderos llevan a miradores que dominan montañas, fiordos y bosques infinitos. Bergen combina tradición pesquera, cultura contemporánea y un ritmo de vida tranquilo. La proximidad a rutas escénicas y a algunos de los paisajes más impactantes de Noruega la convierten en una base ideal para explorar el país.",
+              "footer": "Bergen, entre montañas y fiordos.",
+              "motto": "Puerta de los fiordos",
               "image": {
                 "url": "https://images.unsplash.com/photo-1643193388440-50fae300e1da?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QmVyZ2VuJTIwbm9ydWVnYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "Bergen"
@@ -172,10 +276,18 @@
         },
         {
           "name": "Países Bajos",
+          "description": "Canales, ciclovías y ciudades creativas que combinan arquitectura tradicional con una cultura moderna y abierta.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Países Bajos"
+          },
           "cities": [
             {
               "name": "Ámsterdam",
               "description": "Canales Patrimonio de la UNESCO, gables estrechos y cultura ciclista. Museos de primer nivel y barrios verdes conectados por puentes.",
+              "description_extended": "Ámsterdam es una ciudad en constante movimiento, aunque siempre con calma. Sus canales forman un entramado elegante sobre el que se levantan casas estrechas y de formas singulares, reflejo de la historia mercantil neerlandesa. Museos como el Rijksmuseum o el Van Gogh ofrecen algunos de los mayores tesoros culturales del país. La vida cotidiana transcurre entre bicicletas, mercados de flores, parques amplios y cafeterías acogedoras. Ámsterdam combina tradición, diseño moderno y un espíritu liberal que se siente en todos sus barrios.",
+              "footer": "Ámsterdam, libertad entre canales.",
+              "motto": "La ciudad de las bicicletas",
               "image": {
                 "url": "https://plus.unsplash.com/premium_photo-1661878122586-2d75a86f3400?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8JUMzJTgxbXN0ZXJkYW18ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "Ámsterdam"
@@ -185,10 +297,18 @@
         },
         {
           "name": "Portugal",
+          "description": "Luz atlántica, calles empedradas y una mezcla de tradición y modernidad que se respira en cada barrio histórico.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Portugal"
+          },
           "cities": [
             {
               "name": "Oporto",
               "description": "Azulejos, puentes sobre el Duero y bodegas de vino de Oporto. Librería Lello y piscinas de Leça como iconos contemporáneos.",
+              "description_extended": "Oporto se levanta sobre colinas que descienden hacia el Duero, creando un paisaje urbano lleno de miradores y callejuelas empedradas. Los edificios revestidos de azulejos otorgan a la ciudad un carácter único y fotogénico. Puentes emblemáticos conectan ambas orillas, donde se encuentran las bodegas de su famoso vino. Oporto mezcla tradición, arte contemporáneo y una gastronomía rica y hogareña. Sus barrios más antiguos mantienen un ritmo tranquilo, con tiendas artesanales, mercados y cafés que invitan a quedarse un rato más.",
+              "footer": "Oporto, luz atlántica y tradición.",
+              "motto": "La ciudad del Duero",
               "image": {
                 "url": "https://plus.unsplash.com/premium_photo-1677344087971-91eee10dfeb1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b3BvcnRvJTIwcG9ydHVnYWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "Oporto"
@@ -198,10 +318,18 @@
         },
         {
           "name": "Reino Unido",
+          "description": "Entre historia imperial, paisajes verdes y ciudades vibrantes, el país ofrece una mezcla única de tradición y vanguardia.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1486299267070-83823f5448dd?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Reino Unido"
+          },
           "cities": [
             {
               "name": "Londres",
               "description": "Historia y vanguardia a orillas del Támesis. Museos gratuitos, parques inmensos y una escena cultural y gastronómica inagotable.",
+              "description_extended": "Londres es una metrópolis en la que conviven siglos de historia con tendencias culturales y tecnológicas de vanguardia. Desde el Parlamento y la Torre de Londres hasta los rascacielos contemporáneos, la ciudad ofrece una variedad arquitectónica única. Sus museos gratuitos, parques extensos y barrios con identidad —como Camden, Notting Hill o Shoreditch— hacen de Londres un destino inagotable. La diversidad cultural se refleja en su gastronomía, mercados y eventos de todo tipo. Londres es energía constante, pero siempre con espacios para respirar y contemplar.",
+              "footer": "Londres, historia viva junto al río.",
+              "motto": "El mundo en una ciudad",
               "image": {
                 "url": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bG9uZHJlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "Londres"
@@ -210,6 +338,9 @@
             {
               "name": "Edimburgo",
               "description": "Royal Mile, castillo y colinas verdes. La roca volcánica de Arthur’s Seat regala una panorámica excepcional sobre la ciudad de piedra.",
+              "description_extended": "Edimburgo combina la serenidad de sus colinas verdes con la solemnidad de su arquitectura de piedra. El Castillo domina la ciudad desde su roca volcánica, y la Royal Mile conecta edificios históricos llenos de relatos. En contraste, la Ciudad Nueva ofrece elegancia georgiana y avenidas amplias. La mezcla de festivales culturales, pubs tradicionales y naturaleza accesible hace que cada visita sea diferente. Arthur’s Seat brinda una de las vistas urbanas más bonitas del Reino Unido, recordando la profunda conexión de Edimburgo con el paisaje.",
+              "footer": "Edimburgo, magia entre colinas.",
+              "motto": "La ciudad de piedra",
               "image": {
                 "url": "https://images.unsplash.com/photo-1569668444050-b7bc2bfec0c7?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZWRpbmJ1cmdvfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
                 "alt": "Edimburgo"
@@ -219,10 +350,18 @@
         },
         {
           "name": "República Checa",
+          "description": "Castillos, torres góticas y pueblos centenarios que parecen sacados de una novela, rodeados de naturaleza centroeuropea.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1592906209472-a36b1f3782ef?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Republica Checa"
+          },
           "cities": [
             {
               "name": "Praga",
               "description": "Cúpulas y torres góticas sobre un casco antiguo fotogénico. Puente de Carlos al amanecer y cafés históricos con música y literatura.",
+              "description_extended": "Praga es una ciudad que parece creada para ser admirada. Sus torres góticas, cúpulas barrocas y calles adoquinadas conforman un casco antiguo lleno de historia. El Puente de Carlos, envuelto en neblina matinal, es uno de los paseos más evocadores de Europa. Cafés históricos, librerías y teatros enriquecen la vida cultural de la ciudad. Más allá del centro, colinas, parques y barrios residenciales muestran la Praga cotidiana, tranquila y elegante. Su belleza arquitectónica y su ambiente literario la convierten en una ciudad inolvidable.",
+              "footer": "Praga, el corazón de Europa.",
+              "motto": "La ciudad de las cien torres",
               "image": {
                 "url": "https://plus.unsplash.com/premium_photo-1661963067279-2f7bf970c49c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJhZ2F8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "Praga"
@@ -232,10 +371,18 @@
         },
         {
           "name": "Suiza",
+          "description": "Escenarios alpinos perfectos, lagos tranquilos y ciudades refinadas donde la precisión y la belleza conviven en armonía.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1530878902700-5ad4f9e4c318?q=80&w=1934&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Suiza"
+          },
           "cities": [
             {
               "name": "Lucerna",
               "description": "Lago, montes cercanos y el Kapellbrücke como postal. Tejados medievales y aire alpino a pocos minutos de rutas de montaña.",
+              "description_extended": "Lucerna combina un casco histórico medieval con un entorno natural espectacular. El Kapellbrücke, con sus pinturas antiguas, cruza un río cristalino en pleno centro de la ciudad. A su alrededor, plazas, iglesias y fachadas coloridas crean un ambiente acogedor. El lago y las montañas ofrecen excursiones fáciles y panorámicas inolvidables. Lucerna mantiene una elegancia tranquila, ideal para quienes buscan naturaleza, cultura y serenidad en un mismo destino.",
+              "footer": "Lucerna, belleza alpina junto al lago.",
+              "motto": "Puerta de los Alpes",
               "image": {
                 "url": "https://images.unsplash.com/photo-1635855296516-837d8b00cae7?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8THVjZXJuYSUyMHN1aXphfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
                 "alt": "Lucerna"
@@ -244,6 +391,9 @@
             {
               "name": "Zúrich",
               "description": "Casco antiguo elegante junto al lago, museos, galerías y vida junto al agua. Veranos vibrantes y eficiencia suiza en cada detalle.",
+              "description_extended": "Zúrich es la mezcla perfecta entre sofisticación urbana y naturaleza accesible. Su casco antiguo ofrece calles estrechas, boutiques, cafés históricos y miradores sobre el río Limmat. La ciudad destaca por su vida cultural: museos, galerías, bibliotecas y eventos que atraen talento de todo el mundo. En verano, las zonas de baño en el lago y el río se llenan de vida, mostrando la faceta más relajada de Zúrich. Es una ciudad limpia, eficiente y sorprendentemente cálida, ideal para explorar a pie.",
+              "footer": "Zúrich, elegancia suiza entre agua y colinas.",
+              "motto": "La capital del bienestar",
               "image": {
                 "url": "https://images.unsplash.com/photo-1620563092215-0fbc6b55cfc5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1171",
                 "alt": "Zúrich"
@@ -253,10 +403,18 @@
         },
         {
           "name": "Islandia",
+          "description": "Tierra volcánica de paisajes extremos, auroras danzantes y ciudades pequeñas que miran hacia una naturaleza indomable.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?q=80&w=1859&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Islandia"
+          },
           "cities": [
             {
               "name": "Reikiavik",
               "description": "Arquitectura moderna como Harpa y Hallgrímskirkja entre paisajes volcánicos. Base para auroras y baños termales cercanos.",
+              "description_extended": "Reikiavik es una capital pequeña con una personalidad enorme. Sus casas de colores contrastan con las montañas nevadas y el mar del norte. La Hallgrímskirkja se alza como su símbolo modernista, mientras el edificio Harpa refleja el cielo ártico con su fachada geométrica. Cafeterías, librerías y tiendas locales aportan calidez a pesar del clima. A pocos kilómetros, fumarolas, lagunas termales y rutas naturales recuerdan el origen volcánico de la isla. Reikiavik es un refugio humano en medio de una naturaleza poderosa e indomable.",
+              "footer": "Reikiavik, color en medio del Ártico.",
+              "motto": "La capital del fuego y el hielo",
               "image": {
                 "url": "https://plus.unsplash.com/premium_photo-1661962984700-16b03ecda58a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UmVpa2lhdmlrfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
                 "alt": "Reikiavik"
@@ -268,13 +426,27 @@
     },
     {
       "name": "Asia",
+      "banner": {
+        "image": "https://images.unsplash.com/photo-1535139262971-c51845709a48?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "alt": "Asia",
+        "overlayText": "Un viaje entre templos milenarios y metrópolis futuristas"
+      }
+      ,
       "countries": [
         {
           "name": "China",
+          "description": "Gigantesca diversidad cultural: templos imperiales, montañas sagradas y metrópolis que transforman la tradición en modernidad.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1508804052814-cd3ba865a116?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "China"
+          },
           "cities": [
             {
               "name": "Beijing",
               "description": "Capital imperial con la Ciudad Prohibida, hutongs y avenidas amplias. Puerta a tramos cercanos de la Gran Muralla y a una cocina regional riquísima.",
+              "description_extended": "Beijing es una ciudad donde la historia imperial convive con la modernidad en constante expansión. En su corazón se encuentra la Ciudad Prohibida, un vasto complejo de palacios y patios que durante siglos fue el centro político de China. A su alrededor, los hutongs conservan la vida tradicional, con casas bajas, mercados pequeños y vecinos que conversan a la entrada de sus viviendas. Los amplios bulevares y rascacielos muestran la faceta contemporánea de la capital, simbolizada en obras como el Centro Nacional de las Artes o la futurista sede de la CCTV. A poca distancia, la Gran Muralla serpentea sobre montañas verdes y ofrece uno de los panoramas más emblemáticos del país. Beijing es también un paraíso gastronómico: desde el famoso pato laqueado hasta miles de especialidades regionales que llegan a la capital. Una ciudad monumental, vibrante y profundamente cultural.",
+              "footer": "Beijing, donde China cuenta su historia.",
+              "motto": "El corazón imperial del país",
               "image": {
                 "url": "https://plus.unsplash.com/premium_photo-1723433351351-0f6cd5d21537?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QmVpamluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "Beijing"
@@ -283,6 +455,9 @@
             {
               "name": "Hong Kong",
               "description": "Horizonte denso en torno a un puerto lleno de ferris. Montañas, islas y reservas naturales a minutos del centro financiero.",
+              "description_extended": "Hong Kong es una metrópolis vertical asentada entre montañas, bahías y parques naturales. Su skyline, uno de los más reconocibles del mundo, rodea el Victoria Harbour, donde ferris cruzan constantemente entre islas y penínsulas. Más allá de los rascacielos, la ciudad sorprende con playas urbanas, senderos en la naturaleza y aldeas tradicionales que preservan un ritmo de vida tranquilo. En las calles más concurridas conviven mercados nocturnos, templos, centros comerciales y una gastronomía que mezcla tradición cantonesa con influencias internacionales. Hong Kong mantiene una energía inagotable, pero siempre ofrece rincones serenos para detenerse y contemplar la vista.",
+              "footer": "Hong Kong, energía vertical junto al mar.",
+              "motto": "Donde oriente y occidente se encuentran",
               "image": {
                 "url": "https://images.unsplash.com/photo-1536599018102-9f803c140fc1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG9uZyUyMGtvbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "Hong Kong"
@@ -292,10 +467,18 @@
         },
         {
           "name": "Corea del Sur",
+          "description": "Tecnología, moda y palacios históricos construyen un contraste vibrante en ciudades que nunca dejan de reinventarse.",
+          "banner":{
+            "image": "https://plus.unsplash.com/premium_photo-1661963468634-71b9482a3efe?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Corea del Sur"
+          },
           "cities": [
             {
               "name": "Seúl",
               "description": "Rascacielos y palacios, mercados nocturnos y una red de metro impecable. Distritos como Bukchon y Myeongdong muestran tradición y moda.",
+              "description_extended": "Seúl es una ciudad de contrastes donde los palacios reales conviven con rascacielos iluminados y barrios tecnológicos. El Palacio Gyeongbokgung, rodeado de montañas, recuerda la grandeza de la dinastía Joseon, mientras que Bukchon mezcla casas tradicionales hanok con talleres artesanales y cafeterías tranquilas. Al caer la noche, los mercados como Dongdaemun y Namdaemun cobran vida con comida callejera, moda y ambiente animado. Distritos modernos como Gangnam ofrecen centros comerciales, entretenimiento y el pulso contemporáneo del país. Todo conectado mediante uno de los sistemas de metro más eficientes del mundo. Seúl es tradición viva, modernidad en movimiento y creatividad constante.",
+              "footer": "Seúl, tradición y futuro en un solo vistazo.",
+              "motto": "La ciudad que nunca deja de reinventarse",
               "image": {
                 "url": "https://plus.unsplash.com/premium_photo-1661936414165-3039a8d906f9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c2V1bHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "Seúl"
@@ -305,10 +488,18 @@
         },
         {
           "name": "India",
+          "description": "Colores intensos, palacios majestuosos y espiritualidad profunda en un país donde cada región cuenta una historia distinta.",
+          "banner":{
+            "image": "https://plus.unsplash.com/premium_photo-1697729844084-c03db2377161?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "India"
+          },
           "cities": [
             {
               "name": "Jaipur",
               "description": "La “Ciudad Rosa”: Hawa Mahal, fuertes y bazares color salmón. Artesanías, joyería y gastronomía del Rajastán en palacios y calles.",
+              "description_extended": "Jaipur es una explosión de color y arquitectura tradicional rajput. Sus edificios rosados crean un paisaje urbano cálido y fotogénico, especialmente alrededor del Hawa Mahal, una fachada icónica de cientos de ventanas intrincadas. La ciudad está rodeada de fortalezas espectaculares como Amber Fort, que domina las colinas y ofrece vistas majestuosas. En los bazares, artesanos trabajan textiles, joyería y cerámica siguiendo técnicas transmitidas durante generaciones. La vida cotidiana se mezcla con palacios, templos y mercados donde la gastronomía del Rajastán ofrece sabores intensos y especiados. Jaipur reúne historia, arte y una energía vibrante difícil de olvidar.",
+              "footer": "Jaipur, belleza rosada bajo el sol del Rajastán.",
+              "motto": "La joya del desierto",
               "image": {
                 "url": "https://images.unsplash.com/photo-1477587458883-47145ed94245?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8SmFpcHVyJTIwaW5kaWF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "Jaipur"
@@ -318,10 +509,18 @@
         },
         {
           "name": "Japón",
+          "description": "Armonía entre tradición milenaria y modernidad futurista, templos silenciosos, jardines cuidados y ciudades icónicas.",
+          "banner":{
+            "image": "https://plus.unsplash.com/premium_photo-1661964177687-57387c2cbd14?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Japón"
+          },
           "cities": [
             {
               "name": "Kioto",
               "description": "Templos, santuarios y jardines clásicos. Hanami en primavera, rutas arboladas y posibilidad de cruzarse con geishas en Gion.",
+              "description_extended": "Kioto es la esencia más pura de la tradición japonesa. Más de mil templos y santuarios conviven con jardines zen, casas de té y barrios antiguos donde el tiempo parece detenerse. Rincones como el Pabellón Dorado, el bosque de bambú de Arashiyama o los senderos del santuario Fushimi Inari muestran la belleza espiritual del país. En primavera, los cerezos cubren la ciudad de tonos rosados, y en otoño, los arces tiñen los templos de rojo. El distrito de Gion conserva la elegancia de las geishas, mientras que cafés y restaurantes modernos aportan un equilibrio perfecto entre tradición y vida contemporánea. Kioto es serenidad, estética y cultura en su forma más refinada.",
+              "footer": "Kioto, la belleza eterna del Japón tradicional.",
+              "motto": "El corazón espiritual de Japón",
               "image": {
                 "url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8S2lvdG98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "Kioto"
@@ -331,10 +530,18 @@
         },
         {
           "name": "Laos",
+          "description": "Ríos tranquilos, templos dorados y ritmo pausado en un país donde la naturaleza y la espiritualidad se entrelazan.",
+          "banner":{
+            "image": "https://plus.unsplash.com/premium_photo-1661916287718-edb15703cbaf?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Laos"
+          },
           "cities": [
             {
               "name": "Luang Prabang",
               "description": "Patrimonio UNESCO junto a la confluencia de ríos. Procesiones de monjes al amanecer, cascadas cercanas y arquitectura colonial-budista.",
+              "description_extended": "Luang Prabang es una ciudad serena donde templos dorados, casas coloniales y naturaleza tropical se unen en armonía. Sus calles silenciosas invitan a caminar entre monjes vestidos de naranja, mercados artesanales y jardines escondidos. Al amanecer, la ceremonia de entrega de alimentos ofrece una experiencia espiritual única. A las afueras, cascadas turquesas y cuevas sagradas permiten explorar el lado natural de Laos. La ciudad mantiene un ritmo lento y meditativo, perfecto para desconectar y disfrutar de una atmósfera profundamente espiritual.",
+              "footer": "Luang Prabang, espiritualidad entre montañas y ríos.",
+              "motto": "La joya tranquila del Mekong",
               "image": {
                 "url": "https://plus.unsplash.com/premium_photo-1661882477461-20d16af70819?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8THVhbmclMjBQcmFiYW5nfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
                 "alt": "Luang Prabang"
@@ -344,10 +551,18 @@
         },
         {
           "name": "Líbano",
+          "description": "Mediterráneo vibrante con historia antigua, gastronomía excepcional y ciudades donde Oriente y Occidente se encuentran.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1664210345764-c863c4fd8a76?q=80&w=1746&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Líbano"
+          },
           "cities": [
             {
               "name": "Beirut",
               "description": "Playas, clubes y azoteas frente a mezquitas y zocos históricos. Gastronomía y vida nocturna con aire mediterráneo y levantino.",
+              "description_extended": "Beirut es una ciudad de contrastes donde la modernidad convive con vestigios romanos, barrios tradicionales y playas urbanas. Su vida cultural y gastronómica está entre las más energéticas del Mediterráneo, con cafés, mercados y restaurantes que celebran la cocina libanesa. Zocos antiguos se mezclan con galerías de arte y distritos costeros llenos de terrazas. A pesar de su historia marcada por conflictos, Beirut mantiene una vitalidad única, reflejo de un pueblo resiliente y profundamente hospitalario.",
+              "footer": "Beirut, alma mediterránea con corazón levantino.",
+              "motto": "La París del Medio Oriente",
               "image": {
                 "url": "https://plus.unsplash.com/premium_photo-1661963342411-11bc8489a1fe?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QmVpcnV0JTIwbGliYW5vfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
                 "alt": "Beirut"
@@ -357,10 +572,18 @@
         },
         {
           "name": "Omán",
+          "description": "Montañas desérticas, fortalezas históricas y bahías luminosas crean un paisaje auténtico y profundamente hospitalario.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1596445145149-f0906e6b3dd6?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Omán"
+          },
           "cities": [
             {
-              "name": "Mascate",
+               "name": "Mascate",
               "description": "Bahías y montañas enmarcando mezquitas, zocos y fuertes portugueses. Paseos costeros y arquitectura blanca junto al Golfo de Omán.",
+              "description_extended": "Mascate es una de las capitales más tranquilas y auténticas del Golfo. Sus edificios blancos contrastan con montañas ásperas y un litoral de aguas claras. Los fuertes portugueses recuerdan antiguos intercambios comerciales, mientras que zocos tradicionales ofrecen especias, joyería y artesanía omaní. El paseo costero de Mutrah invita a caminar junto al mar, con mezquitas y mercados a pocos metros. A pesar del desarrollo, Mascate mantiene un ambiente calmado y profundamente hospitalario, reflejo de la cultura omaní.",
+              "footer": "Mascate, serenidad blanca junto al mar.",
+              "motto": "El secreto mejor guardado del Golfo",
               "image": {
                 "url": "https://images.unsplash.com/photo-1725600462847-0317804cc466?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8TWFzY2F0ZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "Mascate"
@@ -370,10 +593,18 @@
         },
         {
           "name": "Qatar",
+          "description": "Rascacielos vanguardistas, desierto luminoso y cultura árabe que mira al futuro sin perder sus raíces tradicionales.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1604433203862-93bc73b0f1e9?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Qatar"
+          },
           "cities": [
             {
               "name": "Doha",
               "description": "Corniche con skyline futurista, Souq Waqif y el Museo de Arte Islámico de I. M. Pei. Mezcla de tradición y nuevas áreas culturales.",
+              "description_extended": "Doha combina un horizonte moderno con mercados tradicionales llenos de vida. El Corniche ofrece vistas espectaculares al golfo, mientras que el Museo de Arte Islámico presenta una colección excepcional en un edificio icónico diseñado por I. M. Pei. En el Souq Waqif, los visitantes encuentran especias, textiles, artesanías y cafés donde se respira la esencia de la cultura qatarí. La ciudad continúa expandiéndose con barrios culturales, marinas, museos nuevos y espacios dedicados al arte y la innovación. Doha es lujo, tradición y modernidad fusionados.",
+              "footer": "Doha, futuro y tradición frente al mar.",
+              "motto": "La joya moderna del Golfo",
               "image": {
                 "url": "https://images.unsplash.com/photo-1539475314840-751cecc1dacd?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RG9oYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "Doha"
@@ -383,10 +614,18 @@
         },
         {
           "name": "Tailandia",
+          "description": "Templos brillantes, naturaleza exuberante y una hospitalidad que envuelve desde el primer momento.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1528181304800-259b08848526?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Tailandia"
+          },
           "cities": [
             {
               "name": "Chiang Mai",
               "description": "Templos en la ladera, cafés y mercados creativos. Punto de partida para naturaleza del norte y experiencias culinarias intensas.",
+              "description_extended": "Chiang Mai es una ciudad tranquila rodeada de montañas, templos centenarios y bosques tropicales. Sus mercados nocturnos son famosos por su comida callejera y su ambiente creativo, mientras que los templos en la ladera del Doi Suthep ofrecen vistas espectaculares. La ciudad también es un centro de artesanía, meditación y gastronomía tailandesa. A pocos kilómetros, selvas, senderos y pueblos tradicionales permiten explorar un Tailandia más auténtico y conectado con la naturaleza.",
+              "footer": "Chiang Mai, calma y tradición en el norte.",
+              "motto": "El alma espiritual del norte",
               "image": {
                 "url": "https://plus.unsplash.com/premium_photo-1661929242720-140374d97c94?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hpYW5nJTIwTWFpfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
                 "alt": "Chiang Mai"
@@ -396,10 +635,18 @@
         },
         {
           "name": "Vietnam",
+          "description": "Montañas brumosas, lagos urbanos y ciudades llenas de energía culinaria y tradición cultural.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1555921015-5532091f6026?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Vietnam"
+          },
           "cities": [
             {
               "name": "Hanoi",
               "description": "Lagos, templos y barrio francés con aire romántico. Calles angostas con cafés tradicionales y mercados vibrantes.",
+              "description_extended": "Hanoi combina arquitectura colonial, templos ancestrales y un ritmo urbano vibrante. El casco antiguo es un laberinto de calles estrechas llenas de tiendas, cafés y mercados que muestran la vida diaria vietnamita. Los lagos reflejan la serenidad de la ciudad y ofrecen espacios tranquilos para pasear. En el barrio francés, edificios históricos y avenidas amplias recuerdan el pasado colonial. La gastronomía juega un papel central: desde el pho hasta el café con huevo, cada rincón ofrece nuevos sabores. Hanoi es tradición, energía y romanticismo.",
+              "footer": "Hanoi, tradición viva junto al agua.",
+              "motto": "La ciudad de los lagos",
               "image": {
                 "url": "https://plus.unsplash.com/premium_photo-1691960159290-6f4ace6e6c4c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8SGFub2l8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "Hanoi"
@@ -409,10 +656,18 @@
         },
         {
           "name": "Singapur",
+          "description": "Ciudad-jardín futurista, mezcla cultural impecable y uno de los espacios urbanos mejor diseñados del mundo.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?q=80&w=1504&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Singapur"
+          },
           "cities": [
             {
               "name": "Singapur",
               "description": "Ciudad-jardín con selva urbana, Jardín Botánico y Gardens by the Bay. Templos, casas patrimoniales y una logística impecable para moverse.",
+              "description_extended": "Singapur es una ciudad futurista envuelta en naturaleza. Sus jardines verticales, parques inmensos y avenidas arboladas definen el concepto de ciudad-jardín. En Gardens by the Bay, las supertrees iluminan la noche, mientras que el Jardín Botánico conserva especies tropicales de enorme valor. Barrios como Chinatown, Little India o Kampong Glam muestran la diversidad cultural del país. El transporte eficiente, la limpieza y la mezcla arquitectónica hacen de Singapur un modelo urbano único. Una ciudad moderna, organizada y vibrante.",
+              "footer": "Singapur, naturaleza y futuro en equilibrio.",
+              "motto": "La ciudad-jardín del sudeste asiático",
               "image": {
                 "url": "https://images.unsplash.com/photo-1508964942454-1a56651d54ac?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2luZ2Fwb3JlfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
                 "alt": "Singapur"
@@ -424,13 +679,27 @@
     },
     {
       "name": "África",
+      "banner": {
+        "image": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?q=80&w=1742&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "alt": "África",
+        "overlayText": "Aventuras, cultura y naturaleza salvaje te esperan"
+      },
+
       "countries": [
         {
           "name": "Marruecos",
+          "description": "Medinas que huelen a especias, desiertos dorados y ciudades donde la artesanía y la tradición siguen vivas en cada rincón.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1539020140153-e479b8c22e70?q=80&w=1742&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Marruecos"
+          },
           "cities": [
             {
               "name": "Chefchaouen",
               "description": "Medina azul entre montañas del Rif. Callejuelas pintadas, puertas artesanales y miradores cercanos para ver el conjunto desde arriba.",
+              "description_extended": "Chefchaouen es un laberinto azul que asciende por las laderas del Rif, donde cada callejuela revela puertas talladas, artesanía local y rincones fotogénicos. Su atmósfera serena contrasta con la vitalidad de sus zocos, donde especias, alfombras y productos artesanales muestran la tradición marroquí. Los miradores cercanos permiten contemplar la ciudad desde lo alto, especialmente al atardecer, cuando la luz hace brillar los tonos azules de las fachadas. Es un destino perfecto para quienes buscan calma, autenticidad y un paisaje urbano único en el mundo.",
+              "footer": "Chefchaouen, la perla azul del Rif.",
+              "motto": "La ciudad azul de Marruecos",
               "image": {
                 "url": "https://images.unsplash.com/photo-1569383746724-6f1b882b8f46?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
                 "alt": "Chefchaouen"
@@ -440,10 +709,18 @@
         },
         {
           "name": "Sudáfrica",
+          "description": "Paisajes costeros espectaculares, fauna salvaje y ciudades vibrantes que fusionan culturas y naturaleza.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1484318571209-661cf29a69c3?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Sudáfrica"
+          },
           "cities": [
             {
               "name": "Ciudad del Cabo",
               "description": "Table Mountain, playas con pingüinos y barrios coloridos como Bo-Kaap. Jardines, viñedos cercanos y rutas panorámicas costeras.",
+              "description_extended": "Ciudad del Cabo combina naturaleza imponente con una vida urbana llena de color y diversidad. La presencia de Table Mountain domina el horizonte y ofrece vistas inolvidables desde sus senderos y teleférico. Las playas cercanas reúnen fauna única, como los pingüinos africanos de Boulders Beach, mientras que barrios como Bo-Kaap destacan por sus casas pintadas y su herencia cultural malaya. A pocos kilómetros, viñedos históricos permiten degustar algunos de los mejores vinos del país. Las rutas costeras, como Chapman’s Peak Drive, muestran uno de los paisajes marítimos más bellos del mundo. Es una ciudad vibrante, natural y multicultural.",
+              "footer": "Ciudad del Cabo, belleza salvaje a orillas del Atlántico.",
+              "motto": "Donde la montaña se encuentra con el mar",
               "image": {
                 "url": "https://plus.unsplash.com/premium_photo-1697730061063-ad499e343f26?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2l1ZGFkJTIwZGVsJTIwQ2Fib3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "Ciudad del Cabo"
@@ -455,13 +732,27 @@
     },
     {
       "name": "Oceanía",
+      "banner": {
+        "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600",
+        "alt": "Oceanía",
+        "overlayText": "Descubre playas únicas y paisajes que parecen de otro mundo"
+      },
+
       "countries": [
         {
           "name": "Australia",
+          "description": "Playas infinitas, naturaleza salvaje y metrópolis rodeadas de mar que crean un estilo de vida relajado y luminoso.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?q=80&w=2730&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Australia"
+          },
           "cities": [
             {
               "name": "Sídney",
               "description": "Ópera icónica, bahía navegable y playas urbanas como Bondi. Ferris cotidianos y parques frente al agua.",
+              "description_extended": "Sídney es una ciudad luminosa donde la vida gira en torno al mar. Su icónica Ópera y el Puente del Puerto enmarcan una bahía vibrante repleta de ferris que conectan barrios costeros, jardines botánicos y senderos con vistas espectaculares. Las playas urbanas, como Bondi y Manly, ofrecen cultura surfista y cafeterías junto al agua. Los alrededores permiten escapadas rápidas a parques nacionales con acantilados, rutas escénicas y fauna autóctona. Sídney combina modernidad, naturaleza y un ritmo de vida relajado que se respira en cada paseo costero.",
+              "footer": "Sídney, donde la ciudad abraza el océano.",
+              "motto": "Luz, mar y vida australiana",
               "image": {
                 "url": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UyVDMyVBRGRuZXl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "Sídney"
@@ -471,10 +762,18 @@
         },
         {
           "name": "Nueva Zelanda",
+          "description": "Montañas cinematográficas, lagos intensos y pueblos tranquilos en un país hecho para la aventura y la contemplación.",
+          "banner":{
+            "image": "https://plus.unsplash.com/premium_photo-1661962302792-4b05d3e08513?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Nueva Zelanda"
+          },
           "cities": [
             {
               "name": "Queenstown",
               "description": "Capital de la adrenalina entre lago y montañas. Miradores naturales, aventuras y paisajes cinematográficos.",
+              "description_extended": "Queenstown es un destino único enclavado entre montañas escarpadas y un lago de aguas intensas que cambian con la luz. Conocida como la capital mundial de la aventura, ofrece actividades como senderismo, parapente, puenting y rutas panorámicas que revelan paisajes dignos de cine. Su centro es pequeño pero vibrante, lleno de cafés, restaurantes y tiendas que atienden a viajeros aventureros. Los alrededores incluyen valles glaciares, viñedos y pueblos históricos. Queenstown combina adrenalina, naturaleza y calma, convirtiéndose en un lugar inolvidable en cualquier época del año.",
+              "footer": "Queenstown, aventura y paisajes de película.",
+              "motto": "El corazón alpino de Nueva Zelanda",
               "image": {
                 "url": "https://images.unsplash.com/photo-1600466403153-50193d187dde?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UXVlZW5zdG93bnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "Queenstown"
@@ -486,13 +785,27 @@
     },
     {
       "name": "América del Norte",
+      "banner": {
+        "image": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "alt": "América del Norte",
+        "overlayText": "Descubre paisajes infinitos, ciudades icónicas y culturas vibrantes"
+      },
+
       "countries": [
         {
           "name": "Canadá",
+          "description": "Inmensos bosques, ciudades elegantes y parques naturales donde el paisaje cambia con las estaciones.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=1622&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Canadá"
+          },
           "cities": [
             {
               "name": "Ciudad de Quebec",
               "description": "Casco amurallado en altura con vistas al San Lorenzo. Ambiente europeo, tejados empinados y puestas de sol rosadas.",
+              "description_extended": "La Ciudad de Quebec es una postal viva de arquitectura europea en pleno norte americano. Su casco histórico amurallado, declarado Patrimonio de la Humanidad, conserva calles adoquinadas, plazas acogedoras y edificios de estilo francés que evocan siglos de historia. Desde la Terrasse Dufferin hasta el imponente Château Frontenac, las vistas sobre el río San Lorenzo cambian con las estaciones: otoños dorados, inviernos de nieve espesa y veranos animados por festivales. Cafés, artesanía local y una gastronomía marcada por productos regionales completan una ciudad que combina tradición, cultura y paisajes únicos.",
+              "footer": "Ciudad de Quebec, encanto europeo a orillas del San Lorenzo.",
+              "motto": "Historia viva en cada calle",
               "image": {
                 "url": "https://images.unsplash.com/photo-1576771304215-6d4d30f7bb63?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fENpdWRhZCUyMGRlJTIwUXVlYmVjfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
                 "alt": "Ciudad de Quebec"
@@ -500,12 +813,21 @@
             }
           ]
         },
+
         {
           "name": "Cuba",
+          "description": "Colores coloniales, música constante y una calidez humana que impregna calles, plazas y paseos costeros.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1536686598161-1b946fd6dfcf?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Cuba"
+          },
           "cities": [
             {
               "name": "La Habana",
               "description": "Arquitectura colonial de tonos pastel, música en cada esquina y paseos marítimos. La Habana Vieja y el Malecón marcan el ritmo.",
+              "description_extended": "La Habana es una ciudad donde el tiempo avanza y se detiene al mismo ritmo. Sus fachadas coloniales, aún con huellas del pasado, se mezclan con autos clásicos y ritmos que nacen en calles, patios y plazas. La Habana Vieja, con su trazado íntimo y monumental, reúne fortalezas, catedrales, plazas históricas y talleres de artesanos. El Malecón, siempre vivo, ofrece atardeceres vibrantes frente al mar Caribe. Entre música, historia y una hospitalidad incomparable, La Habana cautiva con una personalidad profunda y luminosa que permanece en la memoria de quien la visita.",
+              "footer": "La Habana, tradición, ritmo y alma caribeña.",
+              "motto": "Donde la vida suena a música",
               "image": {
                 "url": "https://images.unsplash.com/photo-1570299437488-d430e1e677c7?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TGElMjBIYWJhbmF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "La Habana"
@@ -513,20 +835,33 @@
             }
           ]
         },
+
         {
           "name": "Estados Unidos",
+          "description": "Diversidad total: grandes ciudades icónicas, parques nacionales monumentales y culturas que conviven en continuo movimiento.",
+          "banner":{
+            "image": "https://plus.unsplash.com/premium_photo-1694475364942-b755ad751a40?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Estados Unidos"
+          },
           "cities": [
             {
               "name": "Nueva York",
               "description": "Arquitectura icónica, parques como Central Park y una escena artística incomparable. Energía urbana que no se apaga.",
+              "description_extended": "Nueva York es una ciudad que late a un ritmo propio, vibrante y en constante reinvención. Sus rascacielos —desde el Empire State al One World Trade Center— dibujan un horizonte reconocible en todo el mundo. Central Park ofrece un respiro natural en medio del movimiento constante, mientras barrios como Brooklyn, Harlem o el Village muestran diversidad cultural, arte urbano y gastronomía infinita. Museos de talla mundial, teatros de Broadway y calles llenas de vida convierten cada día en una experiencia visual y sensorial única. Nueva York no se visita: se vive.",
+              "footer": "Nueva York, la ciudad que nunca duerme.",
+              "motto": "Donde el mundo se encuentra",
               "image": {
                 "url": "https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TnVldmElMjBZb3JrfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
                 "alt": "Nueva York"
               }
             },
+
             {
               "name": "San Francisco",
               "description": "Puente Golden Gate, colinas y casas victorianas. Museos de talla mundial y barrios con carácter propio.",
+              "description_extended": "San Francisco combina innovación, diversidad y paisajes inconfundibles. Sus colinas empinadas regalan miradores naturales hacia la bahía, coronada por el célebre Golden Gate. Barrios como Haight-Ashbury, Castro o Chinatown ofrecen identidades muy marcadas, llenas de historia y cultura. El tranvía clásico atraviesa calles imposibles, mientras museos, cafés y parques completan una ciudad humana y vibrante. Además, su clima fresco, su gastronomía multicultural y su atmósfera creativa la convierten en uno de los destinos más emblemáticos de la costa oeste.",
+              "footer": "San Francisco, innovación con vistas al Pacífico.",
+              "motto": "La bahía que inspira",
               "image": {
                 "url": "https://images.unsplash.com/photo-1719858403364-83f7442a197e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8U2FuJTIwRnJhbmNpc2NvfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
                 "alt": "San Francisco"
@@ -534,12 +869,21 @@
             }
           ]
         },
+
         {
           "name": "México",
+          "description": "Herencia indígena y colonial, gastronomía vibrante y ciudades llenas de color rodeadas de volcanes y paisajes históricos.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1647220499997-ae2a94540ed6?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Mexico"
+          },
           "cities": [
             {
               "name": "San Miguel de Allende",
               "description": "Centro colonial con parroquia neogótica rosada. Calles adoquinadas, patios y arte en galerías y talleres.",
+              "description_extended": "San Miguel de Allende es una joya colonial donde cada rincón parece diseñado para la contemplación. Sus calles empedradas conducen a plazas luminosas, talleres artesanales y cafeterías con encanto. La Parroquia de San Miguel Arcángel, con su icónico tono rosado, domina un centro histórico lleno de color y tradición. La ciudad es también un polo artístico: galerías, escuelas de arte y mercados creativos atraen a visitantes de todo el mundo. Entre gastronomía local, terrazas con vistas y un ambiente cálido y bohemio, San Miguel se convierte en un destino que enamora sin esfuerzo.",
+              "footer": "San Miguel de Allende, arte y tradición entre montañas.",
+              "motto": "La joya colonial de México",
               "image": {
                 "url": "https://plus.unsplash.com/premium_photo-1697729800872-866107ce82c4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U2FuJTIwTWlndWVsJTIwZGUlMjBBbGxlbmRlfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
                 "alt": "San Miguel de Allende"
@@ -551,13 +895,27 @@
     },
     {
       "name": "América del Sur",
+      "banner": {
+        "image": "https://plus.unsplash.com/premium_photo-1694475258447-c8536a8073d7?q=80&w=1730&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "alt": "América del Sur",
+        "overlayText": "Colores, cultura y paisajes que dejan huella"
+      },
+
       "countries": [
         {
           "name": "Argentina",
+          "description": "Desde glaciares australes hasta barrios bohemios, el país combina naturaleza extrema y una identidad cultural apasionada.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1612294037637-ec328d0e075e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Argentina"
+          },
           "cities": [
             {
               "name": "Buenos Aires",
               "description": "Barrios con identidad (Recoleta, San Telmo, La Boca), arquitectura variada y vida cultural intensa. Tango, parrillas y librerías en edificios emblemáticos.",
+              "description_extended": "Buenos Aires es una ciudad vibrante donde la elegancia europea se mezcla con el espíritu latino. Pasear por sus barrios es descubrir mundos distintos: Recoleta con sus avenidas refinadas y cafés literarios; San Telmo con su alma tanguera, mercados y arte callejero; La Boca con sus colores icónicos y tradición inmigrante. La ciudad late en sus librerías, teatros, cafés notables y una gastronomía que combina parrilla tradicional con cocina moderna. Sus parques, museos y vida cultural convierten cada día en una experiencia intensa y creativa, marcada por la identidad única de los porteños.",
+              "footer": "Buenos Aires, ciudad de arte, historia y tango.",
+              "motto": "La París de América",
               "image": {
                 "url": "https://plus.unsplash.com/premium_photo-1697729901052-fe8900e24993?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QnVlbm9zJTIwQWlyZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "Buenos Aires"
@@ -565,12 +923,21 @@
             }
           ]
         },
+
         {
           "name": "Brasil",
+          "description": "Música, playas y selva se unen en un país lleno de ritmo, energía y paisajes tan vastos como variados.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?q=80&w=1826&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Brasil"
+          },
           "cities": [
             {
               "name": "Río de Janeiro",
               "description": "Playas míticas, selva urbana y el Cristo Redentor vigilando bahías y morros. Ritmo de samba en calles y plazas.",
+              "description_extended": "Río de Janeiro es una explosión de naturaleza, música y color. Sus playas —Copacabana, Ipanema, Leblon— son puntos de encuentro donde la vida carioca fluye entre deporte, sol y convivencia. La ciudad se enmarca entre montañas y selva atlántica, creando escenarios espectaculares como el Pan de Azúcar o el Corcovado, donde se alza el Cristo Redentor. Barrios como Santa Teresa y Lapa revelan su esencia artística, bohemia y festiva. Entre samba, gastronomía tropical y paisajes inolvidables, Río es una ciudad que vibra con energía propia.",
+              "footer": "Río de Janeiro, belleza natural y ritmo sin fin.",
+              "motto": "La Cidade Maravilhosa",
               "image": {
                 "url": "https://plus.unsplash.com/premium_photo-1671211307997-f4f552b0601c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UiVDMyVBRG8lMjBkZSUyMEphbmVpcm98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "Río de Janeiro"
@@ -578,12 +945,21 @@
             }
           ]
         },
+
         {
           "name": "Colombia",
+          "description": "Ciudades coloniales, selvas tropicales y una alegría contagiosa que define su cultura y su gente.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1536308037887-165852797016?q=80&w=1652&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Colombia"
+          },
           "cities": [
             {
               "name": "Cartagena",
               "description": "Murallas, plazas y casonas coloniales cubiertas de buganvillas. Getsemaní y Bocagrande muestran sus caras creativa y moderna.",
+              "description_extended": "Cartagena es una joya colonial bañada por el Caribe. Sus murallas históricas encierran un casco antiguo repleto de plazas luminosas, casonas coloridas y balcones cubiertos de flores. La historia se mezcla con una vida cultural intensa: música en las calles, gastronomía costera y artesanías locales. A pocos pasos, Getsemaní ofrece una cara más moderna y artística, con murales vibrantes y cafés auténticos. Bocagrande, por otro lado, muestra el perfil contemporáneo de la ciudad. Cartagena es un viaje entre pasado y presente, envuelto en un clima cálido y hospitalario.",
+              "footer": "Cartagena, magia colonial frente al Caribe.",
+              "motto": "La ciudad amurallada que enamora",
               "image": {
                 "url": "https://images.unsplash.com/photo-1583531352515-8884af319dc1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Q2FydGFnZW5hJTIwY29sb21iaWF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "Cartagena"
@@ -591,12 +967,21 @@
             }
           ]
         },
+
         {
           "name": "Ecuador",
+          "description": "Cordilleras andinas, ciudades históricas y una biodiversidad que convierte cada región en un mundo distinto.",
+          "banner":{
+            "image": "https://images.unsplash.com/photo-1610226977124-9fd2755d09f2?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Ecuador"
+          },
           "cities": [
             {
               "name": "Quito",
               "description": "Casco histórico dorado bajo volcanes andinos. Vistas desde la Basílica del Voto Nacional y mercados tradicionales.",
+              "description_extended": "Quito se alza a más de 2.800 metros sobre el nivel del mar, rodeada de picos andinos y volcanes que definen su paisaje. Su casco histórico, uno de los mejor conservados de América Latina, reúne iglesias barrocas, plazas llenas de vida y callejones que cuentan siglos de historia. La Basílica del Voto Nacional y el Panecillo ofrecen miradores espectaculares de la ciudad y las montañas. Mercados tradicionales, gastronomía local y barrios creativos completan una experiencia que mezcla espiritualidad, cultura y naturaleza en un entorno incomparable.",
+              "footer": "Quito, historia dorada entre volcanes.",
+              "motto": "La joya de los Andes",
               "image": {
                 "url": "https://plus.unsplash.com/premium_photo-1697729921570-a7e324d7baac?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UXVpdG98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "Quito"
@@ -604,12 +989,21 @@
             }
           ]
         },
+
         {
           "name": "Perú",
+          "description": "Historia milenaria, montañas sagradas y una de las gastronomías más ricas del planeta, todo en un territorio fascinante.",
+          "banner":{
+            "image": "https://plus.unsplash.com/premium_photo-1733342523406-43ad5578305e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Perú"
+          },
           "cities": [
             {
               "name": "Cuzco",
               "description": "Antigua capital inca con plazas, conventos y calles empedradas. Punto de partida a Machu Picchu y miradores como el Cristo Blanco.",
+              "description_extended": "Cuzco es una ciudad donde el legado inca y la arquitectura colonial conviven de manera asombrosa. Sus calles empedradas revelan muros ancestrales perfectamente ensamblados, mientras iglesias y conventos muestran la influencia española posterior. La Plaza de Armas es el corazón cultural, rodeada de cafés, museos y edificios históricos. Desde la ciudad parten rutas hacia Machu Picchu y otros sitios arqueológicos fundamentales. Su gastronomía andina, sus mercados y su aire místico hacen de Cuzco un destino inolvidable donde el pasado sigue vivo.",
+              "footer": "Cuzco, herencia viva del mundo andino.",
+              "motto": "El ombligo del mundo",
               "image": {
                 "url": "https://images.unsplash.com/photo-1609944433409-81bda5323abc?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q3V6Y298ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
                 "alt": "Cuzco"

@@ -12,7 +12,6 @@ fetch("../assets/ciudades-del-mundo.json")
   .then(data => {
     const continents = data.continents;
 
-    // Buscar país en todos los continentes
     let selectedCountry = null;
 
     for (const continent of continents) {
@@ -29,34 +28,49 @@ fetch("../assets/ciudades-del-mundo.json")
       return;
     }
 
-    // Actualizar cabecera (bandera + título + subtítulo)
+    // Actualizar cabecera del país
     updateCountryHeader(selectedCountry);
 
-    // Pintar tarjetas de ciudades en filas de 2
+    // Renderizar ciudades
     renderCities(selectedCountry);
+
+    // Botón de seguridad
+    setupSecurityButton(selectedCountry);
   })
   .catch(err => console.error("Error cargando el JSON:", err));
 
 
 // --------------------------------------------
-// 3. Actualizar cabecera con bandera
+// 3. Banner + encabezado del país
 // --------------------------------------------
 function updateCountryHeader(country) {
   const nameEl = document.getElementById("country-name");
   const subtitleEl = document.getElementById("country-subtitle");
   const flagEl = document.getElementById("country-flag");
+  const bannerEl = document.querySelector(".country-header-banner");
 
-  if (nameEl) {
-    nameEl.textContent = country.name;
-  }
+  // Título del país
+  nameEl.textContent = country.name;
 
-  if (subtitleEl) {
-    subtitleEl.textContent = `Descubre ${country.name} a través de sus ciudades más fascinantes.`;
-  }
+  // Subtítulo → descripción del país (larga si existe)
+  subtitleEl.textContent = country.description_extended || country.description;
 
-  if (flagEl) {
-    flagEl.src = `../assets/flags/${country.name}.png`;
-    flagEl.alt = `Bandera de ${country.name}`;
+  // Bandera
+  flagEl.src = `../assets/flags/${country.name}.png`;
+  flagEl.alt = `Bandera de ${country.name}`;
+
+  // Imagen del banner → usamos la imagen de la primera ciudad
+  if (country.banner && country.banner.image) {
+    bannerEl.style.backgroundImage = `
+      linear-gradient(rgba(58, 47, 34, 0.55), rgba(58, 47, 34, 0.55)),
+      url('${country.banner.image}')
+    `;
+  } else {
+    // Fallback si algún país no tiene banner
+    bannerEl.style.backgroundImage = `
+      linear-gradient(rgba(58, 47, 34, 0.55), rgba(58, 47, 34, 0.55)),
+      url('../assets/default-country-banner.jpg')
+    `;
   }
 }
 
@@ -66,21 +80,16 @@ function updateCountryHeader(country) {
 // --------------------------------------------
 function renderCities(country) {
   const container = document.getElementById("cities-container");
-  if (!container) return;
-
   container.innerHTML = "";
 
   const cities = country.cities;
 
-  // Recorremos las ciudades de dos en dos
   for (let i = 0; i < cities.length; i += 2) {
     const row = document.createElement("div");
     row.classList.add("city-row");
 
-    // Primera ciudad
     row.appendChild(createCityCard(cities[i]));
 
-    // Segunda ciudad si existe
     if (cities[i + 1]) {
       row.appendChild(createCityCard(cities[i + 1]));
     }
@@ -109,11 +118,27 @@ function createCityCard(city) {
 
       <div class="city-footer">
         <div class="city-separator"></div>
-        <a class="pill-button primary">¡Quiero viajar!</a>
+        <a class="pill-button primary city-btn">¡Quiero viajar!</a>
       </div>
     </div>
   `;
 
+  // Redirección a city.html
+  card.querySelector(".city-btn").addEventListener("click", () => {
+    window.location.href = `city.html?city=${encodeURIComponent(city.name)}`;
+  });
+
   return card;
 }
 
+
+// --------------------------------------------
+// 6. Botón de seguridad
+// --------------------------------------------
+function setupSecurityButton(country) {
+  const btn = document.getElementById("safety-button");
+
+  btn.addEventListener("click", () => {
+    window.location.href = `security.html?country=${encodeURIComponent(country.name)}`;
+  });
+}

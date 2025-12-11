@@ -224,21 +224,23 @@ main {
 .country-header-banner {
   position: relative;
   width: 100%;
-  height: 220px; 
+  height: 260px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   padding: 1.5rem;
   text-align: center;
   color: #fff;
-  /* Degradado marrón para entonar */
-  background-image: 
-      linear-gradient(rgba(58, 47, 34, 0.55), rgba(58, 47, 34, 0.55)),
-      url("images/world-banner.jpg");  
+  
+  background-image:
+      linear-gradient(rgba(58,47,34,0.55), rgba(58,47,34,0.55)),
+      var(--country-banner-image, url("https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?q=80&w=1600&auto=format"));
+  
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-bottom: 1px solid #d7c9b8; 
+
+  border-bottom: 1px solid #d7c9b8;
 }
 
 .country-header-content { z-index: 2; }

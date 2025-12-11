@@ -28,28 +28,36 @@ fetch("../assets/ciudades-del-mundo.json")
   });
 
 // --------------------------------------------
-// 3. Renderizar banner dinámico
+// 3. Renderizar banner dinámico (ACTUALIZADO)
 // --------------------------------------------
 function renderBanner(continent) {
   const bannerImg = document.getElementById("banner-image");
   const title = document.getElementById("continent-title");
   const quote = document.getElementById("continent-quote");
 
-  const firstCountry = continent.countries[0];
-  const firstCity = firstCountry.cities[0];
+  if (continent.banner) {
+    bannerImg.src = continent.banner.image;
+    bannerImg.alt = continent.banner.alt || `Imagen de ${continent.name}`;
+    title.textContent = continent.name;
+    quote.textContent = continent.banner.overlayText || "";
+  } else {
+    const firstCountry = continent.countries[0];
+    const firstCity = firstCountry.cities[0];
 
-  bannerImg.src = firstCity.image.url;
-  title.textContent = continent.name;
-
-  quote.textContent =
-    `Explora la diversidad, la cultura y los paisajes únicos de ${continent.name}.`;
+    bannerImg.src = firstCity.image.url;
+    bannerImg.alt = firstCity.image.alt;
+    title.textContent = continent.name;
+    quote.textContent =
+      `Explora la diversidad, la cultura y los paisajes únicos de ${continent.name}.`;
+  }
 }
 
 // --------------------------------------------
 // 4. Renderizar título
 // --------------------------------------------
 function renderTitle(continent) {
-  document.getElementById("section-title").textContent = `Países de ${continent.name}`;
+  document.getElementById("section-title").textContent =
+    `Países de ${continent.name}`;
 }
 
 // --------------------------------------------
@@ -74,13 +82,13 @@ function renderCountries(continent) {
 }
 
 // --------------------------------------------
-// 6. Crear tarjeta individual de país
+// 6. Crear tarjeta individual de país (ACTUALIZADO)
 // --------------------------------------------
 function createCountryCard(country) {
   const card = document.createElement("article");
   card.classList.add("country-card");
 
-  const city = country.cities[0];
+  const city = country.cities[0]; // Solo se usa para la imagen
 
   card.innerHTML = `
     <div class="country-image">
@@ -90,7 +98,9 @@ function createCountryCard(country) {
     <div class="country-info">
       <div>
         <h3 class="country-name">${country.name}</h3>
-        <p class="country-description">${city.description}</p>
+
+        <!-- Ahora usamos country.description -->
+        <p class="country-description">${country.description}</p>
       </div>
 
       <div class="country-actions">
