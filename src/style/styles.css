@@ -1,3 +1,16 @@
+
+/* RESET GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 /***********************
     HEADER GENERAL
 ************************/
@@ -80,6 +93,7 @@ header {
 
 .btn-login,
 .btn-register {
+    text-decoration: none;
     padding: 6px 16px;
     border-radius: 999px;
     border: 1px solid #a26a33;
@@ -487,17 +501,16 @@ header {
 ************************/
 
 footer {
-    background-color: #fffaf5;            
-    border-top: 1px solid #d7c9b8;        
-    padding: 20px 24px;                   
-    color: #6c5b4a;                        
+    background-color: #3f2f1e;        /* Marrón oscuro vintage */
+    padding: 20px 24px;
+    color: #fef6ee;                   /* Texto crema claro */
 }
 
 /* CONTENEDOR PRINCIPAL */
 footer .footer-content {
     width: 100%;
     display: flex;
-    justify-content: space-between;        /* Izquierda - Centro - Derecha */
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -505,7 +518,7 @@ footer .footer-content {
 footer .footer-left {
     font-size: 14px;
     font-weight: 500;
-    color: #6c5b4a;
+    color: #fef6ee;                    /* Texto claro */
     text-align: left;
 }
 
@@ -518,12 +531,12 @@ footer .footer-center {
 
 footer .footer-center a {
     font-size: 14px;
-    color: #6c5b4a;
+    color: #fef6ee;                    /* Enlaces claros */
     transition: color 0.2s;
 }
 
 footer .footer-center a:hover {
-    color: #a26a33; /* Terracota */
+    color: #a26a33;                    /* Terracota */
 }
 
 /* DERECHA — REDES SOCIALES */
@@ -539,13 +552,137 @@ footer .footer-right {
 }
 
 .footer-right img {
-    width: 20px;   /* AJUSTA EL TAMAÑO QUE QUIERAS */
+    width: 20px;
     height: 20px;
     display: block;
-    filter: invert(29%) sepia(31%) saturate(1130%) hue-rotate(349deg) brightness(92%) contrast(87%);
-    /* Esto colorea SVG/PNG negro a #a26a33 automáticamente. */
+
+    /* Iconos blancos sobre fondo oscuro */
+    filter: brightness(0) invert(1);
 }
 
 footer .footer-right a:hover {
-    background-color: #f3eee7;      /* Crema */
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 4px;
+}
+
+
+/*******************************************
+ *  PÁGINA DE LOGIN — FONDO
+ *******************************************/
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    /* Imagen vintage con filtro marrón */
+    background-image: 
+        url("../../assets/images/background.jpg");  /* tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*******************************************
+ *  PÁGINA DE LOGIN — CONTENIDO
+ *******************************************/
+
+/* CONTENEDOR CENTRAL */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    flex: 1; /* empuja footer al fondo */
+}
+
+/* CAJA */
+.login-box {
+    width: 380px;
+    background: rgba(255,250,245,0.85); /* crema translúcido */
+    border: 1px solid rgba(215,201,184,0.9);
+    border-radius: 14px;
+    padding: 30px 34px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+
+    text-align: center;
+}
+
+/* TÍTULO */
+.login-box h2 {
+    font-size: 26px;
+    font-weight: 800;
+    color: #3a2f22;
+}
+
+/* LÍNEA DECORATIVA */
+.separator {
+    width: 120px;
+    height: 3px;
+    background: #a26a33;
+    border-radius: 3px;
+    margin: 10px auto 24px;
+}
+
+/* FORMULARIO */
+.login-box form {
+    text-align: left;
+}
+
+.login-box label {
+    font-size: 15px;
+    font-weight: 600;
+    color: #3a2f22;
+}
+
+.login-box input {
+    width: 100%;
+    margin: 6px 0 16px;
+    padding: 10px;
+    background: #fffefc;
+    border: 1px solid #d7c9b8;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #3a2f22;
+}
+
+/* BOTÓN */
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background: #a26a33;
+    color: white;
+    border: 1px solid #a26a33;
+    border-radius: 999px;
+    font-size: 15px;
+    margin-top: 4px;
+}
+
+.login-btn:hover {
+    background: #8e5528;
+    border-color: #8e5528;
+}
+
+/* ENLACE PARA REGISTRARSE */
+.register-link {
+    margin-top: 26px;
+    border-top: 1px solid #d7c9b8;
+    padding-top: 16px;
+}
+
+.register-link p {
+    font-size: 14px;
+    color: #3a2f22;
+    margin-bottom: 4px;
+}
+
+.register-link a {
+    font-size: 14px;
+    color: #a26a33;
+}
+
+.register-link a:hover {
+    color: #8e5528;
 }
