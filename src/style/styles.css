@@ -1,61 +1,42 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-button {
-    cursor: pointer;
-}
-
-/* Utilidad para accesibilidad */
-.visually-hidden {
-    position: absolute;
-    left: -9999px;
-}
-
 /***********************
     HEADER GENERAL
 ************************/
+
+/* Color y estilo de Dani */
 header {
     width: 100%;
-    background-color: #ffffff;
-    border-bottom: 1px solid #e2e2e2;
+    background-color: #fffaf5;      /* Marfil */
+    border-bottom: 1px solid #d7c9b8; /* Arena */
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
-/* CONTENEDOR DEL NAV */
+/* NAV contenedor */
 header nav {
     width: 100%;
-    padding: 16px 24px; /* SOLO PX */
+    padding: 16px 24px;
     display: flex;
     align-items: center;
-    position: relative; /* Necesario para centrar el menú */
+    position: relative;
 }
 
 /* LOGO IZQUIERDA */
 .logo {
-    font-weight: bold;
-    font-size: 20px; /* px */
+    border: 1px solid #a26a33;    /* Terracota */
+    background: #fef6ee;
+    color: #a26a33;
+    padding: 4px 14px;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 18px;
 }
 
-/* MENÚ TOTALMENTE CENTRADO (SOLUCIÓN DEFINITIVA) */
+/* MENÚ CENTRAL ABSOLUTAMENTE CENTRADO */
 .nav-menu {
     list-style: none;
     display: flex;
-    gap: 32px; /* px */
+    gap: 28px;
 
     position: absolute;
     left: 50%;
@@ -63,8 +44,14 @@ header nav {
 }
 
 .nav-menu li a {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
+    color: #6c5b4a; /* Marrón medio */
+    transition: color 0.2s;
+}
+
+.nav-menu li a:hover {
+    color: #a26a33; /* Terracota */
 }
 
 /* ACCIONES DERECHA */
@@ -72,97 +59,117 @@ header nav {
     margin-left: auto;
     display: flex;
     align-items: center;
-    gap: 12px; /* px */
+    gap: 12px;
 }
 
-.nav-actions button {
-    padding: 8px 12px;
-    border-radius: 6px;
-    border: 1px solid #ddd;
-    background: #ffffff;
+/* Iconos estilo Dani */
+.nav-actions .icon-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 999px;
+    border: 1px solid #a26a33;
+    background: #fffaf5;
+    color: #a26a33;
     font-size: 16px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* BOTÓN DE REGISTRO */
-#register-btn {
-    background: #0077ff;
+/* Botones estilo píldora */
+.nav-actions .btn-login,
+.nav-actions .btn-register {
+    padding: 6px 16px;
+    border-radius: 999px;
+    border: 1px solid #a26a33;
+    font-size: 14px;
+}
+
+.nav-actions .btn-login {
+    background: #fffaf5;
+    color: #a26a33;
+}
+
+.nav-actions .btn-register {
+    background: #a26a33;
     color: #ffffff;
-    border: none;
 }
 
-#register-btn:hover {
-    background: #005fcc;
+/* HOVER */
+.nav-actions .btn-login:hover {
+    background: #f3eee7;
 }
 
-/* BOTONES DE IDIOMA Y ACCESIBILIDAD */
-#language-btn,
-#accessibility-btn {
-    padding: 0.5rem 0.8rem;
-    border-radius: 6px;
-    background: #f4f4f4;
-    border: 1px solid #ccc;
-    font-size: 1.1rem;
-}
-
-#language-btn:hover,
-#accessibility-btn:hover {
-    background: #e8e8e8;
+.nav-actions .btn-register:hover {
+    background: #8e5528;
+    border-color: #8e5528;
 }
 
 /***********************
         FOOTER
 ************************/
+
 footer {
-    background-color: #1f1f1f;
-    color: #ffffff;
-    padding: 2rem;
-    margin-top: 3rem;
+    background-color: #fffaf5;            /* Marfil (Dani) */
+    border-top: 1px solid #d7c9b8;        /* Arena (Dani) */
+    padding: 20px 24px;                   /* Márgenes laterales pequeños como pedías */
+    color: #6c5b4a;                        /* Marrón medio */
 }
 
-/* CONTENEDOR GENERAL DEL FOOTER */
+/* CONTENEDOR PRINCIPAL */
 footer .footer-content {
     width: 100%;
-    padding: 0 24px; /* Márgenes laterales */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;        /* Izquierda - Centro - Derecha */
     align-items: center;
 }
 
-
-
-/* TÍTULO IZQUIERDA */
+/* IZQUIERDA — TÍTULO */
 footer .footer-left {
-    font-size: 0.9rem;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6c5b4a;
     text-align: left;
 }
 
-/* ENLACES CENTRO */
+/* CENTRO — ENLACES */
 footer .footer-center {
     display: flex;
-    gap: 1.5rem;
-    text-align: center;
+    gap: 20px;
+    justify-content: center;
 }
 
 footer .footer-center a {
-    color: #ffffff;
-    font-size: 0.9rem;
+    font-size: 14px;
+    color: #6c5b4a;
+    transition: color 0.2s;
 }
 
 footer .footer-center a:hover {
-    text-decoration: underline;
+    color: #a26a33; /* Terracota */
 }
 
-/* REDES SOCIALES DERECHA */
+/* DERECHA — REDES SOCIALES */
 footer .footer-right {
     display: flex;
-    gap: 1rem;
-    font-size: 1.3rem;
+    gap: 10px;
 }
 
 footer .footer-right a {
-    color: #ffffff;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1px solid #a26a33;      /* Terracota */
+    color: #a26a33;
+    font-size: 14px;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #fffaf5;
 }
 
 footer .footer-right a:hover {
-    opacity: 0.7;
+    background-color: #f3eee7;      /* Crema */
 }
