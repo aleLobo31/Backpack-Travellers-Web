@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -352,8 +356,8 @@ header {
 /* Precio arriba derecha */
 .pack-price {
     position: absolute;
-    top: 8px;
-    right: 30px;
+    top: 26px;
+    right: 34px;
 
     background: rgba(255,250,245,0.9);
     padding: 4px 10px;
@@ -807,4 +811,164 @@ footer .footer-right a:hover {
 
 .boton-guardar:hover {
     background-color: #8e5528;
+}
+
+.boton-guardar:disabled {
+    background-color: #c8b199;   /* marrón clarito apagado */
+    border-color: #b59c85;
+    color: #eee;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+
+/*******************************************
+ *  PÁGINA FOOTER-SITES — SIN FONDO GLOBAL
+ *******************************************/
+.footer-site-main {
+    background: #fffaf5; /* mismo fondo que la home */
+    padding-bottom: 40px;
+}
+
+/*******************************************
+ *  BANNER SUPERIOR
+ *******************************************/
+.footer-banner {
+    width: 100%;
+    height: 260px;
+
+    /* La imagen de fondo se reemplaza por JS */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px 40px;
+
+    border-bottom: 1px solid #d7c9b8;
+}
+
+/* Caja del título dentro del banner */
+.banner-title-box {
+    background: rgba(190, 156, 111, 0.92);
+    border: 1px solid rgba(215,201,184,0.90);
+    padding: 12px 22px;
+    border-radius: 12px;
+
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+
+.banner-title-box h2 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #3a2f22;
+    margin: 0;
+}
+
+/*******************************************
+ *  CONTENIDO DE LA PÁGINA FOOTER-SITES
+ *******************************************/
+.footer-content-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Caja del contenido dinámico */
+#footer-dynamic-content {
+    background: rgba(190, 156, 111, 0.92); 
+    border: 1px solid rgba(160, 145, 125, 0.9);
+    padding: 28px;
+    border-radius: 12px;
+
+    color: #3a2f22;
+    font-size: 16px;
+    line-height: 1.65;
+}
+
+#footer-dynamic-content h2 {
+    font-size: 24px;
+    color: #3a2f22;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+#footer-dynamic-content h3 {
+    font-size: 18px;
+    color: #6c5b4a;
+    margin-top: 18px;
+    margin-bottom: 6px;
+}
+
+#footer-dynamic-content p {
+    margin-bottom: 12px;
+}
+
+#footer-dynamic-content ul {
+    margin: 10px 0 20px 20px;
+}
+
+#footer-dynamic-content li {
+    margin-bottom: 8px;
+}
+
+/* Fondo oscuro translúcido */
+#modal-mensaje {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3000;
+
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+}
+
+/* Cuando el modal está visible */
+#modal-mensaje.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Caja del modal */
+.modal-contenido {
+    background: rgba(255,250,245,0.92);  /* crema translúcido como login-box */
+    border: 1px solid rgba(215,201,184,0.9);
+    border-radius: 14px;
+    padding: 26px 34px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.25);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+
+/* Texto */
+.modal-contenido p {
+    font-size: 16px;
+    color: #3a2f22;
+    margin-bottom: 18px;
+    line-height: 1.4;
+}
+
+/* Botón */
+#modal-cerrar {
+    background: #a26a33;
+    color: white;
+    border: 1px solid #8e5528;
+    padding: 8px 20px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+#modal-cerrar:hover {
+    background: #8e5528;
 }
