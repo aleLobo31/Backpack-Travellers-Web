@@ -11,87 +11,123 @@
 
     <!-- HEADER -->
     <header>
-        <nav aria-label="Navegación principal">
-            <a href="#" class="logo">Logo</a>
+        <nav class="nav">
 
-            <ul class="nav-menu">
-                <li><a href="continent-page.html">Continentes</a></li>
-                <li><a href="forum-page.html">Foro</a></li>
-                <li><a href="security-page.html">¿Quiénes somos?</a></li>
-            </ul>
+            <!-- IZQUIERDA: LOGO + MENÚ -->
+            <div class="nav-left">
+                <div class="logo">
+                    <img src="../assets/images/logo.png" alt="Logo">
+                </div>
 
-            <div class="nav-actions">
-
-                <!-- BOTÓN DE IDIOMA -->
-                <button id="language-btn" aria-label="Cambiar idioma">
-                    🌐
-                </button>
-
-                <!-- BOTÓN DE ACCESIBILIDAD -->
-                <button id="accessibility-btn" aria-label="Opciones de accesibilidad">
-                    ♿
-                </button>
-
-                <!-- INICIAR SESIÓN -->
-                <button id="login-btn">Iniciar sesión</button>
-
-                <!-- REGISTRARSE -->
-                <button id="register-btn">Registrarse</button>
+                <ul class="nav-menu">
+                    <li><a href="continent-page.html">Continentes</a></li>
+                    <li><a href="forum-page.html">Foro</a></li>
+                    <li><a href="security-page.html">¿Quiénes somos?</a></li>
+                </ul>
             </div>
-        </nav>
 
+            <!-- DERECHA: ICONOS Y BOTONES -->
+            <div class="nav-right">
+                <button class="icon-btn" id="language-btn">🌐︎</button>
+                <button class="icon-btn" id="accessibility-btn">♿︎</button>
+                <button class="btn-login">Iniciar sesión</button>
+                <button class="btn-register">Registrarse</button>
+            </div>
+
+        </nav>
     </header>
 
-    <!-- HERO SECTION -->
-    <section class="hero">
-        <h1>Título de la web</h1>
-        <p>Si la aventura te llama, cógele el teléfono</p>
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="home-main">
 
-        <form class="search-bar" role="search">
-            <label for="search" class="visually-hidden">Buscar destino</label>
-            <input id="search" type="text" placeholder="Buscar destinos...">
-            <button type="submit">Buscar</button>
-        </form>
-    </section>
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <div class="hero-box title-box">
+                CAMINO DE ULISES
+            </div>
 
-    <!-- FRASE INSPIRADORA -->
-    <section class="intro">
-        <h2>Cada aventura comienza con un primer paso</h2>
-    </section>
+            <div class="hero-box subtitle-box">
+                Si la aventura te llama, cógele el teléfono
+            </div>
 
-    <!-- CARRUSEL PACKS -->
-    <section class="packs">
-        <button class="carousel-btn left" aria-label="Pack anterior">❮</button>
+            <form class="search-bar">
+                <input id="search" type="text" placeholder="🔍︎ Buscar destinos...">
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
 
-        <article class="pack-card">
-            <h3>Título pack</h3>
-            <p class="price">Precio</p>
-            <button class="buy-btn">Comprar</button>
-        </article>
 
-        <button class="carousel-btn right" aria-label="Pack siguiente">❯</button>
-    </section>
+        <!-- FRASE INSPIRADORA -->
+        <section class="intro">
+            <h2>Cada aventura comienza con un primer paso</h2>
+        </section>
 
-    <!-- CONTINENTES -->
-    <section class="continents">
-        <h2>Explora por continente</h2>
+        <!-- CARRUSEL PACKS -->
+        <section class="carousel-section">
+    
+            <!-- Flecha izquierda -->
+            <button class="carousel-btn left" aria-label="Anterior">❮</button>
 
-        <div class="grid-continents">
-            <a class="continent-card" href="continent-page.html?c=europa">Europa</a>
-            <a class="continent-card" href="continent-page.html?c=asia">Asia</a>
-            <a class="continent-card" href="continent-page.html?c=africa">África</a>
-            <a class="continent-card" href="continent-page.html?c=oceanía">Oceanía</a>
-            <a class="continent-card" href="continent-page.html?c=norteamerica">América del norte</a>
-            <a class="continent-card" href="continent-page.html?c=suramerica">América del sur</a>
-        </div>
-    </section>
+            <!-- Tarjeta principal del pack -->
+            <article class="pack-card">
+                <div class="pack-text">
+                    <h3 class="pack-title">Título pack</h3>
+                    <p class="pack-price">Precio</p>
+                    <button class="pack-buy">Comprar</button>
+                </div>
 
+            </article>
+
+            <!-- Flecha derecha -->
+            <button class="carousel-btn right" aria-label="Siguiente">❯</button>
+
+        </section>
+
+
+        <!-- CONTINENTES -->
+        <section class="continents">
+            <h2 class="continents-title">Explora por continente</h2>
+            <div class="continents-title-line"></div>
+
+            <div class="grid-continents">
+
+                <a class="continent-card" href="continent-page.html?c=europa">
+                    <div class="card-title">Europa</div>
+                </a>
+
+                <a class="continent-card" href="continent-page.html?c=asia">
+                    <div class="card-title">Asia</div>
+                </a>
+
+                <a class="continent-card" href="continent-page.html?c=africa">
+                    <div class="card-title">África</div>
+                </a>
+
+                <a class="continent-card" href="continent-page.html?c=oceanía">
+                    <div class="card-title">Oceanía</div>
+                </a>
+
+                <a class="continent-card" href="continent-page.html?c=norteamerica">
+                    <div class="card-title">América del norte</div>
+                </a>
+
+                <a class="continent-card" href="continent-page.html?c=suramerica">
+                    <div class="card-title">América del sur</div>
+                </a>
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <!-- FOOTER -->
     <footer>
         <div class="footer-content">
 
             <!-- IZQUIERDA -->
             <div class="footer-left">
-                <p>Título de la web © 2025</p>
+                <p>Camino de Ulises © 2025</p>
             </div>
 
             <!-- CENTRO -->
@@ -104,14 +140,19 @@
 
             <!-- DERECHA -->
             <div class="footer-right">
-                <a href="#" aria-label="Instagram">📸</a>
-                <a href="#" aria-label="Twitter">🐦</a>
-                <a href="#" aria-label="YouTube">▶️</a>
-            </div>
-
+                <a href="#" aria-label="Instagram">
+                    <img src="../assets/icons/instagram.svg" alt="Instagram">
+                </a>
+                <a href="#" aria-label="TikTok">
+                    <img src="../assets/icons/tiktok.svg" alt="TikTok">
+                </a>
+                <a href="#" aria-label="X">
+                    <img src="../assets/icons/x.svg" alt="X">
+                </a>
+                <a href="#" aria-label="YouTube">
+                    <img src="../assets/icons/youtube.svg" alt="YouTube">
+                </a>
         </div>
     </footer>
-
-
 </body>
 </html>

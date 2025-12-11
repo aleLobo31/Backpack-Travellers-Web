@@ -1,108 +1,485 @@
 /***********************
     HEADER GENERAL
 ************************/
-
-/* Color y estilo de Dani */
 header {
     width: 100%;
-    background-color: #fffaf5;      /* Marfil */
-    border-bottom: 1px solid #d7c9b8; /* Arena */
+    background-color: #fffaf5;
+    border-bottom: 1px solid #d7c9b8;
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
-/* NAV contenedor */
-header nav {
-    width: 100%;
+/* Contenedor principal */
+.nav {
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 16px 24px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    position: relative;
 }
 
-/* LOGO IZQUIERDA */
-.logo {
-    border: 1px solid #a26a33;    /* Terracota */
-    background: #fef6ee;
-    color: #a26a33;
-    padding: 4px 14px;
-    border-radius: 999px;
-    font-weight: 700;
-    font-size: 18px;
+/***************
+    IZQUIERDA
+***************/
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 24px; /* Ajusta separación entre logo y enlaces */
 }
 
-/* MENÚ CENTRAL ABSOLUTAMENTE CENTRADO */
+/* Logo */
+.logo img {
+    height: 55px;
+    width: auto;
+    display: block;
+}
+
+/* Menú */
 .nav-menu {
     list-style: none;
     display: flex;
-    gap: 28px;
-
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    gap: 24px;
+    margin: 0;
+    padding: 0;
 }
 
-.nav-menu li a {
+.nav-menu a {
     font-size: 15px;
     font-weight: 500;
-    color: #6c5b4a; /* Marrón medio */
-    transition: color 0.2s;
+    color: #6c5b4a;
 }
 
-.nav-menu li a:hover {
-    color: #a26a33; /* Terracota */
+.nav-menu a:hover {
+    color: #a26a33;
 }
 
-/* ACCIONES DERECHA */
-.nav-actions {
-    margin-left: auto;
+/***************
+    DERECHA
+***************/
+.nav-right {
     display: flex;
     align-items: center;
     gap: 12px;
 }
 
-/* Iconos estilo Dani */
-.nav-actions .icon-btn {
+.icon-btn {
     width: 32px;
     height: 32px;
     border-radius: 999px;
     border: 1px solid #a26a33;
     background: #fffaf5;
     color: #a26a33;
-    font-size: 16px;
-    display: inline-flex;
+    font-size: 18px;
+
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Botones estilo píldora */
-.nav-actions .btn-login,
-.nav-actions .btn-register {
+.btn-login,
+.btn-register {
     padding: 6px 16px;
     border-radius: 999px;
     border: 1px solid #a26a33;
     font-size: 14px;
 }
 
-.nav-actions .btn-login {
+.btn-login {
     background: #fffaf5;
     color: #a26a33;
 }
 
-.nav-actions .btn-register {
+.btn-register {
     background: #a26a33;
     color: #ffffff;
 }
 
-/* HOVER */
-.nav-actions .btn-login:hover {
+.btn-login:hover {
     background: #f3eee7;
 }
 
-.nav-actions .btn-register:hover {
+.btn-register:hover {
     background: #8e5528;
     border-color: #8e5528;
+}
+
+/*******************************************
+ *  HOME PAGE – LAYOUT GENERAL
+ *******************************************/
+.home-main {
+    max-width: 1200px;
+    margin: 24px auto 48px;
+    padding: 0 24px;
+}
+
+/*******************************************
+ *  HERO (título + frase + buscador)
+ *******************************************/
+/* HERO */
+.hero {
+    position: relative;
+    padding: 32px 32px 40px;   
+    border-radius: 18px;
+    overflow: hidden;
+
+    background-image: linear-gradient(
+        rgba(58,47,34,0.55),
+        rgba(58,47,34,0.55)
+    ),
+    url("../../assets/images/banner_superior.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+    text-align: center;
+
+    box-shadow: 0 4px 12px rgba(90, 70, 50, 0.12);
+    border: 1px solid #d7c9b8;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;      
+}
+
+/* CAJAS DEL TÍTULO Y SUBTÍTULO DEL HERO */
+.hero-box {
+    display: inline-block;
+    padding: 14px 36px;
+    margin-bottom: 16px;
+
+    /* Fondo pergamino más marrón */
+    background: rgba(184, 152, 115, 0.55);
+
+    /* Borde terracota suave */
+    border: 1px solid rgba(162, 106, 51, 0.45);
+
+    border-radius: 16px;
+
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+
+    /* Sombra cálida más integrada con el fondo */
+    box-shadow: 0 6px 14px rgba(58, 47, 34, 0.35);
+}
+
+/* TÍTULO principal */
+.title-box {
+    font-size: 42px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+    color: #2e2419; /* Marrón oscuro profundo */
+    text-shadow: 0 2px 3px rgba(255, 240, 210, 0.35);
+}
+
+/* SUBTÍTULO */
+.subtitle-box {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 0.5px;
+
+    color: #3c2f22; /* marrón medio */
+    opacity: 0.95;
+}
+
+/* Contenedor del input con icono */
+.search-icon-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* Barra de búsqueda */
+.search-bar {
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.search-bar input {
+    min-width: 260px;
+    max-width: 420px;
+    padding: 8px 14px; /* padding vertical OK, horizontal lo minimizamos */
+    border-radius: 999px;
+    border: 1px solid #d7c9b8;
+    background-color: #fef6ee;
+    font-size: 14px;
+    color: #3a2f22;
+}
+
+.search-bar button {
+    padding: 8px 18px;
+    border-radius: 999px;
+    border: 1px solid #a26a33;
+    background-color: #a26a33;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.search-bar button:hover {
+    background-color: #8e5528;
+    border-color: #8e5528;
+}
+
+/*******************************************
+ *  FRASE INSPIRADORA
+ *******************************************/
+.intro {
+    margin-top: 40px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 32px;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    color: #6c5b4a;          /* marrón medio, más suave */
+    max-width: 520px;
+    margin: 0 auto 8px;      /* centrada y con un poco de espacio abajo */
+}
+
+/* Líneita decorativa debajo de la frase */
+.intro::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: #a26a33;
+    border-radius: 3px;
+    margin: 8px auto 0;
+}
+
+/*******************************************
+ *  CARRUSEL DE PACKS
+ *******************************************/
+.carousel-section {
+    margin-top: 32px;
+    margin-bottom: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Flechas Laterales */
+.carousel-btn {
+    background: #fffaf5;
+    border: 1px solid #a26a33;
+    color: #a26a33;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.carousel-btn:hover {
+    background: #f3eee7;
+    border-color: #8e5528;
+}
+
+/*******************************************
+ *  CARRUSEL – TARJETA CON BACKGROUND
+ *******************************************/
+.pack-card {
+    position: relative;
+    width: 60%;
+    height: 260px;
+
+    border-radius: 18px;
+    overflow: hidden;
+    border: 1px solid #d7c9b8;
+    box-shadow: 0 4px 12px rgba(90,70,50,0.15);
+
+    /* ⭐ Imagen como background */
+    background-image: url("../../assets/images/pack_prueba.jpg");
+    background-size: cover;
+    background-position: center;
+
+    /* Oscurecer un poco para que el texto destaque */
+    filter: brightness(0.88);
+}
+
+/* Contenedor de los textos encima */
+.pack-content {
+    position: absolute;
+    inset: 0;
+    padding: 16px;
+}
+
+/* Título arriba izquierda */
+.pack-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 20px;
+
+    background: rgba(255,250,245,0.9);
+    padding: 6px 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(215,201,184,0.85);
+    color: #3a2f22;
+    width: fit-content;
+}
+
+/* Precio arriba derecha */
+.pack-price {
+    position: absolute;
+    top: 8px;
+    right: 30px;
+
+    background: rgba(255,250,245,0.9);
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(215,201,184,0.85);
+    color: #6c5b4a;
+    font-size: 14px;
+}
+
+/* Botón abajo derecha */
+.pack-buy {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+
+    padding: 6px 16px;
+    border-radius: 999px;
+    border: 1px solid #a26a33;
+    background: #a26a33;
+    color: white;
+    font-size: 14px;
+}
+
+.pack-buy:hover {
+    background: #8e5528;
+    border-color: #8e5528;
+}
+
+
+/* Imagen del pack */
+.pack-image {
+    width: 50%;
+    height: 100%;
+}
+
+.pack-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*******************************************
+ *  CONTINENTES (3 + 3 cajas)
+ *******************************************/
+.continents {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.continents-title {
+  font-size: 32px;        /* título grande y consistente con tu estilo */
+  font-weight: 700;
+  color: #3a2f22;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 8px;     /* separación con la línea */
+}
+
+/* Línea decorativa debajo del título */
+.continents-title-line {
+  width: 120px;           /* tamaño visual equilibrado */
+  height: 3px;
+  background: #a26a33;
+  border-radius: 3px;
+  margin: 8px auto 24px;  /* centrado y separación inferior */
+}
+
+/* GRID 3 COLUMNAS */
+.grid-continents {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* TARJETA */
+.continent-card {
+    position: relative;
+    height: 260px;
+    border-radius: 14px;
+    overflow: hidden;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    border: 1px solid #d7c9b8;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 3px 10px rgba(90,70,50,0.15);
+
+    transition: transform 0.25s ease, filter 0.25s ease;
+}
+
+/* CAJITA DEL TÍTULO */
+.card-title {
+    background: rgba(255, 250, 245, 0.65);       /* crema suave translúcido */
+    border: 1px solid rgba(215, 201, 184, 0.55); /* arena muy sutil */
+    backdrop-filter: blur(6px);                  /* efecto glass */
+    -webkit-backdrop-filter: blur(6px);
+
+    color: #3a2f22;
+    font-weight: 600;
+    font-size: 30px;
+
+    padding: 8px 18px;
+    border-radius: 12px;
+    margin-top: 20px;
+
+    box-shadow: 0 4px 12px rgba(58,47,34,0.15);  /* sombra suave */
+}
+
+/* BACKGROUND (por orden, fácil de mantener) */
+.grid-continents a:nth-child(1) {
+    background-image: url("../../assets/images/europa.jpg");
+}
+.grid-continents a:nth-child(2) {
+    background-image: url("../../assets/images/asia.png");
+}
+.grid-continents a:nth-child(3) {
+    background-image: url("../../assets/images/africa.png");
+}
+.grid-continents a:nth-child(4) {
+    background-image: url("../../assets/images/oceania.png");
+}
+.grid-continents a:nth-child(5) {
+    background-image: url("../../assets/images/norteamerica.png");
+}
+.grid-continents a:nth-child(6) {
+    background-image: url("../../assets/images/suramerica.png");
+}
+
+/* HOVER */
+.continent-card:hover {
+    transform: scale(1.03);
+    filter: brightness(1.05);
+    cursor: pointer;
 }
 
 /***********************
@@ -110,10 +487,10 @@ header nav {
 ************************/
 
 footer {
-    background-color: #fffaf5;            /* Marfil (Dani) */
-    border-top: 1px solid #d7c9b8;        /* Arena (Dani) */
-    padding: 20px 24px;                   /* Márgenes laterales pequeños como pedías */
-    color: #6c5b4a;                        /* Marrón medio */
+    background-color: #fffaf5;            
+    border-top: 1px solid #d7c9b8;        
+    padding: 20px 24px;                   
+    color: #6c5b4a;                        
 }
 
 /* CONTENEDOR PRINCIPAL */
@@ -155,19 +532,18 @@ footer .footer-right {
     gap: 10px;
 }
 
-footer .footer-right a {
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    border: 1px solid #a26a33;      /* Terracota */
-    color: #a26a33;
-    font-size: 14px;
-
+.footer-right a {
     display: inline-flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+}
 
-    background-color: #fffaf5;
+.footer-right img {
+    width: 20px;   /* AJUSTA EL TAMAÑO QUE QUIERAS */
+    height: 20px;
+    display: block;
+    filter: invert(29%) sepia(31%) saturate(1130%) hue-rotate(349deg) brightness(92%) contrast(87%);
+    /* Esto colorea SVG/PNG negro a #a26a33 automáticamente. */
 }
 
 footer .footer-right a:hover {
