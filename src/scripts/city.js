@@ -38,13 +38,25 @@ fetch("../assets/ciudades-del-mundo.json")
 // 3. Banner
 // --------------------------------------------
 function renderBanner(city, country) {
-  document.getElementById("city-banner-img").src = city.image.url;
-  document.getElementById("city-title").textContent = `${city.name}, ${country.name}`;
+  const bannerImg = document.getElementById("city-banner-img");
 
-  // Lema (motto)
+  // Usamos el banner específico de la ciudad
+  if (city.banner && city.banner.image) {
+    bannerImg.src = city.banner.image;
+    bannerImg.alt = city.banner.alt || city.name;
+  } else {
+    // Fallback por seguridad
+    bannerImg.src = city.image.url;
+    bannerImg.alt = city.image.alt || city.name;
+  }
+
+  document.getElementById("city-title").textContent =
+    `${city.name}, ${country.name}`;
+
   document.getElementById("city-slogan").textContent =
     city.motto ? `"${city.motto}"` : `"Lema no disponible"`;
 }
+
 
 
 // --------------------------------------------

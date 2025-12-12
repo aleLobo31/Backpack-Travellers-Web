@@ -345,6 +345,9 @@ main {
   margin-bottom: 0.6rem;
 }
 
+
+
+
 /* Caja de Seguridad (Safety Box) */
 .safety-box {
   max-width: 900px;
@@ -372,6 +375,7 @@ main {
   border-radius: 999px;
   font-size: 0.95rem;
   border: 1px solid #a26a33;
+  cursor: pointer;
 }
 
 /* ========================================= */
@@ -388,6 +392,7 @@ main {
   color: #a26a33;
   font-size: 0.85rem;
   text-align: center;
+  cursor: pointer;
 }
 
 .pill-button.primary {
