@@ -6,33 +6,40 @@
   <title>País | TravelWorld</title>
 
   <!-- CSS -->
+  <link rel="stylesheet" href="style/styles.css">
   <link rel="stylesheet" href="style/continent_country.css" />
 </head>
 
 <body>
 
-  <!-- CABECERA -->
+  <!-- HEADER -->
   <header>
-    <nav class="nav">
-      <div class="nav-left">
-        <a href="#" class="logo">Logo</a>
-        <div class="nav-links">
-          <a href="continent.html?name=Europa">Europa</a>
-          <a href="continent.html?name=Asia">Asia</a>
-          <a href="continent.html?name=África">África</a>
-          <a href="continent.html?name=Oceanía">Oceanía</a>
-          <a href="continent.html?name=América del Norte">Norte América</a>
-          <a href="continent.html?name=América del Sur">Sur América</a>
-        </div>
-      </div>
+      <nav class="nav">
 
-      <div class="nav-right">
-        <button class="nav-icon">ES</button>
-        <button class="nav-icon">A+</button>
-        <button class="btn-nav secondary">Iniciar sesión</button>
-        <button class="btn-nav">Registro</button>
-      </div>
-    </nav>
+          <!-- IZQUIERDA: LOGO + MENÚ -->
+          <div class="nav-left">
+              <div class="logo">
+                  <img src="../assets/images/logo.png" alt="Logo">
+              </div>
+              
+              <ul class="nav-menu">
+                  <li><a href="main-page.html">Home</a></li>
+                  <li><a href="main-page.html#continentes">Continentes</a></li>
+                  <li><a href="forum-page.html">Foro</a></li>
+                  <li><a href="footer-sites.html?section=quienes-somos">¿Quiénes somos?</a></li>
+              </ul>
+          </div>
+
+          <!-- DERECHA: ICONOS Y BOTONES -->
+          <div class="nav-right">
+              <button class="icon-btn" id="language-btn">🌐︎</button>
+              <button class="icon-btn" id="accessibility-btn">♿︎</button>
+              <a href="login.html" class="btn-login">Iniciar sesión</a>
+              <a href="register-page.html" class="btn-register">Registrarse</a>
+
+          </div>
+
+      </nav>
   </header>
 
   <!-- TÍTULO DEL PAÍS -->
@@ -58,21 +65,39 @@
   </section>
 
   <!-- FOOTER -->
+    <!-- FOOTER -->
   <footer>
-    <div class="footer-inner">
-      <div>TravelWorld © 2025</div>
-      <div class="footer-links">
-        <a href="#">¿Quiénes somos?</a>
-        <a href="#">Política de privacidad</a>
-        <a href="#">FAQ</a>
-        <a href="#">Contacto</a>
+      <div class="footer-content">
+
+          <!-- IZQUIERDA -->
+          <div class="footer-left">
+              <p>Camino de Ulises © 2025</p>
+          </div>
+
+          <!-- CENTRO -->
+          <nav class="footer-center">
+              <a href="footer-sites.html?section=quienes-somos">¿Quiénes somos?</a>
+              <a href="footer-sites.html?section=privacidad">Política de privacidad</a>
+              <a href="footer-sites.html?section=faq">FAQs</a>
+              <a href="footer-sites.html?section=contacto">Contacto</a>
+          </nav>
+
+
+          <!-- DERECHA -->
+          <div class="footer-right">
+              <a href="#" aria-label="Instagram">
+                  <img src="../assets/icons/instagram.svg" alt="Instagram">
+              </a>
+              <a href="#" aria-label="TikTok">
+                  <img src="../assets/icons/tiktok.svg" alt="TikTok">
+              </a>
+              <a href="#" aria-label="X">
+                  <img src="../assets/icons/x.svg" alt="X">
+              </a>
+              <a href="#" aria-label="YouTube">
+                  <img src="../assets/icons/youtube.svg" alt="YouTube">
+              </a>
       </div>
-      <div class="footer-social">
-        <a>T</a>
-        <a>IG</a>
-        <a>X</a>
-      </div>
-    </div>
   </footer>
 
   <!-- JS -->
