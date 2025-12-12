@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Continente | TravelWorld</title>
+
+  <!-- CSS EXTERNO -->
+  <link rel="stylesheet" href="style/continent_country.css" />
+</head>
+
+<body>
+
+  <!-- CABECERA -->
+  <header>
+    <nav class="nav">
+      <div class="nav-left">
+        <a href="#" class="logo">Logo</a>
+        <div class="nav-links">
+          <a href="continent.html?name=Europa">Europa</a>
+          <a href="continent.html?name=Asia">Asia</a>
+          <a href="continent.html?name=África">África</a>
+          <a href="continent.html?name=Oceanía">Oceanía</a>
+          <a href="continent.html?name=América del Norte">América del Norte</a>
+          <a href="continent.html?name=América del Sur">América del Sur</a>
+        </div>
+      </div>
+
+      <div class="nav-right">
+        <button class="nav-icon">ES</button>
+        <button class="nav-icon">A+</button>
+        <button class="btn-nav secondary">Iniciar sesión</button>
+        <button class="btn-nav">Registro</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- BANNER (JS rellena imagen + título + frase) -->
+  <section class="banner" id="continent-banner">
+    <img id="banner-image" src="" alt="Imagen del continente" />
+    <div class="banner-content">
+      <h1 class="banner-title" id="continent-title"></h1>
+      <p class="banner-quote" id="continent-quote"></p>
+    </div>
+  </section>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main>
+    <h2 class="countries-title" id="section-title"></h2>
+    <section class="countries-grid" id="countries-container"></section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div>TravelWorld © 2025</div>
+      <div class="footer-links">
+        <a href="#">¿Quiénes somos?</a>
+        <a href="#">Política de privacidad</a>
+        <a href="#">FAQ</a>
+        <a href="#">Contacto</a>
+      </div>
+      <div class="footer-social">
+        <a>T</a>
+        <a>IG</a>
+        <a>X</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS EXTERNO -->
+  <script src="scripts/continent.js"></script>
+
+</body>
+</html>
