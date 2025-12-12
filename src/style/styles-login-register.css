@@ -1,0 +1,250 @@
+/*******************************************
+ *  PÁGINA DE LOGIN — FONDO
+ *******************************************/
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    /* Imagen vintage con filtro marrón */
+    background-image: 
+        url("../../assets/images/background.jpg");  /* tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*******************************************
+ *  PÁGINA DE LOGIN — CONTENIDO
+ *******************************************/
+
+/* CONTENEDOR CENTRAL */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    flex: 1; /* empuja footer al fondo */
+}
+
+/* CAJA */
+.login-box {
+    width: 380px;
+    background: rgba(255,250,245,0.85); /* crema translúcido */
+    border: 1px solid rgba(215,201,184,0.9);
+    border-radius: 14px;
+    padding: 30px 34px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+
+    text-align: center;
+}
+
+/* TÍTULO */
+.login-box h2 {
+    font-size: 26px;
+    font-weight: 800;
+    color: #3a2f22;
+}
+
+/* LÍNEA DECORATIVA */
+.separator {
+    width: 120px;
+    height: 3px;
+    background: #a26a33;
+    border-radius: 3px;
+    margin: 10px auto 24px;
+}
+
+/* FORMULARIO */
+.login-box form {
+    text-align: left;
+}
+
+.login-box label {
+    font-size: 15px;
+    font-weight: 600;
+    color: #3a2f22;
+}
+
+.login-box input {
+    width: 100%;
+    margin: 6px 0 16px;
+    padding: 10px;
+    background: #fffefc;
+    border: 1px solid #d7c9b8;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #3a2f22;
+}
+
+/* BOTÓN */
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background: #a26a33;
+    color: white;
+    border: 1px solid #a26a33;
+    border-radius: 999px;
+    font-size: 15px;
+    margin-top: 4px;
+}
+
+.login-btn:hover {
+    background: #8e5528;
+    border-color: #8e5528;
+}
+
+/* ENLACE PARA REGISTRARSE */
+.register-link {
+    margin-top: 26px;
+    border-top: 1px solid #d7c9b8;
+    padding-top: 16px;
+}
+
+.register-link p {
+    font-size: 14px;
+    color: #3a2f22;
+    margin-bottom: 4px;
+}
+
+.register-link a {
+    font-size: 14px;
+    color: #a26a33;
+}
+
+.register-link a:hover {
+    color: #8e5528;
+}
+
+
+/* Caja del registro (mismo estilo que login, solo ancho mayor) */
+.register-box {
+    width: 480px;
+}
+
+/* Grid de 2 columnas para el formulario */
+.register-grid {
+    margin-top: 4px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px 20px;
+}
+
+/* Campos que deben ocupar 2 columnas */
+.register-grid input[type="date"],
+.register-grid input[type="file"] {
+    width: 100%;
+}
+
+.policy-check {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap; /* ⭐ evita saltos de línea */
+
+    margin: 10px 0 5px;
+}
+
+.policy-check label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #3a2f22;
+    cursor: pointer;
+}
+
+.policy-check a {
+    color: #a26a33;
+    text-decoration: underline;
+}
+
+.policy-check a:hover {
+    color: #8e5528;
+}
+
+.policy-check #privacidad {
+    margin-top: 17px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+
+.file-input {
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.file-input input[type="file"] {
+    display: none;
+}
+
+.boton-examinar {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255,250,245,0.9);
+    border: 1px solid #d7c9b8;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1px;
+    color: #3a2f22;
+}
+
+.boton-examinar:hover {
+    background: #f3eee7;
+    border-color: #a26a33;
+    transform: scale(1.03);
+}
+
+#file-archivo-sel {
+    font-size: 11px;
+    font-style: italic;
+    color: #6c5b4a;
+}
+
+.campos-obligatorios,
+.policy-check {
+    grid-column: 1 / -1;
+}
+
+.campos-obligatorios {
+    font-size: 13px;
+    color: #6c5b4a;
+    margin-bottom: 8px;
+}
+
+.boton-guardar {
+    padding: 10px 18px;
+    width: auto;          
+    margin: 10px auto 0;
+    display: block;
+    background-color: #a26a33;
+    border: 1px solid #8e5528;
+    color: white;
+
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+
+    transition: 0.2s;
+    grid-column: 1 / -1;
+    justify-self: center;
+}
+
+.boton-guardar:hover {
+    background-color: #8e5528;
+}
+
+.boton-guardar:disabled {
+    background-color: #c8b199;   /* marrón clarito apagado */
+    border-color: #b59c85;
+    color: #eee;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
