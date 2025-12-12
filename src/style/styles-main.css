@@ -1,0 +1,342 @@
+/*******************************************
+ *  HERO (título + frase + buscador)
+ *******************************************/
+/* HERO */
+.hero {
+    height: 400px;
+    padding: 32px 32px 40px;   
+
+    background-image: linear-gradient(
+        rgba(58,47,34,0.55),
+        rgba(58,47,34,0.55)
+    ),
+    url("../../assets/images/banner_superior.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+    text-align: center;
+
+    box-shadow: 0 4px 12px rgba(90, 70, 50, 0.12);
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    justify-content: center;      
+    gap: 20px;
+}
+
+/* TÍTULO principal */
+.title-box {
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+    text-shadow: 0 2px 3px rgba(255, 240, 210, 0.35);
+}
+
+/* SUBTÍTULO */
+.subtitle-box {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 0.5px;
+
+    opacity: 0.95;
+}
+
+/* Contenedor del input con icono */
+.search-icon-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* Barra de búsqueda */
+.search-bar {
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.search-bar input {
+    width: 420px;
+    padding: 8px 14px; /* padding vertical OK, horizontal lo minimizamos */
+    border-radius: 999px;
+    border: 1px solid #d7c9b8;
+    background-color: #fef6ee;
+    font-size: 14px;
+    color: #3a2f22;
+}
+
+.search-bar button {
+    padding: 8px 18px;
+    border-radius: 999px;
+    border: 1px solid #a26a33;
+    background-color: #a26a33;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.search-bar button:hover {
+    background-color: #8e5528;
+    border-color: #8e5528;
+}
+
+/*******************************************
+ *  FRASE INSPIRADORA
+ *******************************************/
+.intro {
+    margin-top: 40px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 32px;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    color: #6c5b4a;          /* marrón medio, más suave */
+    max-width: 520px;
+    margin: 0 auto 8px;      /* centrada y con un poco de espacio abajo */
+}
+
+/* Líneita decorativa debajo de la frase */
+.intro::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: #a26a33;
+    border-radius: 3px;
+    margin: 8px auto 0;
+}
+
+/*******************************************
+ *  CARRUSEL DE PACKS
+ *******************************************/
+.carousel-section {
+    margin-top: 32px;
+    margin-bottom: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Flechas Laterales */
+.carousel-btn {
+    background: #fffaf5;
+    border: 1px solid #a26a33;
+    color: #a26a33;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.carousel-btn:hover {
+    background: #f3eee7;
+    border-color: #8e5528;
+}
+
+/*******************************************
+ *  CARRUSEL – TARJETA CON BACKGROUND
+ *******************************************/
+.pack-card {
+    position: relative;
+    width: 60%;
+    height: 260px;
+
+    border-radius: 18px;
+    overflow: hidden;
+    border: 1px solid #d7c9b8;
+    box-shadow: 0 4px 12px rgba(90,70,50,0.15);
+
+    /* ⭐ Imagen como background */
+    background-image: url("../../assets/images/pack_prueba.jpg");
+    background-size: cover;
+    background-position: center;
+
+    /* Oscurecer un poco para que el texto destaque */
+    filter: brightness(0.88);
+}
+
+/* Contenedor de los textos encima */
+.pack-content {
+    position: absolute;
+    inset: 0;
+    padding: 16px;
+}
+
+/* Título arriba izquierda */
+.pack-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 20px;
+
+    background: rgba(255,250,245,0.9);
+    padding: 6px 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(215,201,184,0.85);
+    color: #3a2f22;
+    width: fit-content;
+}
+
+/* Precio arriba derecha */
+.pack-price {
+    position: absolute;
+    top: 26px;
+    right: 34px;
+
+    background: rgba(255,250,245,0.9);
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(215,201,184,0.85);
+    color: #6c5b4a;
+    font-size: 14px;
+}
+
+/* Botón abajo derecha */
+.pack-buy {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+
+    padding: 6px 16px;
+    border-radius: 999px;
+    border: 1px solid #a26a33;
+    background: #a26a33;
+    color: white;
+    font-size: 14px;
+}
+
+.pack-buy:hover {
+    background: #8e5528;
+    border-color: #8e5528;
+}
+
+
+/* Imagen del pack */
+.pack-image {
+    width: 50%;
+    height: 100%;
+}
+
+.pack-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*******************************************
+ *  CONTINENTES (3 + 3 cajas)
+ *******************************************/
+.continents {
+    margin: 60px;
+    text-align: center;
+}
+
+.continents-title {
+  font-size: 32px;        /* título grande y consistente con tu estilo */
+  font-weight: 700;
+  color: #3a2f22;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 8px;     /* separación con la línea */
+}
+
+/* Línea decorativa debajo del título */
+.continents-title-line {
+  width: 120px;           /* tamaño visual equilibrado */
+  height: 3px;
+  background: #a26a33;
+  border-radius: 3px;
+  margin: 8px auto 24px;  /* centrado y separación inferior */
+}
+
+/* GRID 3 COLUMNAS */
+.grid-continents {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* TARJETA */
+.continent-card {
+    position: relative;
+    height: 260px;
+    border-radius: 14px;
+    overflow: hidden;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    border: 1px solid #d7c9b8;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 3px 10px rgba(90,70,50,0.15);
+
+    transition: transform 0.25s ease, filter 0.25s ease;
+}
+
+/* CAJITA DEL TÍTULO */
+.card-title {
+    background: rgba(255, 250, 245, 0.65);       /* crema suave translúcido */
+    border: 1px solid rgba(215, 201, 184, 0.55); /* arena muy sutil */
+    backdrop-filter: blur(6px);                  /* efecto glass */
+    -webkit-backdrop-filter: blur(6px);
+
+    color: #3a2f22;
+    font-weight: 600;
+    font-size: 30px;
+
+    padding: 8px 18px;
+    border-radius: 12px;
+    margin-top: 20px;
+
+    box-shadow: 0 4px 12px rgba(58,47,34,0.15);  /* sombra suave */
+}
+
+/* BACKGROUND (por orden, fácil de mantener) */
+.grid-continents a:nth-child(1) {
+    background-image: url("../../assets/images/europa.jpg");
+}
+.grid-continents a:nth-child(2) {
+    background-image: url("../../assets/images/asia.png");
+}
+.grid-continents a:nth-child(3) {
+    background-image: url("../../assets/images/africa.png");
+}
+.grid-continents a:nth-child(4) {
+    background-image: url("../../assets/images/oceania.png");
+}
+.grid-continents a:nth-child(5) {
+    background-image: url("../../assets/images/norteamerica.png");
+}
+.grid-continents a:nth-child(6) {
+    background-image: url("../../assets/images/suramerica.png");
+}
+
+/* HOVER */
+.continent-card:hover {
+    transform: scale(1.03);
+    filter: brightness(1.05);
+    cursor: pointer;
+}

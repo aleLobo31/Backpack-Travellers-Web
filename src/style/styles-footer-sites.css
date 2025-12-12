@@ -1,0 +1,102 @@
+/*******************************************
+ *  PÁGINA FOOTER-SITES — SIN FONDO GLOBAL
+ *******************************************/
+.footer-site-main {
+    background: #fffaf5; /* mismo fondo que la home */
+    padding-bottom: 40px;
+}
+
+/*******************************************
+ *  BANNER SUPERIOR
+ *******************************************/
+.footer-banner {
+    width: 100%;
+    height: 260px;
+
+    /* La imagen de fondo se reemplaza por JS */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px 40px;
+
+    border-bottom: 1px solid #d7c9b8;
+}
+
+/* Caja del título dentro del banner */
+.banner-title-box {
+    background: rgba(255, 248, 235, 0.55);   /* crema translúcido */
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+
+    padding: 18px 26px;
+    border-radius: 14px;
+
+    border: 1px solid rgba(162, 106, 51, 0.65);
+
+    /* Oscurecido suave alrededor + sombra */
+    box-shadow:
+        0 0 0 2000px rgba(0, 0, 0, 0.12),
+        0 4px 12px rgba(58, 47, 34, 0.25);
+
+    max-width: 520px;
+}
+
+.banner-title-box h2 {
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 0.4px;
+    color: #2b2218;
+    margin: 0;
+
+    text-shadow: 0 2px 4px rgba(255, 255, 255, 0.35);
+}
+
+/*******************************************
+ *  CONTENIDO DE LA PÁGINA FOOTER-SITES
+ *******************************************/
+.footer-content-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Caja del contenido dinámico */
+#footer-dynamic-content {
+    background: none;
+    border: none;
+    padding: 0;
+
+    color: #3a2f22;
+    font-size: 16px;
+    line-height: 1.65;
+}
+
+#footer-dynamic-content h2 {
+    font-size: 24px;
+    color: #3a2f22;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+#footer-dynamic-content h3 {
+    font-size: 18px;
+    color: #6c5b4a;
+    margin-top: 18px;
+    margin-bottom: 6px;
+}
+
+#footer-dynamic-content p {
+    margin-bottom: 12px;
+}
+
+#footer-dynamic-content ul {
+    margin: 10px 0 20px 20px;
+}
+
+#footer-dynamic-content li {
+    margin-bottom: 8px;
+}
