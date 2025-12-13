@@ -1,0 +1,78 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Consejos para viajar a Tailandia con poco presupuesto",
+      "description": "Comparto mi experiencia viajando 3 semanas por Tailandia con menos de 800€. Incluye alojamiento, transporte y comidas.",
+      "category": "Destinos",
+      "subcategory": "Asia",
+      "verified": true,
+      "comments": 24,
+      "likes": 45,
+      "date": "2025-03-15",
+      "author": "mochilera92",
+      "tags": ["presupuesto", "asia", "alojamiento-barato"]
+    },
+    {
+      "id": 2,
+      "title": "¿Cómo encontrar compañeros de viaje confiables?",
+      "description": "Guía completa de plataformas y consejos para encontrar personas con quienes viajar de forma segura.",
+      "category": "Compañeros de viaje",
+      "verified": true,
+      "comments": 18,
+      "likes": 32,
+      "date": "2025-03-10",
+      "author": "viajero_experto",
+      "tags": ["compañeros", "seguridad", "comunidad"]
+    },
+    {
+      "id": 3,
+      "title": "Trucos para ahorrar en vuelos internacionales",
+      "description": "Descubre cómo encontrar las mejores ofertas y los momentos ideales para reservar vuelos baratos.",
+      "category": "Presupuesto y ahorros",
+      "verified": false,
+      "comments": 12,
+      "likes": 28,
+      "date": "2025-03-05",
+      "author": "cazaofertas",
+      "tags": ["vuelos", "ahorros", "ofertas"]
+    },
+    {
+      "id": 4,
+      "title": "Requisitos de visa para Europa 2025",
+      "description": "Actualización completa de los requisitos de visado para ciudadanos latinoamericanos que viajen a Europa.",
+      "category": "Seguridad y visados",
+      "verified": true,
+      "comments": 31,
+      "likes": 52,
+      "date": "2025-03-01",
+      "author": "legal_travel",
+      "tags": ["visas", "europa", "documentación"]
+    },
+    {
+      "id": 5,
+      "title": "Viajar con perro por España - Mi experiencia",
+      "description": "Todo lo que necesitas saber para viajar con tu mascota por España: transporte, alojamientos pet-friendly, etc.",
+      "category": "Viajar con mascotas",
+      "verified": true,
+      "comments": 15,
+      "likes": 30,
+      "date": "2025-02-25",
+      "author": "perroviajero",
+      "tags": ["mascotas", "españa", "perros"]
+    },
+    {
+      "id": 6,
+      "title": "Ruta de 2 semanas por Japón",
+      "description": "Itinerario detallado para visitar Tokio, Kioto y Osaka en 14 días sin morir en el intento.",
+      "category": "Destinos",
+      "subcategory": "Asia",
+      "verified": true,
+      "comments": 42,
+      "likes": 12,
+      "date": "2025-02-20",
+      "author": "otaku_viajero",
+      "tags": ["japón", "itinerario", "asia"]
+    }
+  ]
+}
