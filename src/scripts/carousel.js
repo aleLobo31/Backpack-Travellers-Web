@@ -122,14 +122,48 @@ document.addEventListener("DOMContentLoaded", () => {
 
     packBuyBtn.addEventListener("click", () => {
         const pack = packs[currentIndex];
-
         const typeText = getPackTypeText(pack.duration);
 
-        window.location.href =
+        const targetUrl =
             `pack-buy-page.html?city=${encodeURIComponent(pack.title.split(" · ")[1])}` +
             `&type=${encodeURIComponent(typeText)}` +
             `&price=${pack.price}`;
+
+        goToPurchase(targetUrl);
     });
+
+    function mostrarModalInfo(texto, onClose = null) {
+        const modal = document.getElementById("modal-info");
+        const textoEl = document.getElementById("modal-info-texto");
+        const btnOk = document.getElementById("modal-info-ok");
+
+        textoEl.textContent = texto;
+        modal.classList.add("visible");
+
+        btnOk.onclick = () => {
+            modal.classList.remove("visible");
+            if (onClose) onClose();
+        };
+    }
+
+    function goToPurchase(targetUrl) {
+        const usuarioActivo = sessionStorage.getItem("usuarioActivo");
+
+        // Si NO hay sesión
+        if (!usuarioActivo) {
+            mostrarModalInfo(
+                "Debes iniciar sesión o registrarte para continuar con la compra.",
+                () => {
+                    sessionStorage.setItem("redirectAfterAuth", targetUrl);
+                    window.location.href = "login.html";
+                }
+            );
+            return;
+        }
+
+        // Si HAY sesión
+        window.location.href = targetUrl;
+    }
 
     // Flechas
     btnRight.addEventListener("click", () => {

@@ -56,9 +56,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
         mostrarModalInfo(`Bienvenido/a, ${usuarioEncontrado.nombre}`);
 
-        // Redirigir a la home
+        // Redirección inteligente
         setTimeout(() => {
-            window.location.href = "main-page.html";
+            const redirectUrl = sessionStorage.getItem("redirectAfterAuth");
+
+            if (redirectUrl) {
+                sessionStorage.removeItem("redirectAfterAuth");
+                window.location.href = redirectUrl;
+            } else {
+                window.location.href = "main-page.html";
+            }
         }, 800);
+
     });
 });
