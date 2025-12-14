@@ -14,25 +14,35 @@
     <!-- HEADER -->
     <header>
         <nav class="nav">
+
+            <!-- IZQUIERDA: LOGO + MENÚ -->
             <div class="nav-left">
                 <div class="logo">
-                    <img src="../assets/images/logo.png" alt="Logo">
+                    <img src="../assets/images/logo.png" alt="logo">
                 </div>
-
+                
                 <ul class="nav-menu">
-                    <li><a href="main-page.html">Home</a></li>
-                    <li><a href="main-page.html#continentes">Continentes</a></li>
-                    <li><a href="forum-page.html">Foro</a></li>
-                    <li><a href="footer-sites.html?section=quienes-somos">¿Quiénes somos?</a></li>
+                    <li><a href="main-page.html" data-i18n="nav.home">Home</a></li>
+                    <li><a href="main-page.html#continentes" data-i18n="nav.continents">Continentes</a></li>
+                    <li><a href="forum-page.html" data-i18n="nav.forum">Foro</a></li>
+                    <li><a href="footer-sites.html?section=quienes-somos" data-i18n="nav.about">¿Quiénes somos?</a></li>
                 </ul>
             </div>
 
+            <!-- DERECHA: ICONOS Y BOTONES -->
             <div class="nav-right">
-                <button class="icon-btn">🌐︎</button>
-                <button class="icon-btn">♿︎</button>
-                <a href="login.html" class="btn-login">Iniciar sesión</a>
-                <a href="register-page.html" class="btn-register">Registrarse</a>
+                <div class="language-wrapper">
+                    <button class="icon-btn" id="language-btn">🌐︎</button>
+                    <div id="language-menu" class="language-menu">
+                        <button data-lang="es">🇪🇸 Español</button>
+                        <button data-lang="en">🇬🇧 English</button>
+                    </div>
+                </div>
+                <!-- Zona auth dinámica -->
+                <div class="user-area" id="user-area">
+                </div>
             </div>
+
         </nav>
     </header>
 
@@ -71,16 +81,42 @@
             </nav>
 
             <div class="footer-right">
-                <a href="#"><img src="../assets/icons/instagram.svg"></a>
-                <a href="#"><img src="../assets/icons/tiktok.svg"></a>
-                <a href="#"><img src="../assets/icons/x.svg"></a>
-                <a href="#"><img src="../assets/icons/youtube.svg"></a>
+                <a href="#" aria-label="Instagram">
+                    <img src="../assets/icons/instagram.svg" alt="Instagram">
+                </a>
+                <a href="#" aria-label="TikTok">
+                    <img src="../assets/icons/tiktok.svg" alt="TikTok">
+                </a>
+                <a href="#" aria-label="X">
+                    <img src="../assets/icons/x.svg" alt="X">
+                </a>
+                <a href="#" aria-label="YouTube">
+                    <img src="../assets/icons/youtube.svg" alt="YouTube">
+                </a>
             </div>
 
         </div>
     </footer>
+    <!-- MODAL SIMPLE (1 botón) -->
+    <div id="modal-info" class="modal">
+        <div class="modal-contenido">
+            <p id="modal-info-texto"></p>
+            <button id="modal-info-ok" class="modal-btn primary">Aceptar</button>
+        </div>
+    </div>
 
+    <!-- MODAL CONFIRMACIÓN (2 botones) -->
+    <div id="modal-confirm" class="modal">
+        <div class="modal-contenido">
+            <p id="modal-confirm-texto"></p>
+            <div class="modal-actions">
+                <button id="modal-confirm-cancel" class="modal-btn secondary">Cancelar</button>
+                <button id="modal-confirm-ok" class="modal-btn primary">Aceptar</button>
+            </div>
+        </div>
+    </div>
 
+    <script src="scripts/header-auth.js"></script>
     <script src="../src/scripts/footer-sites.js"></script>
 
 </body>

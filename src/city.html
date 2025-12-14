@@ -8,137 +8,160 @@
   <link rel="stylesheet" href="style/city.css">
 </head>
 
-<body>
+  <body>
 
-  <!-- HEADER -->
-  <header>
-      <nav class="nav">
+    <<!-- HEADER -->
+      <header>
+          <nav class="nav">
 
-          <!-- IZQUIERDA: LOGO + MENÚ -->
-          <div class="nav-left">
-              <div class="logo">
-                  <img src="../assets/images/logo.png" alt="Logo">
+              <!-- IZQUIERDA: LOGO + MENÚ -->
+              <div class="nav-left">
+                  <div class="logo">
+                      <img src="../assets/images/logo.png" alt="Logo">
+                  </div>
+                  
+                  <ul class="nav-menu">
+                      <li><a href="main-page.html" data-i18n="nav.home">Home</a></li>
+                      <li><a href="main-page.html#continentes" data-i18n="nav.continents">Continentes</a></li>
+                      <li><a href="forum-page.html" data-i18n="nav.forum">Foro</a></li>
+                      <li><a href="footer-sites.html?section=quienes-somos" data-i18n="nav.about">¿Quiénes somos?</a></li>
+                  </ul>
               </div>
-              
-              <ul class="nav-menu">
-                  <li><a href="main-page.html">Home</a></li>
-                  <li><a href="main-page.html#continentes">Continentes</a></li>
-                  <li><a href="forum-page.html">Foro</a></li>
-                  <li><a href="footer-sites.html?section=quienes-somos">¿Quiénes somos?</a></li>
-              </ul>
-          </div>
 
-          <!-- DERECHA: ICONOS Y BOTONES -->
-          <div class="nav-right">
-              <button class="icon-btn" id="language-btn">🌐︎</button>
-              <button class="icon-btn" id="accessibility-btn">♿︎</button>
-              <a href="login.html" class="btn-login">Iniciar sesión</a>
-              <a href="register-page.html" class="btn-register">Registrarse</a>
+              <!-- DERECHA: ICONOS Y BOTONES -->
+              <div class="nav-right">
+                  <div class="language-wrapper">
+                      <button class="icon-btn" id="language-btn">🌐︎</button>
+                      <div id="language-menu" class="language-menu">
+                          <button data-lang="es">🇪🇸 Español</button>
+                          <button data-lang="en">🇬🇧 English</button>
+                      </div>
+                  </div>
+                  <!-- Zona auth dinámica -->
+                  <div class="user-area" id="user-area">
+                  </div>
+              </div>
 
-          </div>
-
-      </nav>
-  </header>
-
-  <!-- ▬▬▬ BANNER CIUDAD ▬▬▬ -->
-  <section class="city-banner">
-    <img id="city-banner-img" alt="Imagen de la ciudad">
-    
-    <div class="city-banner-info">
-      <h1 id="city-title"></h1>
-      <p id="city-slogan"></p>
-
-      <a href="#packs-section" class="banner-button">Ver packs</a>
-    </div>
-  </section>
-
-  <!-- ▬▬▬ DESCRIPCIÓN EXTENDIDA ▬▬▬ -->
-  <section class="city-detail">
-    <div class="city-photo">
-      <img id="city-vertical-img" alt="Imagen vertical ciudad">
-      <p class="city-photo-caption" id="city-footer"></p>
-    </div>
-
-    <div class="city-description">
-      <p id="city-description-text"></p>
-    </div>
-  </section>
-
-  <!-- ▬▬▬ PACKS ▬▬▬ -->
-  <section class="packs" id="packs-section">
-    <h2>Consigue tu pack</h2>
-    <div class="packs-title-line"></div>
-    <p class="packs-subtitle">Elige la duración que mejor se adapte a tu aventura</p>
-
-
-    <div class="packs-grid">
-
-      <div class="pack-card">
-        <h3>Fin de semana</h3>
-        <div class="pack-img">
-          <img id="city-pack-img-1" alt="Imagen pack fin de semana">
-        </div>
-        <p class="pack-price" id="pack-price-1">Precio</p>
-        <button class="pack-button">Comprar</button>
-      </div>
-
-      <div class="pack-card">
-        <h3>7 días</h3>
-        <div class="pack-img">
-          <img id="city-pack-img-2" alt="Imagen pack 7 días">
-        </div>
-        <p class="pack-price" id="pack-price-2">Precio</p>
-        <button class="pack-button">Comprar</button>
-      </div>
-
-      <div class="pack-card">
-        <h3>15 días</h3>
-        <div class="pack-img">
-          <img id="city-pack-img-3" alt="Imagen pack 15 días">
-        </div>
-        <p class="pack-price" id="pack-price-3">Precio</p>
-        <button class="pack-button">Comprar</button>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ▬▬▬ FOOTER ▬▬▬ -->
-    <!-- FOOTER -->
-  <footer>
-      <div class="footer-content">
-
-          <!-- IZQUIERDA -->
-          <div class="footer-left">
-              <p>Camino de Ulises © 2025</p>
-          </div>
-
-          <!-- CENTRO -->
-          <nav class="footer-center">
-              <a href="footer-sites.html?section=quienes-somos">¿Quiénes somos?</a>
-              <a href="footer-sites.html?section=privacidad">Política de privacidad</a>
-              <a href="footer-sites.html?section=faq">FAQs</a>
-              <a href="footer-sites.html?section=contacto">Contacto</a>
           </nav>
+      </header>
+
+      <!-- ▬▬▬ BANNER CIUDAD ▬▬▬ -->
+      <section class="city-banner">
+        <img id="city-banner-img" alt="Imagen de la ciudad">
+        
+        <div class="city-banner-info">
+          <h1 id="city-title"></h1>
+          <p id="city-slogan"></p>
+
+          <a href="#packs-section" class="banner-button">Ver packs</a>
+        </div>
+      </section>
+
+      <!-- ▬▬▬ DESCRIPCIÓN EXTENDIDA ▬▬▬ -->
+      <section class="city-detail">
+        <div class="city-photo">
+          <img id="city-vertical-img" alt="Imagen vertical ciudad">
+          <p class="city-photo-caption" id="city-footer"></p>
+        </div>
+
+        <div class="city-description">
+          <p id="city-description-text"></p>
+        </div>
+      </section>
+
+      <!-- ▬▬▬ PACKS ▬▬▬ -->
+      <section class="packs" id="packs-section">
+        <h2>Consigue tu pack</h2>
+        <div class="packs-title-line"></div>
+        <p class="packs-subtitle">Elige la duración que mejor se adapte a tu aventura</p>
 
 
-          <!-- DERECHA -->
-          <div class="footer-right">
-              <a href="#" aria-label="Instagram">
-                  <img src="../assets/icons/instagram.svg" alt="Instagram">
-              </a>
-              <a href="#" aria-label="TikTok">
-                  <img src="../assets/icons/tiktok.svg" alt="TikTok">
-              </a>
-              <a href="#" aria-label="X">
-                  <img src="../assets/icons/x.svg" alt="X">
-              </a>
-              <a href="#" aria-label="YouTube">
-                  <img src="../assets/icons/youtube.svg" alt="YouTube">
-              </a>
+        <div class="packs-grid">
+
+          <div class="pack-card">
+            <h3>Fin de semana</h3>
+            <div class="pack-img">
+              <img id="city-pack-img-1" alt="Imagen pack fin de semana">
+            </div>
+            <p class="pack-price" id="pack-price-1">Precio</p>
+            <button class="pack-button">Comprar</button>
+          </div>
+
+          <div class="pack-card">
+            <h3>7 días</h3>
+            <div class="pack-img">
+              <img id="city-pack-img-2" alt="Imagen pack 7 días">
+            </div>
+            <p class="pack-price" id="pack-price-2">Precio</p>
+            <button class="pack-button">Comprar</button>
+          </div>
+
+          <div class="pack-card">
+            <h3>15 días</h3>
+            <div class="pack-img">
+              <img id="city-pack-img-3" alt="Imagen pack 15 días">
+            </div>
+            <p class="pack-price" id="pack-price-3">Precio</p>
+            <button class="pack-button">Comprar</button>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ▬▬▬ FOOTER ▬▬▬ -->
+        <!-- FOOTER -->
+      <footer>
+          <div class="footer-content">
+
+              <!-- IZQUIERDA -->
+              <div class="footer-left">
+                  <p>Camino de Ulises © 2025</p>
+              </div>
+
+              <!-- CENTRO -->
+              <nav class="footer-center">
+                  <a href="footer-sites.html?section=quienes-somos">¿Quiénes somos?</a>
+                  <a href="footer-sites.html?section=privacidad">Política de privacidad</a>
+                  <a href="footer-sites.html?section=faq">FAQs</a>
+                  <a href="footer-sites.html?section=contacto">Contacto</a>
+              </nav>
+
+
+              <!-- DERECHA -->
+              <div class="footer-right">
+                  <a href="#" aria-label="Instagram">
+                      <img src="../assets/icons/instagram.svg" alt="Instagram">
+                  </a>
+                  <a href="#" aria-label="TikTok">
+                      <img src="../assets/icons/tiktok.svg" alt="TikTok">
+                  </a>
+                  <a href="#" aria-label="X">
+                      <img src="../assets/icons/x.svg" alt="X">
+                  </a>
+                  <a href="#" aria-label="YouTube">
+                      <img src="../assets/icons/youtube.svg" alt="YouTube">
+                  </a>
+          </div>
+      </footer>
+      <!-- MODAL SIMPLE (1 botón) -->
+      <div id="modal-info" class="modal">
+          <div class="modal-contenido">
+              <p id="modal-info-texto"></p>
+              <button id="modal-info-ok" class="modal-btn primary">Aceptar</button>
+          </div>
       </div>
-  </footer>
 
-  <script src="scripts/city.js"></script>
-</body>
+      <!-- MODAL CONFIRMACIÓN (2 botones) -->
+      <div id="modal-confirm" class="modal">
+          <div class="modal-contenido">
+              <p id="modal-confirm-texto"></p>
+              <div class="modal-actions">
+                  <button id="modal-confirm-cancel" class="modal-btn secondary">Cancelar</button>
+                  <button id="modal-confirm-ok" class="modal-btn primary">Aceptar</button>
+              </div>
+          </div>
+      </div>
+      <script src="scripts/header-auth.js"></script>
+      <script src="scripts/city.js"></script>
+  </body>
 </html>

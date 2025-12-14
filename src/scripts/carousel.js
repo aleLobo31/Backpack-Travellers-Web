@@ -4,23 +4,23 @@ document.addEventListener("DOMContentLoaded", () => {
         {
         title: "Austria · Viena",
         duration: { type: "days", value: 7 },
-        price: 1150,
+        price: 950,
         image: "https://images.unsplash.com/photo-1519923041107-e4dc8d9193da"
         },
         {
         title: "Japón · Kioto",
         duration: { type: "days", value: 15 },
-        price: 2250,
+        price: 3300,
         image: "https://images.unsplash.com/photo-1602897387777-f89c6b7e4a9e"
         },
         {
         title: "Marruecos · Chefchaouen",
         duration: { type: "weekend" },
-        price: 300,
+        price: 250,
         image: "https://images.unsplash.com/flagged/photo-1555169048-3c4845cfcf1c"
         },
         {
-        title: "Canadá · Quebec",
+        title: "Canadá · Ciudad de Quebec",
         duration: { type: "days", value: 7 },
         price: 1600,
         image: "https://images.unsplash.com/photo-1710881710078-d25d578fedc3"
@@ -28,10 +28,12 @@ document.addEventListener("DOMContentLoaded", () => {
         {
         title: "Perú · Cuzco",
         duration: { type: "days", value: 15 },
-        price: 2000,
+        price: 2200,
         image: "https://images.unsplash.com/photo-1724224842062-e81ff62325fb"
         }
     ];
+
+    const packBuyBtn = document.querySelector(".pack-buy");
 
     preloadImages(packs);
 
@@ -111,6 +113,23 @@ document.addEventListener("DOMContentLoaded", () => {
 
         return "";
     }
+
+    function getPackTypeText(duration) {
+        if (duration.type === "weekend") return "Fin de semana";
+        if (duration.type === "days") return `${duration.value} días`;
+        return "";
+    }
+
+    packBuyBtn.addEventListener("click", () => {
+        const pack = packs[currentIndex];
+
+        const typeText = getPackTypeText(pack.duration);
+
+        window.location.href =
+            `pack-buy-page.html?city=${encodeURIComponent(pack.title.split(" · ")[1])}` +
+            `&type=${encodeURIComponent(typeText)}` +
+            `&price=${pack.price}`;
+    });
 
     // Flechas
     btnRight.addEventListener("click", () => {
