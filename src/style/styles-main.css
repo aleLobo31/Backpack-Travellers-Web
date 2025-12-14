@@ -47,6 +47,19 @@
     opacity: 0.95;
 }
 
+/* Texto solo para lectores de pantalla */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 /* Contenedor del input con icono */
 .search-icon-wrapper {
     position: relative;
@@ -60,6 +73,7 @@
     display: flex;
     justify-content: center;
     gap: 8px;
+    position: relative;
 }
 
 .search-bar input {
@@ -84,6 +98,37 @@
 .search-bar button:hover {
     background-color: #8e5528;
     border-color: #8e5528;
+}
+
+.search-results {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    max-width: 520px;
+    background: #fffaf5;
+    border: 1px solid #d7c9b8;
+    border-radius: 12px;
+    margin-top: 6px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    z-index: 10;
+    overflow: hidden;
+}
+
+.search-item {
+    padding: 10px 14px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #3a2f22;
+}
+
+.search-item:hover {
+    background: #f1e6d8;
+}
+
+.search-item.disabled {
+    cursor: default;
+    color: #8a7a6a;
+    background: #faf5ef;
 }
 
 /*******************************************
@@ -131,7 +176,7 @@
 
 /* Flechas Laterales */
 .carousel-btn {
-    background: #fffaf5;
+    background: #ffffff;
     border: 1px solid #a26a33;
     color: #a26a33;
     width: 42px;
@@ -204,7 +249,7 @@
     padding: 4px 10px;
     border-radius: 6px;
     border: 1px solid rgba(215,201,184,0.85);
-    color: #6c5b4a;
+    color: #3a2f22;
     font-size: 14px;
 }
 

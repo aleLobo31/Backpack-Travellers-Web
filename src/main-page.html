@@ -17,24 +17,29 @@
             <!-- IZQUIERDA: LOGO + MENÚ -->
             <div class="nav-left">
                 <div class="logo">
-                    <img src="../assets/images/logo.png" alt="Logo">
+                    <img src="../assets/images/logo.png" alt="webLogo">
                 </div>
                 
                 <ul class="nav-menu">
-                    <li><a href="main-page.html">Home</a></li>
-                    <li><a href="main-page.html#continentes">Continentes</a></li>
-                    <li><a href="forum-page.html">Foro</a></li>
-                    <li><a href="footer-sites.html?section=quienes-somos">¿Quiénes somos?</a></li>
+                    <li><a href="main-page.html" data-i18n="nav.home">Home</a></li>
+                    <li><a href="main-page.html#continentes" data-i18n="nav.continents">Continentes</a></li>
+                    <li><a href="forum-page.html" data-i18n="nav.forum">Foro</a></li>
+                    <li><a href="footer-sites.html?section=quienes-somos" data-i18n="nav.about">¿Quiénes somos?</a></li>
                 </ul>
             </div>
 
             <!-- DERECHA: ICONOS Y BOTONES -->
             <div class="nav-right">
-                <button class="icon-btn" id="language-btn">🌐︎</button>
-                <button class="icon-btn" id="accessibility-btn">♿︎</button>
-                <a href="login.html" class="btn-login">Iniciar sesión</a>
-                <a href="register-page.html" class="btn-register">Registrarse</a>
-
+                <div class="language-wrapper">
+                    <button class="icon-btn" id="language-btn">🌐︎</button>
+                    <div id="language-menu" class="language-menu">
+                        <button data-lang="es">🇪🇸 Español</button>
+                        <button data-lang="en">🇬🇧 English</button>
+                    </div>
+                </div>
+                <!-- Zona auth dinámica -->
+                <div class="user-area" id="user-area">
+                </div>
             </div>
 
         </nav>
@@ -45,77 +50,82 @@
 
         <!-- HERO SECTION -->
         <section class="hero">
-            <div class="title-box">
+            <h1 class="title-box">
                 CAMINO DE ULISES
-            </div>
+            </h1>
 
-            <div class="subtitle-box">
+            <div class="subtitle-box" data-i18n="hero.subtitle">
                 Si la aventura te llama, cógele el teléfono
             </div>
 
             <form class="search-bar">
-                <input id="search" type="text" placeholder="🔍︎ Buscar destinos...">
-                <button type="submit">Buscar</button>
+                <label for="search" class="sr-only" data-i18n="hero.search">
+                    Buscar destinos
+                </label>
+                <input id="search" type="text" data-i18n-placeholder="hero.search" placeholder="🔍︎ Buscar destinos..." autocomplete="off">
+                <button type="submit" data-i18n="hero.searchBtn">Buscar</button>
+
+                <div id="search-results" class="search-results"></div>
             </form>
         </section>
 
 
         <!-- FRASE INSPIRADORA -->
         <section class="intro">
-            <h2>Cada aventura comienza con un primer paso</h2>
+            <h2 data-i18n="intro">Cada aventura comienza con un primer paso</h2>
         </section>
 
         <!-- CARRUSEL PACKS -->
         <section class="carousel-section">
     
             <!-- Flecha izquierda -->
-            <button class="carousel-btn left" aria-label="Anterior">❮</button>
+            <button class="carousel-btn left" aria-label="Anterior" data-i18n-aria="carousel.prev">❮</button>
 
             <!-- Tarjeta principal del pack -->
             <article class="pack-card">
                 <div class="pack-text">
                     <h3 class="pack-title">Título pack</h3>
                     <p class="pack-price">Precio</p>
-                    <button class="pack-buy">Comprar</button>
+                    <button class="pack-buy" data-i18n="carousel.buy">Comprar</button>
                 </div>
 
             </article>
 
             <!-- Flecha derecha -->
-            <button class="carousel-btn right" aria-label="Siguiente">❯</button>
+            <button class="carousel-btn right" aria-label="Siguiente" data-i18n-aria="carousel.next">❯</button>
 
         </section>
 
 
         <!-- CONTINENTES -->
         <section class="continents" id="continentes">
-            <h2 class="continents-title">Explora por continente</h2>
+            <h2 class="continents-title" data-i18n="continents.title">Explora por continente</h2>
             <div class="continents-title-line"></div>
 
             <div class="grid-continents">
 
                 <a class="continent-card" href="continent.html?name=Europa">
-                    <div class="card-title">Europa</div>
+                    <div class="card-title" data-i18n="continents.europe">Europa</div>
                 </a>
 
                 <a class="continent-card" href="continent.html?name=Asia">
-                    <div class="card-title">Asia</div>
+                    <div class="card-title" data-i18n="continents.asia">Asia</div>
                 </a>
 
                 <a class="continent-card" href="continent.html?name=África">
-                    <div class="card-title">África</div>
+                    <div class="card-title" data-i18n="continents.africa">África</div>
                 </a>
 
                 <a class="continent-card" href="continent.html?name=Oceanía">
-                    <div class="card-title">Oceanía</div>
+                    <div class="card-title" data-i18n="continents.oceania">Oceanía</div>
                 </a>
 
                 <a class="continent-card" href="continent.html?name=América del Norte">
-                    <div class="card-title">América del norte</div>
+                    <div class="card-title" data-i18n="continents.northAmerica">América del norte</div>
                 </a>
 
                 <a class="continent-card" href="continent.html?name=América del Sur">
-                    <div class="card-title">América del sur</div>
+                    <div class="card-title" data-i18n="continents.southAmerica">América del sur</div>
                 </a>
 
             </div>
@@ -128,35 +138,59 @@
     <footer>
         <div class="footer-content">
 
-            <!-- IZQUIERDA -->
-            <div class="footer-left">
-                <p>Camino de Ulises © 2025</p>
-            </div>
+        <!-- IZQUIERDA -->
+        <div class="footer-left">
+            <p>Camino de Ulises © 2025</p>
+        </div>
 
-            <!-- CENTRO -->
-            <nav class="footer-center">
-                <a href="footer-sites.html?section=quienes-somos">¿Quiénes somos?</a>
-                <a href="footer-sites.html?section=privacidad">Política de privacidad</a>
-                <a href="footer-sites.html?section=faq">FAQs</a>
-                <a href="footer-sites.html?section=contacto">Contacto</a>
-            </nav>
+        <!-- CENTRO -->
+        <nav class="footer-center">
+            <a href="footer-sites.html?section=quienes-somos" data-i18n="footer.about">¿Quiénes somos?</a>
+            <a href="footer-sites.html?section=privacidad"data-i18n="footer.privacy">Política de privacidad</a>
+            <a href="footer-sites.html?section=faq"data-i18n="footer.faq">FAQs</a>
+            <a href="footer-sites.html?section=contacto"data-i18n="footer.contact">Contacto</a>
+        </nav>
 
 
-            <!-- DERECHA -->
-            <div class="footer-right">
-                <a href="#" aria-label="Instagram">
-                    <img src="../assets/icons/instagram.svg" alt="Instagram">
-                </a>
-                <a href="#" aria-label="TikTok">
-                    <img src="../assets/icons/tiktok.svg" alt="TikTok">
-                </a>
-                <a href="#" aria-label="X">
-                    <img src="../assets/icons/x.svg" alt="X">
-                </a>
-                <a href="#" aria-label="YouTube">
-                    <img src="../assets/icons/youtube.svg" alt="YouTube">
-                </a>
+        <!-- DERECHA -->
+        <div class="footer-right">
+            <a href="#" aria-label="Instagram">
+                <img src="../assets/icons/instagram.svg" alt="Instagram">
+            </a>
+            <a href="#" aria-label="TikTok">
+                <img src="../assets/icons/tiktok.svg" alt="TikTok">
+            </a>
+            <a href="#" aria-label="X">
+                <img src="../assets/icons/x.svg" alt="X">
+            </a>
+            <a href="#" aria-label="YouTube">
+                <img src="../assets/icons/youtube.svg" alt="YouTube">
+            </a>
         </div>
     </footer>
+    <!-- MODAL SIMPLE (1 botón) -->
+    <div id="modal-info" class="modal">
+        <div class="modal-contenido">
+            <p id="modal-info-texto"></p>
+            <button id="modal-info-ok" class="modal-btn primary">Aceptar</button>
+        </div>
+    </div>
+
+    <!-- MODAL CONFIRMACIÓN (2 botones) -->
+    <div id="modal-confirm" class="modal">
+        <div class="modal-contenido">
+            <p id="modal-confirm-texto"></p>
+            <div class="modal-actions">
+                <button id="modal-confirm-cancel" class="modal-btn secondary">Cancelar</button>
+                <button id="modal-confirm-ok" class="modal-btn primary">Aceptar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/header-auth.js"></script>
+    <script src="scripts/auth-redirect.js"></script>
+    <script src="scripts/carousel.js"></script>
+    <script src="scripts/search.js"></script>
+    <script src="scripts/language.js"></script>
 </body>
 </html>

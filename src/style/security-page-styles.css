@@ -1,0 +1,426 @@
+/* RESET GLOBAL */
+ul, ol {
+    list-style: none;
+}
+
+/***********************
+    Breadcrumbs
+************************/
+.sec-breadcrumbs {
+    background-color: #fffaf5;
+    border-bottom: 1px solid #d7c9b8;
+}
+
+.sec-breadcrumbs ol {
+    max-width: 1200px;
+    margin: 0 16px;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sec-breadcrumbs a {
+    color: #5a4a3a;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.sec-breadcrumbs a:hover {
+    color: #3f2f1e;
+}
+
+.sec-breadcrumbs p {
+    color: #5a4a3a;
+    font-size: 18px;
+    font-weight: 500;
+    user-select: none;
+}
+
+/***********************
+    Security Hero Banner
+************************/
+.sec-hero-banner {
+    position: relative;
+    width: 100%;
+    min-height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.sec-hero-banner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    z-index: 1;
+}
+
+.sec-front {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+#sec-flag {
+    position: relative;
+    width: 70px; height: 48px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(58, 47, 34, 0.3);
+    margin-bottom: 0.75rem;
+    z-index: 3;
+}
+
+.sec-hero-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 100%);
+    z-index: 2;
+}
+
+.sec-hero-banner h1 {
+    position: relative;
+    color: #ffffff;
+    font-size: 56px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: -0.5px;
+    z-index: 3;
+}
+
+/***********************
+    Security Review
+************************/
+.sec-review {
+    max-width: 1200px;
+    margin: 48px auto;
+    padding: 0 24px;
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 48px;
+    align-items: center;
+}
+
+/* Index */
+.sec-index {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 32px 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    border: 1px solid #d7c9b8;
+    display: flex;
+    justify-content: center;
+}
+
+.sec-index ul {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.sec-index li {
+    padding: 0;
+    margin: 0;
+}
+
+.sec-index a {
+    display: block;
+    color: #6c5b4a;
+    font-size: 28px;
+    font-weight: 500;
+    padding: 12px 16px;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    text-align: center;
+    border-bottom: 2px solid #d7c9b8;
+}
+
+.sec-index a:hover {
+    background-color: #f3eee7;
+    color: #a26a33;
+}
+
+/* Summary */
+.sec-summary {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    border: 1px solid #d7c9b8;
+}
+
+.sec-summary h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #3f2f1e;
+    margin-bottom: 32px;
+    padding-bottom: 16px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    border-bottom: 2px solid #d7c9b8;
+}
+
+.sum {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 24px;
+    padding: 12px 20px;
+    background-color: #f3eee7;
+    border-radius: 8px;
+    border-left: 4px solid #a26a33;
+}
+
+.sec-summary h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3f2f1e;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+}
+
+.sum p {
+    color: #6c5b4a;
+    font-size: 16px;
+    margin: 0;
+}
+
+/***********************
+    Security Suggestions
+************************/
+.sec-suggestions {
+    max-width: 1200px;
+    margin: 48px auto;
+    padding: 0 24px;
+}
+
+.sec-suggestions h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #3f2f1e;
+    margin-bottom: 32px;
+    letter-spacing: -0.5px;
+}
+
+.sec-suggestions ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.sec-suggestions li {
+    background-color: #ffffff;
+    border: 1px solid #d7c9b8;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.sec-suggestions li:hover {
+    box-shadow: 0 4px 12px rgba(162, 106, 51, 0.1);
+    border-color: #a26a33;
+}
+
+.sec-suggestions details {
+    cursor: pointer;
+}
+
+.sec-suggestions summary {
+    padding: 20px 24px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #3f2f1e;
+    list-style: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.sec-suggestions summary:hover {
+    background-color: #fffaf5;
+}
+
+.sec-suggestions summary::before {
+    content: '+';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+    color: #a26a33;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 24px;
+}
+
+.sec-suggestions details[open] summary::before {
+    content: '−';
+}
+
+.sec-suggestions details p {
+    padding: 0 24px 24px 60px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #6c5b4a;
+}
+
+main hr {
+    max-width: 1200px;
+    margin: 48px auto;
+    border: none;
+    border-top: 1px solid #d7c9b8;
+}
+
+/***********************
+    Responsive - Tablet (768px)
+************************/
+@media (max-width: 768px) {
+    .sec-hero-banner {
+        min-height: 260px;
+    }
+
+    .sec-hero-banner h1 {
+        font-size: 42px;
+    }
+
+    .sec-review {
+        grid-template-columns: 320px 1fr;
+        gap: 32px;
+        padding: 0 16px;
+    }
+
+    .sec-index a {
+        font-size: 24px;
+        padding: 10px 14px;
+    }
+
+    .sec-summary h2 {
+        font-size: 28px;
+    }
+
+    .sec-suggestions h2 {
+        font-size: 30px;
+    }
+}
+
+/***********************
+    Responsive - Mobile (600px)
+************************/
+@media (max-width: 600px) {
+    .sec-breadcrumbs ol {
+        margin: 0 8px;
+        padding: 12px 16px;
+        gap: 6px;
+    }
+
+    .sec-breadcrumbs a,
+    .sec-breadcrumbs p {
+        font-size: 13px;
+    }
+
+    .sec-hero-banner {
+        min-height: 200px;
+    }
+
+    .sec-hero-banner h1 {
+        font-size: 32px;
+        padding: 0 16px;
+    }
+
+    #sec-flag {
+        width: 56px;
+        height: 38px;
+    }
+
+    .sec-review {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        margin: 32px auto;
+        padding: 0 16px;
+    }
+
+    .sec-index {
+        order: -1;
+        padding: 24px 16px;
+    }
+
+    .sec-index ul {
+        width: 100%;
+        gap: 8px;
+    }
+
+    .sec-index a {
+        font-size: 18px;
+        padding: 12px 16px;
+    }
+
+    .sec-summary {
+        padding: 24px 16px;
+    }
+
+    .sec-summary h2 {
+        font-size: 24px;
+        margin-bottom: 24px;
+        padding-bottom: 12px;
+    }
+
+    .sec-summary h3 {
+        font-size: 18px;
+    }
+
+    .sum {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        padding: 12px 16px;
+    }
+
+    .sum p {
+        font-size: 15px;
+    }
+
+    .sec-suggestions {
+        margin: 32px auto;
+        padding: 0 16px;
+    }
+
+    .sec-suggestions h2 {
+        font-size: 26px;
+        margin-bottom: 24px;
+    }
+
+    .sec-suggestions summary {
+        padding: 16px;
+        font-size: 15px;
+    }
+
+    .sec-suggestions summary::before {
+        width: 20px;
+        height: 20px;
+        font-size: 18px;
+        line-height: 20px;
+        margin-right: 10px;
+    }
+
+    .sec-suggestions details p {
+        padding: 0 16px 20px 46px;
+        font-size: 14px;
+    }
+
+    main hr {
+        margin: 32px auto;
+    }
+}

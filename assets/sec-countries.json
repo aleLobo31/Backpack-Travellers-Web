@@ -1,0 +1,4749 @@
+{
+  "continents": [
+    {
+      "name": "Europa",
+      "countries": [
+        {
+          "name": "Austria",
+          "description": "Elegancia imperial entre montañas alpinas, palacios barrocos y ciudades donde la música clásica sigue marcando el ritmo cotidiano.",
+          "banner": {
+            "image": "https://plus.unsplash.com/premium_photo-1690372793932-3e27121dd868?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Austria"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "1"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado para ciudadanos UE. Otros: Schengen hasta 90 días."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias. Vacunas habituales recomendadas."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Euro (EUR)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Sin alertas. País muy seguro."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "Ciudadanos UE solo necesitan DNI o pasaporte válido. Otros países pueden necesitar visado Schengen."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Tarjeta Sanitaria Europea válida. Sistema sanitario de alta calidad."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Recomendable seguro de viaje con cobertura médica y de cancelación."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Tarjetas ampliamente aceptadas. Cajeros disponibles en todas las ciudades."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Ropa de abrigo en invierno (muy frío). Calzado cómodo para montaña."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "País muy seguro. Precaución básica en zonas turísticas de Viena."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Excelente red de trenes y transporte público. Muy puntual y eficiente."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Alta calidad alimentaria. Agua del grifo potable."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Sin zonas peligrosas. Precaución en montaña por condiciones climáticas."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Prohibido fumar en espacios cerrados. Multas por cruzar en rojo."
+                },
+                {
+                  "pregunta": "vestimenta",
+                  "respuesta": "Informal aceptada. Cubrir hombros en iglesias."
+                },
+                {
+                  "pregunta": "etiqueta",
+                  "respuesta": "Puntualidad muy valorada. Propinas del 5-10% apreciadas."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "telefono",
+                  "respuesta": "Emergencias: 112. Policía: 133. Ambulancia: 144."
+                },
+                {
+                  "pregunta": "embajada",
+                  "respuesta": "Consultar embajada de tu país en Viena."
+                },
+                {
+                  "pregunta": "vocabulario",
+                  "respuesta": "Hallo, Danke, Bitte, Hilfe, Polizei, Krankenhaus"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Bélgica",
+          "description": "Pequeños tesoros medievales, canales tranquilos y una tradición artesanal que combina historia, chocolate y arquitectura gremial.",
+          "banner": {
+            "image": "https://plus.unsplash.com/premium_photo-1661886882389-e99d9a5299c0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Bélgica"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "2"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado para ciudadanos UE. Otros: Schengen hasta 90 días."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias. Vacunas habituales recomendadas."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Euro (EUR)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Nivel de alerta terrorista elevado en Bruselas. Vigilancia normal."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "Ciudadanos UE con DNI o pasaporte. Visado Schengen para otros países."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Tarjeta Sanitaria Europea válida. Buen sistema sanitario."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro de viaje recomendado con cobertura médica."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Tarjetas aceptadas. Cajeros disponibles. Euro como moneda."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Ropa para lluvia todo el año. Capas por clima variable."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Cuidado con carteristas en estaciones de tren y zonas turísticas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Buena red de trenes. Metro en Bruselas. Bicicletas populares."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Excelente calidad. Famoso por chocolate, gofres y cerveza."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Evitar algunas zonas de Bruselas de noche (Molenbeek, Norte)."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Prohibido fumar en espacios cerrados. Ciclistas tienen prioridad."
+                },
+                {
+                  "pregunta": "vestimenta",
+                  "respuesta": "Informal aceptada. Sin restricciones especiales."
+                },
+                {
+                  "pregunta": "etiqueta",
+                  "respuesta": "Puntualidad importante. Propinas incluidas pero extras apreciados."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "telefono",
+                  "respuesta": "Emergencias: 112. Policía: 101. Ambulancia: 100."
+                },
+                {
+                  "pregunta": "embajada",
+                  "respuesta": "Consultar embajada en Bruselas."
+                },
+                {
+                  "pregunta": "vocabulario",
+                  "respuesta": "Bonjour/Hallo, Merci/Dank u, S'il vous plaît/Alstublieft"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Dinamarca",
+          "description": "Cultura nórdica moderna y cálida, ciudades diseñadas para vivir despacio y un equilibrio perfecto entre diseño, historia y naturaleza.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Dinamarca"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "1"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado para ciudadanos UE. Otros: Schengen hasta 90 días."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Corona danesa (DKK)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Sin alertas. Uno de los países más seguros del mundo."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "DNI o pasaporte para UE. Visado Schengen para otros."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Tarjeta Sanitaria Europea. Sistema sanitario excelente."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro recomendado. País caro, cobertura médica importante."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Tarjetas preferidas sobre efectivo. Muy digitalizado."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Ropa de abrigo. Impermeable esencial. Capas."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Muy seguro. Mínima delincuencia."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Excelentes trenes y buses. Copenhague muy ciclable."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Alta calidad. Agua potable. Nueva cocina nórdica famosa."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Sin zonas peligrosas significativas."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Ciclistas tienen prioridad absoluta. No fumar en espacios cerrados."
+                },
+                {
+                  "pregunta": "vestimenta",
+                  "respuesta": "Muy informal. Estilo hygge."
+                },
+                {
+                  "pregunta": "etiqueta",
+                  "respuesta": "Puntualidad esencial. Propinas no esperadas pero apreciadas."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "telefono",
+                  "respuesta": "Emergencias: 112."
+                },
+                {
+                  "pregunta": "embajada",
+                  "respuesta": "Consultar embajada en Copenhague."
+                },
+                {
+                  "pregunta": "vocabulario",
+                  "respuesta": "Hej, Tak, Hjælp, Politi, Hospital"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Eslovenia",
+          "description": "Un país verde y sereno, con lagos cristalinos, montañas esculpidas y ciudades pequeñas llenas de encanto europeo.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1478088913771-e3a36f50bb63?q=80&w=1219&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Eslovenia"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "1"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado para ciudadanos UE. Schengen hasta 90 días."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Euro (EUR)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Sin alertas. País muy seguro y tranquilo."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "DNI o pasaporte para UE. Visado Schengen para otros."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Tarjeta Sanitaria Europea válida. Buen sistema sanitario."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro recomendado para actividades de montaña."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Tarjetas aceptadas. Cajeros disponibles."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Ropa de montaña si visitas los Alpes. Bañador para lagos."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Muy seguro. Mínima delincuencia."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Buenos buses. Coche recomendado para zonas rurales."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Buena calidad. Influencias italianas y austríacas."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Precaución en montaña. Sin zonas urbanas peligrosas."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar naturaleza. Prohibido acampar libre en parques."
+                },
+                {
+                  "pregunta": "vestimenta",
+                  "respuesta": "Informal. Sin restricciones."
+                },
+                {
+                  "pregunta": "etiqueta",
+                  "respuesta": "Gente reservada pero amable. Propinas 10% apreciadas."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "telefono",
+                  "respuesta": "Emergencias: 112. Policía: 113."
+                },
+                {
+                  "pregunta": "embajada",
+                  "respuesta": "Consultar embajada en Liubliana."
+                },
+                {
+                  "pregunta": "vocabulario",
+                  "respuesta": "Dober dan, Hvala, Prosim, Pomoč, Policija"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "España",
+          "description": "Diversidad cultural, gastronomía vibrante y ciudades llenas de vida que combinan historia monumental con paisajes mediterráneos.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "España"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "2"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado para ciudadanos UE. Otros: Schengen hasta 90 días."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias. Se recomienda tener al día las vacunas habituales."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Euro (EUR)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Sin alertas especiales. País seguro para turistas."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "Ciudadanos UE solo necesitan DNI o pasaporte. Otros países pueden requerir visado Schengen para estancias mayores a 90 días."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Se recomienda llevar la Tarjeta Sanitaria Europea (TSE) para ciudadanos UE. El sistema sanitario público es de buena calidad."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Recomendable contratar seguro de viaje con cobertura médica, especialmente para no europeos. Incluir cobertura de cancelación si es posible."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Tarjetas de crédito ampliamente aceptadas. Cajeros automáticos disponibles en todas las ciudades. Llevar algo de efectivo para pequeños comercios."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Ropa cómoda y calzado para caminar. Protección solar en verano. Capas ligeras en primavera y otoño. Abrigo en invierno, especialmente en el norte."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Cuidado con carteristas en zonas turísticas como Las Ramblas, Sol o la Sagrada Familia. Evitar trileros y vendedores ambulantes insistentes."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Transporte público seguro y eficiente. Metro, autobús y tren bien conectados. Taxis oficiales con taxímetro. Apps como Uber disponibles en grandes ciudades."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Agua del grifo potable en todo el país. Alta calidad alimentaria. Amplia variedad gastronómica. Horarios de comida tardíos (almuerzo 14h, cena 21h)."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "País muy seguro. Precaución estándar en zonas turísticas concurridas. Evitar callejones oscuros de noche. En playas, vigilar pertenencias."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Prohibido fumar en espacios públicos cerrados. Consumo de alcohol en la calle restringido en muchas ciudades. Respeto obligatorio a monumentos históricos."
+                },
+                {
+                  "pregunta": "vestimenta",
+                  "respuesta": "Vestimenta informal aceptada. Cubrir hombros y rodillas para visitar iglesias y catedrales. En playas, el topless es legal."
+                },
+                {
+                  "pregunta": "etiqueta",
+                  "respuesta": "Saludo con dos besos en las mejillas entre conocidos. Se valora la puntualidad flexible. Propinas no obligatorias pero apreciadas (5-10%)."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "telefono",
+                  "respuesta": "Emergencias: 112. Policía Nacional: 091. Guardia Civil: 062. Emergencias sanitarias: 061."
+                },
+                {
+                  "pregunta": "embajada",
+                  "respuesta": "Consultar embajada de tu país en Madrid o consulados en Barcelona, Sevilla, Valencia y otras ciudades principales según nacionalidad."
+                },
+                {
+                  "pregunta": "vocabulario",
+                  "respuesta": "Hola, Gracias, Por favor, ¿Cuánto cuesta?, ¿Dónde está...?, Ayuda, Hospital, Policía, No entiendo, ¿Habla inglés?"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Estonia",
+          "description": "Magia báltica entre murallas medievales, bosques infinitos y un estilo de vida que mezcla tradición con modernidad digital.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1452868195396-89c1af3b1b2e?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Estonia"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "1"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado para ciudadanos UE. Schengen hasta 90 días."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias. Vacuna garrapatas recomendada si vas al bosque."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Euro (EUR)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Sin alertas. País muy seguro y digitalizado."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "DNI o pasaporte para UE. Visado Schengen para otros."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Tarjeta Sanitaria Europea. Sistema sanitario moderno."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro recomendado."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Muy digitalizado. Tarjetas preferidas. Cajeros disponibles."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Ropa de abrigo en invierno (muy frío). Capas en verano."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Muy seguro. Mínimos problemas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Buenos buses. Transporte público gratuito en Tallin para residentes."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Buena calidad. Influencias nórdicas y rusas."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Sin zonas peligrosas. Ciudad muy segura."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Alcohol prohibido en espacios públicos. No fumar en terrazas."
+                },
+                {
+                  "pregunta": "vestimenta",
+                  "respuesta": "Informal. Sin restricciones."
+                },
+                {
+                  "pregunta": "etiqueta",
+                  "respuesta": "Estonios reservados. Silencio valorado. Propinas apreciadas."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "telefono",
+                  "respuesta": "Emergencias: 112."
+                },
+                {
+                  "pregunta": "embajada",
+                  "respuesta": "Consultar embajada en Tallin."
+                },
+                {
+                  "pregunta": "vocabulario",
+                  "respuesta": "Tere, Aitäh, Palun, Abi, Politsei"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Francia",
+          "description": "Arte, gastronomía y romanticismo urbano conviven con castillos, viñedos y paisajes que han inspirado a generaciones.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1566127444979-b3d2b654e3d7?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Francia"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "2"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado para ciudadanos UE. Schengen hasta 90 días."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Euro (EUR)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Nivel de alerta terrorista. Vigilancia en lugares turísticos."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "DNI o pasaporte para UE. Visado Schengen para otros países."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Tarjeta Sanitaria Europea. Excelente sistema sanitario."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro recomendado con cobertura médica."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Tarjetas aceptadas. Algunos comercios pequeños solo efectivo."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Variable según región. Capas en París. Protección solar en sur."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Carteristas en París (metro, Torre Eiffel, Louvre). Cuidado con firmas de peticiones."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Excelente TGV. Metro en grandes ciudades. Taxis con taxímetro."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Gastronomía de referencia mundial. Alta calidad."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Evitar suburbios de París de noche. Precaución en manifestaciones."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Prohibido fumar en espacios cerrados. Burka prohibido en público."
+                },
+                {
+                  "pregunta": "vestimenta",
+                  "respuesta": "Elegante casual. Cubrir hombros en iglesias."
+                },
+                {
+                  "pregunta": "etiqueta",
+                  "respuesta": "Saludar al entrar en comercios. Propinas no obligatorias (5-10%)."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "telefono",
+                  "respuesta": "Emergencias: 112. Policía: 17. SAMU: 15."
+                },
+                {
+                  "pregunta": "embajada",
+                  "respuesta": "Consultar embajada en París."
+                },
+                {
+                  "pregunta": "vocabulario",
+                  "respuesta": "Bonjour, Merci, S'il vous plaît, Au secours, Police, Hôpital"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Hungría",
+          "description": "Herencia imperial, arquitectura ornamentada y ciudades atravesadas por ríos que brillan bajo la luz del atardecer.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1616432902940-b7a1acbc60b3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Hungría"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "2"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado para ciudadanos UE. Schengen hasta 90 días."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Florín húngaro (HUF)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Sin alertas especiales. País seguro."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "DNI o pasaporte para UE. Visado Schengen para otros."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Tarjeta Sanitaria Europea. Sistema sanitario aceptable."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro recomendado."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Cambiar a florines. Tarjetas aceptadas en ciudades. Cajeros disponibles."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Inviernos fríos, veranos calurosos. Bañador para balnearios."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Cuidado con taxistas no oficiales. Verificar precios en bares."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Buen metro en Budapest. Trenes conectan el país."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Buena calidad. Famoso por goulash y páprika."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Distrito VIII de Budapest puede ser conflictivo de noche."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Alcohol prohibido en espacios públicos en algunas zonas."
+                },
+                {
+                  "pregunta": "vestimenta",
+                  "respuesta": "Informal. Cubrir hombros en iglesias."
+                },
+                {
+                  "pregunta": "etiqueta",
+                  "respuesta": "Húngaros directos. Propinas 10% esperadas."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "telefono",
+                  "respuesta": "Emergencias: 112. Policía: 107. Ambulancia: 104."
+                },
+                {
+                  "pregunta": "embajada",
+                  "respuesta": "Consultar embajada en Budapest."
+                },
+                {
+                  "pregunta": "vocabulario",
+                  "respuesta": "Szia, Köszönöm, Kérem, Segítség, Rendőrség"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Italia",
+          "description": "Cuna del arte y del buen vivir, donde gastronomía, historia y paisajes mediterráneos forman una mezcla imposible de olvidar.",
+          "banner": {
+            "image": "https://plus.unsplash.com/premium_photo-1661963952208-2db3512ef3de?q=80&w=1244&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Italia"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "2"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado para ciudadanos UE. Schengen hasta 90 días."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Euro (EUR)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Sin alertas mayores. Precaución estándar en grandes ciudades."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "DNI o pasaporte para UE. Visado Schengen para otros."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Tarjeta Sanitaria Europea. Buen sistema sanitario."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro recomendado."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Tarjetas aceptadas. Efectivo útil en pequeños comercios."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Protección solar en verano. Calzado cómodo para empedrados."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Carteristas en Roma, Florencia, Nápoles. Cuidado con vendedores ambulantes."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Buenos trenes (Frecciarossa). Metro en grandes ciudades."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Gastronomía excepcional. Evitar restaurantes con menú en fotos."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Algunas zonas de Nápoles y Roma de noche. Precaución normal."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Prohibido sentarse en escalinatas monumentales. Multas por comer en la calle en algunas zonas."
+                },
+                {
+                  "pregunta": "vestimenta",
+                  "respuesta": "Cubrir hombros y rodillas en iglesias. Elegante casual."
+                },
+                {
+                  "pregunta": "etiqueta",
+                  "respuesta": "Saludar siempre. Propinas no obligatorias pero apreciadas."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "telefono",
+                  "respuesta": "Emergencias: 112. Carabinieri: 112. Policía: 113."
+                },
+                {
+                  "pregunta": "embajada",
+                  "respuesta": "Consultar embajada en Roma."
+                },
+                {
+                  "pregunta": "vocabulario",
+                  "respuesta": "Ciao, Grazie, Per favore, Aiuto, Polizia, Ospedale"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Malta",
+          "description": "Islas bañadas por el Mediterráneo, llenas de arquitectura barroca, fortalezas legendarias y aguas transparentes.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1587974928552-4f4aac51b45d?q=80&w=1206&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Malta"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "1"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado para ciudadanos UE. Schengen hasta 90 días."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Euro (EUR)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Sin alertas. País muy seguro."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "DNI o pasaporte para UE. Visado Schengen para otros."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Tarjeta Sanitaria Europea. Sistema sanitario aceptable."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro recomendado."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Tarjetas aceptadas. Euro como moneda."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Protección solar esencial. Calzado cómodo."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Muy seguro. Mínimos problemas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Buses conectan toda la isla. Ferrys entre islas."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Influencia italiana y británica. Marisco fresco."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Sin zonas peligrosas. Cuidado con el sol intenso."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar iglesias (muchas). No bañarse desnudo."
+                },
+                {
+                  "pregunta": "vestimenta",
+                  "respuesta": "Cubrir hombros en iglesias. Playa informal."
+                },
+                {
+                  "pregunta": "etiqueta",
+                  "respuesta": "Malteses muy amables. Inglés ampliamente hablado."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "telefono",
+                  "respuesta": "Emergencias: 112. Policía: 191."
+                },
+                {
+                  "pregunta": "embajada",
+                  "respuesta": "Consultar embajada en La Valeta."
+                },
+                {
+                  "pregunta": "vocabulario",
+                  "respuesta": "Hello/Bonġu, Thank you/Grazzi, Please/Jekk jogħġbok"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Noruega",
+          "description": "Naturaleza imponente de fiordos, montañas y pueblos de madera que se asoman a uno de los paisajes más puros del planeta.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1507272931001-fc06c17e4f43?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Noruega"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "1"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado para ciudadanos UE. Schengen hasta 90 días."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Corona noruega (NOK)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Sin alertas. Uno de los países más seguros del mundo."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "DNI o pasaporte para UE. Visado Schengen para otros."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Tarjeta Sanitaria Europea. Excelente sistema sanitario pero caro."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro muy recomendado. País muy caro."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Tarjetas preferidas. Muy digitalizado. Coronas noruegas."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Ropa de abrigo imprescindible. Impermeable. Capas."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Prácticamente inexistentes."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Excelentes trenes panorámicos. Ferrys para fiordos. Caro."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Alta calidad pero cara. Salmón y mariscos excelentes."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Sin zonas peligrosas. Precaución en montaña y fiordos."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Alcohol muy regulado y caro. Solo en tiendas estatales."
+                },
+                {
+                  "pregunta": "vestimenta",
+                  "respuesta": "Muy informal. Funcionalidad sobre estética."
+                },
+                {
+                  "pregunta": "etiqueta",
+                  "respuesta": "Noruegos reservados. Puntualidad esencial. Propinas no esperadas."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "telefono",
+                  "respuesta": "Emergencias: 112. Policía: 02800."
+                },
+                {
+                  "pregunta": "embajada",
+                  "respuesta": "Consultar embajada en Oslo."
+                },
+                {
+                  "pregunta": "vocabulario",
+                  "respuesta": "Hei, Takk, Hjelp, Politi, Sykehus"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Países Bajos",
+          "description": "Canales, ciclovías y ciudades creativas que combinan arquitectura tradicional con una cultura moderna y abierta.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Países Bajos"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "2"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado para ciudadanos UE. Schengen hasta 90 días."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Euro (EUR)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Sin alertas mayores. Precaución normal en Ámsterdam."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "DNI o pasaporte para UE. Visado Schengen para otros."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Tarjeta Sanitaria Europea. Buen sistema sanitario."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro recomendado."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Tarjetas muy aceptadas. Muy digitalizado."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Impermeable esencial. Ropa para viento. Cómodo para bicicleta."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Carteristas en Ámsterdam. Cuidado en Barrio Rojo."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Excelentes trenes. Bicicleta es el rey. Cuidado al cruzar carriles bici."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Buena calidad. Influencias indonesias. Quesos famosos."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Cuidado con bicicletas. Algunas zonas de Ámsterdam de noche."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Cannabis tolerado en coffeeshops. No fumar en público. Bicicletas tienen prioridad."
+                },
+                {
+                  "pregunta": "vestimenta",
+                  "respuesta": "Muy informal. Práctica."
+                },
+                {
+                  "pregunta": "etiqueta",
+                  "respuesta": "Holandeses directos. Puntualidad importante. Propinas no esperadas."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "telefono",
+                  "respuesta": "Emergencias: 112."
+                },
+                {
+                  "pregunta": "embajada",
+                  "respuesta": "Consultar embajada en La Haya o consulado en Ámsterdam."
+                },
+                {
+                  "pregunta": "vocabulario",
+                  "respuesta": "Hallo, Dank u, Alstublieft, Help, Politie"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Portugal",
+          "description": "Luz atlántica, calles empedradas y una mezcla de tradición y modernidad que se respira en cada barrio histórico.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Portugal"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "1"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado para ciudadanos UE. Schengen hasta 90 días."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Euro (EUR)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Sin alertas. País muy seguro y acogedor."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "DNI o pasaporte para UE. Visado Schengen para otros."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Tarjeta Sanitaria Europea. Buen sistema sanitario."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro recomendado."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Tarjetas aceptadas. Efectivo útil en pequeños comercios."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Protección solar. Calzado cómodo para empedrados de Lisboa."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Algunos carteristas en Lisboa y Oporto. Muy seguro en general."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Buenos trenes. Tranvías en Lisboa. Metro disponible."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Excelente y económica. Marisco y bacalao destacan."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Precaución normal en Alfama de noche. Muy seguro en general."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Drogas descriminalizadas pero no legales. No fumar en espacios cerrados."
+                },
+                {
+                  "pregunta": "vestimenta",
+                  "respuesta": "Informal. Cubrir hombros en iglesias."
+                },
+                {
+                  "pregunta": "etiqueta",
+                  "respuesta": "Portugueses muy amables. Propinas 5-10% apreciadas."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "telefono",
+                  "respuesta": "Emergencias: 112."
+                },
+                {
+                  "pregunta": "embajada",
+                  "respuesta": "Consultar embajada en Lisboa."
+                },
+                {
+                  "pregunta": "vocabulario",
+                  "respuesta": "Olá, Obrigado/a, Por favor, Ajuda, Polícia, Hospital"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Reino Unido",
+          "description": "Entre historia imperial, paisajes verdes y ciudades vibrantes, el país ofrece una mezcla única de tradición y vanguardia.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1486299267070-83823f5448dd?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Reino Unido"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "2"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "Pasaporte obligatorio (no DNI). UE hasta 6 meses sin visado."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Libra esterlina (GBP)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Nivel de amenaza terrorista sustancial. Vigilancia en lugares concurridos."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "Pasaporte obligatorio desde Brexit. UE puede estar hasta 6 meses."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Tarjeta Sanitaria Europea aún válida. NHS puede cobrar a turistas."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro muy recomendado. Sanidad puede ser cara."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Tarjetas muy aceptadas. Libras esterlinas necesarias."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Impermeable imprescindible. Capas. Paraguas."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Carteristas en Londres. Cuidado con falsos taxistas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Excelente metro en Londres. Trenes conectan todo el país. Conducir por izquierda."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Mejorada mucho. Fish and chips clásico. Multiculturalidad gastronómica."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Algunas zonas de grandes ciudades de noche. Precaución normal."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "No fumar en espacios cerrados. Alcohol regulado por edad (18)."
+                },
+                {
+                  "pregunta": "vestimenta",
+                  "respuesta": "Informal a elegante según contexto. Muy variado."
+                },
+                {
+                  "pregunta": "etiqueta",
+                  "respuesta": "Hacer cola es sagrado. Propinas 10-15% en restaurantes."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "telefono",
+                  "respuesta": "Emergencias: 999 o 112."
+                },
+                {
+                  "pregunta": "embajada",
+                  "respuesta": "Consultar embajada en Londres."
+                },
+                {
+                  "pregunta": "vocabulario",
+                  "respuesta": "Hello, Thank you, Please, Help, Police, Hospital"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "República Checa",
+          "description": "Castillos, torres góticas y pueblos centenarios que parecen sacados de una novela, rodeados de naturaleza centroeuropea.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1592906209472-a36b1f3782ef?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Republica Checa"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "1"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado para ciudadanos UE. Schengen hasta 90 días."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Corona checa (CZK)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Sin alertas. País muy seguro."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "DNI o pasaporte para UE. Visado Schengen para otros."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Tarjeta Sanitaria Europea. Buen sistema sanitario."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro recomendado."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Cambiar a coronas. Tarjetas aceptadas en ciudades. Cuidado con casas de cambio."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Inviernos muy fríos. Calzado cómodo para empedrados."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Casas de cambio con tasas abusivas. Taxistas no oficiales."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Excelente metro y tranvías en Praga. Buenos trenes."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Buena y económica. Famosos por cerveza."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Muy seguro. Precaución normal en zonas turísticas."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Cerveza legal desde 18 años. No fumar en espacios cerrados."
+                },
+                {
+                  "pregunta": "vestimenta",
+                  "respuesta": "Informal. Sin restricciones especiales."
+                },
+                {
+                  "pregunta": "etiqueta",
+                  "respuesta": "Checos reservados. Propinas 10% esperadas."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "telefono",
+                  "respuesta": "Emergencias: 112. Policía: 158. Ambulancia: 155."
+                },
+                {
+                  "pregunta": "embajada",
+                  "respuesta": "Consultar embajada en Praga."
+                },
+                {
+                  "pregunta": "vocabulario",
+                  "respuesta": "Ahoj, Děkuji, Prosím, Pomoc, Policie"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Suiza",
+          "description": "Escenarios alpinos perfectos, lagos tranquilos y ciudades refinadas donde la precisión y la belleza conviven en armonía.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1530878902700-5ad4f9e4c318?q=80&w=1934&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Suiza"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "1"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado para ciudadanos UE. Schengen hasta 90 días."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Franco suizo (CHF)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Sin alertas. Uno de los países más seguros del mundo."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "DNI o pasaporte para UE. Visado Schengen para otros."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Tarjeta Sanitaria Europea. Sistema sanitario excelente pero muy caro."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro imprescindible. País muy caro."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Franco suizo. Tarjetas aceptadas. Todo muy caro."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Ropa de montaña. Capas. Protección solar en altura."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Prácticamente inexistentes."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Trenes puntuales al segundo. Excelente red. Caro."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Alta calidad pero cara. Fondue y chocolate famosos."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Sin zonas peligrosas. Precaución en montaña."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Muy estrictas. Multas por todo (ruido, basura, etc)."
+                },
+                {
+                  "pregunta": "vestimenta",
+                  "respuesta": "Elegante casual. Funcional en montaña."
+                },
+                {
+                  "pregunta": "etiqueta",
+                  "respuesta": "Puntualidad extrema. Silencio valorado. Propinas incluidas."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "telefono",
+                  "respuesta": "Emergencias: 112. Policía: 117. Ambulancia: 144."
+                },
+                {
+                  "pregunta": "embajada",
+                  "respuesta": "Consultar embajada en Berna."
+                },
+                {
+                  "pregunta": "vocabulario",
+                  "respuesta": "Grüezi/Bonjour/Ciao, Danke/Merci/Grazie"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Islandia",
+          "description": "Tierra volcánica de paisajes extremos, auroras danzantes y ciudades pequeñas que miran hacia una naturaleza indomable.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?q=80&w=1859&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Islandia"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "1"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado para ciudadanos UE. Schengen hasta 90 días."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Corona islandesa (ISK)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Posible actividad volcánica. Consultar antes de viajar."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "DNI o pasaporte para UE. Visado Schengen para otros."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Tarjeta Sanitaria Europea. Buen sistema pero aislado."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro imprescindible. Rescates en montaña caros."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Tarjetas preferidas. Muy digitalizado. Todo caro."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Ropa técnica impermeable. Capas. Bañador para aguas termales."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Inexistentes. País extremadamente seguro."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Alquiler de coche recomendado. Carreteras pueden ser peligrosas."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Cara pero buena. Marisco y cordero destacan."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Clima impredecible. Volcanes. Glaciares. Respetar naturaleza."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar naturaleza. No salirse de caminos marcados."
+                },
+                {
+                  "pregunta": "vestimenta",
+                  "respuesta": "Funcional. Nada de algodón (peligroso si se moja)."
+                },
+                {
+                  "pregunta": "etiqueta",
+                  "respuesta": "Islandeses relajados. Desnudez normal en piscinas termales."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "telefono",
+                  "respuesta": "Emergencias: 112. App SafeTravel Iceland recomendada."
+                },
+                {
+                  "pregunta": "embajada",
+                  "respuesta": "Consultar embajada en Reikiavik."
+                },
+                {
+                  "pregunta": "vocabulario",
+                  "respuesta": "Halló, Takk, Hjálp"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Asia",
+      "countries": [
+        {
+          "name": "China",
+          "description": "Gigantesca diversidad cultural: templos imperiales, montañas sagradas y metrópolis que transforman la tradición en modernidad.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1508804052814-cd3ba865a116?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "China"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "3"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "Visado obligatorio para la mayoría de países."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "Hepatitis A y B recomendadas."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Yuan (CNY)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Restricciones de internet. VPN necesario."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "Visado obligatorio para la mayoría de países."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Consultar recomendaciones sanitarias. Seguro médico recomendado."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro de viaje muy recomendado con cobertura médica amplia."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Moneda: Yuan (CNY). Informarse sobre cambio."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Adaptar al clima y actividades. Consultar estación del año."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Precaución con estafas típicas a turistas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Informarse sobre opciones de transporte locales."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Precaución con agua y alimentos en algunas zonas."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Consultar zonas a evitar antes de viajar."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "costumbres",
+                  "respuesta": "Informarse sobre leyes locales importantes."
+                },
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar códigos de vestimenta, especialmente en lugares religiosos."
+                },
+                {
+                  "pregunta": "idioma",
+                  "respuesta": "Investigar costumbres locales para evitar malentendidos."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "contactos",
+                  "respuesta": "Emergencias: Consultar número local (generalmente 112)."
+                },
+                {
+                  "pregunta": "medicos",
+                  "respuesta": "Consultar embajada o consulado de tu país en China."
+                },
+                {
+                  "pregunta": "robos",
+                  "respuesta": "Aprender frases básicas: hola, gracias, ayuda, policía."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Corea del Sur",
+          "description": "Tecnología, moda y palacios históricos construyen un contraste vibrante en ciudades que nunca dejan de reinventarse.",
+          "banner": {
+            "image": "https://plus.unsplash.com/premium_photo-1661963468634-71b9482a3efe?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Corea del Sur"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "2"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado hasta 90 días para muchos países."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Won (KRW)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Tensión con Corea del Norte. País muy seguro."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado hasta 90 días para muchos países."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Consultar recomendaciones sanitarias. Seguro médico recomendado."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro de viaje muy recomendado con cobertura médica amplia."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Moneda: Won (KRW). Informarse sobre cambio."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Adaptar al clima y actividades. Consultar estación del año."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Precaución con estafas típicas a turistas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Informarse sobre opciones de transporte locales."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Precaución con agua y alimentos en algunas zonas."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Consultar zonas a evitar antes de viajar."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "costumbres",
+                  "respuesta": "Informarse sobre leyes locales importantes."
+                },
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar códigos de vestimenta, especialmente en lugares religiosos."
+                },
+                {
+                  "pregunta": "idioma",
+                  "respuesta": "Investigar costumbres locales para evitar malentendidos."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "contactos",
+                  "respuesta": "Emergencias: Consultar número local (generalmente 112)."
+                },
+                {
+                  "pregunta": "medicos",
+                  "respuesta": "Consultar embajada o consulado de tu país en Corea del Sur."
+                },
+                {
+                  "pregunta": "robos",
+                  "respuesta": "Aprender frases básicas: hola, gracias, ayuda, policía."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "India",
+          "description": "Colores intensos, palacios majestuosos y espiritualidad profunda en un país donde cada región cuenta una historia distinta.",
+          "banner": {
+            "image": "https://plus.unsplash.com/premium_photo-1697729844084-c03db2377161?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "India"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "3"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "Visado obligatorio. E-visa disponible."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "Hepatitis A, Tifoidea recomendadas."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Rupia india (INR)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Precaución sanitaria. Evitar agua del grifo."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "Visado obligatorio. E-visa disponible."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Consultar recomendaciones sanitarias. Seguro médico recomendado."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro de viaje muy recomendado con cobertura médica amplia."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Moneda: Rupia india (INR). Informarse sobre cambio."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Adaptar al clima y actividades. Consultar estación del año."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Precaución con estafas típicas a turistas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Informarse sobre opciones de transporte locales."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Precaución con agua y alimentos en algunas zonas."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Consultar zonas a evitar antes de viajar."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "costumbres",
+                  "respuesta": "Informarse sobre leyes locales importantes."
+                },
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar códigos de vestimenta, especialmente en lugares religiosos."
+                },
+                {
+                  "pregunta": "idioma",
+                  "respuesta": "Investigar costumbres locales para evitar malentendidos."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "contactos",
+                  "respuesta": "Emergencias: Consultar número local (generalmente 112)."
+                },
+                {
+                  "pregunta": "medicos",
+                  "respuesta": "Consultar embajada o consulado de tu país en India."
+                },
+                {
+                  "pregunta": "robos",
+                  "respuesta": "Aprender frases básicas: hola, gracias, ayuda, policía."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Japón",
+          "description": "Armonía entre tradición milenaria y modernidad futurista, templos silenciosos, jardines cuidados y ciudades icónicas.",
+          "banner": {
+            "image": "https://plus.unsplash.com/premium_photo-1661964177687-57387c2cbd14?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Japón"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "1"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado hasta 90 días para muchos países."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Yen (JPY)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Sin alertas. País extremadamente seguro."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado hasta 90 días para muchos países."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Consultar recomendaciones sanitarias. Seguro médico recomendado."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro de viaje muy recomendado con cobertura médica amplia."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Moneda: Yen (JPY). Informarse sobre cambio."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Adaptar al clima y actividades. Consultar estación del año."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Precaución con estafas típicas a turistas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Informarse sobre opciones de transporte locales."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Precaución con agua y alimentos en algunas zonas."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Consultar zonas a evitar antes de viajar."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "costumbres",
+                  "respuesta": "Informarse sobre leyes locales importantes."
+                },
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar códigos de vestimenta, especialmente en lugares religiosos."
+                },
+                {
+                  "pregunta": "idioma",
+                  "respuesta": "Investigar costumbres locales para evitar malentendidos."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "contactos",
+                  "respuesta": "Emergencias: Consultar número local (generalmente 112)."
+                },
+                {
+                  "pregunta": "medicos",
+                  "respuesta": "Consultar embajada o consulado de tu país en Japón."
+                },
+                {
+                  "pregunta": "robos",
+                  "respuesta": "Aprender frases básicas: hola, gracias, ayuda, policía."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Laos",
+          "description": "Ríos tranquilos, templos dorados y ritmo pausado en un país donde la naturaleza y la espiritualidad se entrelazan.",
+          "banner": {
+            "image": "https://plus.unsplash.com/premium_photo-1661916287718-edb15703cbaf?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Laos"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "2"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "Visado a la llegada disponible."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "Hepatitis A, Tifoidea recomendadas."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Kip (LAK)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Precaución con bombas sin explotar en zonas rurales."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "Visado a la llegada disponible."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Consultar recomendaciones sanitarias. Seguro médico recomendado."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro de viaje muy recomendado con cobertura médica amplia."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Moneda: Kip (LAK). Informarse sobre cambio."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Adaptar al clima y actividades. Consultar estación del año."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Precaución con estafas típicas a turistas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Informarse sobre opciones de transporte locales."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Precaución con agua y alimentos en algunas zonas."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Consultar zonas a evitar antes de viajar."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "costumbres",
+                  "respuesta": "Informarse sobre leyes locales importantes."
+                },
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar códigos de vestimenta, especialmente en lugares religiosos."
+                },
+                {
+                  "pregunta": "idioma",
+                  "respuesta": "Investigar costumbres locales para evitar malentendidos."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "contactos",
+                  "respuesta": "Emergencias: Consultar número local (generalmente 112)."
+                },
+                {
+                  "pregunta": "medicos",
+                  "respuesta": "Consultar embajada o consulado de tu país en Laos."
+                },
+                {
+                  "pregunta": "robos",
+                  "respuesta": "Aprender frases básicas: hola, gracias, ayuda, policía."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Líbano",
+          "description": "Mediterráneo vibrante con historia antigua, gastronomía excepcional y ciudades donde Oriente y Occidente se encuentran.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1664210345764-c863c4fd8a76?q=80&w=1746&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Líbano"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "4"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "Visado a la llegada para muchos países."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "Hepatitis A recomendada."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Libra libanesa (LBP)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Situación política inestable. Consultar antes de viajar."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "Visado a la llegada para muchos países."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Consultar recomendaciones sanitarias. Seguro médico recomendado."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro de viaje muy recomendado con cobertura médica amplia."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Moneda: Libra libanesa (LBP). Informarse sobre cambio."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Adaptar al clima y actividades. Consultar estación del año."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Precaución con estafas típicas a turistas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Informarse sobre opciones de transporte locales."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Precaución con agua y alimentos en algunas zonas."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Consultar zonas a evitar antes de viajar."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "costumbres",
+                  "respuesta": "Informarse sobre leyes locales importantes."
+                },
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar códigos de vestimenta, especialmente en lugares religiosos."
+                },
+                {
+                  "pregunta": "idioma",
+                  "respuesta": "Investigar costumbres locales para evitar malentendidos."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "contactos",
+                  "respuesta": "Emergencias: Consultar número local (generalmente 112)."
+                },
+                {
+                  "pregunta": "medicos",
+                  "respuesta": "Consultar embajada o consulado de tu país en Líbano."
+                },
+                {
+                  "pregunta": "robos",
+                  "respuesta": "Aprender frases básicas: hola, gracias, ayuda, policía."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Omán",
+          "description": "Montañas desérticas, fortalezas históricas y bahías luminosas crean un paisaje auténtico y profundamente hospitalario.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1596445145149-f0906e6b3dd6?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Omán"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "1"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "Visado electrónico disponible."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Rial omaní (OMR)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Sin alertas. País muy seguro y hospitalario."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "Visado electrónico disponible."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Consultar recomendaciones sanitarias. Seguro médico recomendado."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro de viaje muy recomendado con cobertura médica amplia."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Moneda: Rial omaní (OMR). Informarse sobre cambio."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Adaptar al clima y actividades. Consultar estación del año."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Precaución con estafas típicas a turistas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Informarse sobre opciones de transporte locales."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Precaución con agua y alimentos en algunas zonas."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Consultar zonas a evitar antes de viajar."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "costumbres",
+                  "respuesta": "Informarse sobre leyes locales importantes."
+                },
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar códigos de vestimenta, especialmente en lugares religiosos."
+                },
+                {
+                  "pregunta": "idioma",
+                  "respuesta": "Investigar costumbres locales para evitar malentendidos."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "contactos",
+                  "respuesta": "Emergencias: Consultar número local (generalmente 112)."
+                },
+                {
+                  "pregunta": "medicos",
+                  "respuesta": "Consultar embajada o consulado de tu país en Omán."
+                },
+                {
+                  "pregunta": "robos",
+                  "respuesta": "Aprender frases básicas: hola, gracias, ayuda, policía."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Qatar",
+          "description": "Rascacielos vanguardistas, desierto luminoso y cultura árabe que mira al futuro sin perder sus raíces tradicionales.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1604433203862-93bc73b0f1e9?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Qatar"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "1"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "Visado a la llegada para muchos países."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Rial qatarí (QAR)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Sin alertas. Respetar normas islámicas."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "Visado a la llegada para muchos países."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Consultar recomendaciones sanitarias. Seguro médico recomendado."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro de viaje muy recomendado con cobertura médica amplia."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Moneda: Rial qatarí (QAR). Informarse sobre cambio."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Adaptar al clima y actividades. Consultar estación del año."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Precaución con estafas típicas a turistas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Informarse sobre opciones de transporte locales."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Precaución con agua y alimentos en algunas zonas."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Consultar zonas a evitar antes de viajar."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "costumbres",
+                  "respuesta": "Informarse sobre leyes locales importantes."
+                },
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar códigos de vestimenta, especialmente en lugares religiosos."
+                },
+                {
+                  "pregunta": "idioma",
+                  "respuesta": "Investigar costumbres locales para evitar malentendidos."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "contactos",
+                  "respuesta": "Emergencias: Consultar número local (generalmente 112)."
+                },
+                {
+                  "pregunta": "medicos",
+                  "respuesta": "Consultar embajada o consulado de tu país en Qatar."
+                },
+                {
+                  "pregunta": "robos",
+                  "respuesta": "Aprender frases básicas: hola, gracias, ayuda, policía."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Tailandia",
+          "description": "Templos brillantes, naturaleza exuberante y una hospitalidad que envuelve desde el primer momento.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1528181304800-259b08848526?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Tailandia"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "2"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado hasta 30 días para muchos países."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "Hepatitis A recomendada."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Baht (THB)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Cuidado con estafas turísticas."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado hasta 30 días para muchos países."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Consultar recomendaciones sanitarias. Seguro médico recomendado."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro de viaje muy recomendado con cobertura médica amplia."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Moneda: Baht (THB). Informarse sobre cambio."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Adaptar al clima y actividades. Consultar estación del año."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Precaución con estafas típicas a turistas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Informarse sobre opciones de transporte locales."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Precaución con agua y alimentos en algunas zonas."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Consultar zonas a evitar antes de viajar."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "costumbres",
+                  "respuesta": "Informarse sobre leyes locales importantes."
+                },
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar códigos de vestimenta, especialmente en lugares religiosos."
+                },
+                {
+                  "pregunta": "idioma",
+                  "respuesta": "Investigar costumbres locales para evitar malentendidos."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "contactos",
+                  "respuesta": "Emergencias: Consultar número local (generalmente 112)."
+                },
+                {
+                  "pregunta": "medicos",
+                  "respuesta": "Consultar embajada o consulado de tu país en Tailandia."
+                },
+                {
+                  "pregunta": "robos",
+                  "respuesta": "Aprender frases básicas: hola, gracias, ayuda, policía."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Vietnam",
+          "description": "Montañas brumosas, lagos urbanos y ciudades llenas de energía culinaria y tradición cultural.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1555921015-5532091f6026?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Vietnam"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "2"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "E-visa disponible. Exención para algunos países."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "Hepatitis A, Tifoidea recomendadas."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Dong (VND)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Tráfico caótico. Precaución al cruzar."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "E-visa disponible. Exención para algunos países."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Consultar recomendaciones sanitarias. Seguro médico recomendado."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro de viaje muy recomendado con cobertura médica amplia."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Moneda: Dong (VND). Informarse sobre cambio."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Adaptar al clima y actividades. Consultar estación del año."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Precaución con estafas típicas a turistas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Informarse sobre opciones de transporte locales."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Precaución con agua y alimentos en algunas zonas."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Consultar zonas a evitar antes de viajar."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "costumbres",
+                  "respuesta": "Informarse sobre leyes locales importantes."
+                },
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar códigos de vestimenta, especialmente en lugares religiosos."
+                },
+                {
+                  "pregunta": "idioma",
+                  "respuesta": "Investigar costumbres locales para evitar malentendidos."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "contactos",
+                  "respuesta": "Emergencias: Consultar número local (generalmente 112)."
+                },
+                {
+                  "pregunta": "medicos",
+                  "respuesta": "Consultar embajada o consulado de tu país en Vietnam."
+                },
+                {
+                  "pregunta": "robos",
+                  "respuesta": "Aprender frases básicas: hola, gracias, ayuda, policía."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Singapur",
+          "description": "Ciudad-jardín futurista, mezcla cultural impecable y uno de los espacios urbanos mejor diseñados del mundo.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?q=80&w=1504&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Singapur"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "1"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado hasta 90 días para muchos países."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Dólar singapurense (SGD)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Sin alertas. Leyes muy estrictas."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado hasta 90 días para muchos países."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Consultar recomendaciones sanitarias. Seguro médico recomendado."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro de viaje muy recomendado con cobertura médica amplia."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Moneda: Dólar singapurense (SGD). Informarse sobre cambio."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Adaptar al clima y actividades. Consultar estación del año."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Precaución con estafas típicas a turistas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Informarse sobre opciones de transporte locales."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Precaución con agua y alimentos en algunas zonas."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Consultar zonas a evitar antes de viajar."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "costumbres",
+                  "respuesta": "Informarse sobre leyes locales importantes."
+                },
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar códigos de vestimenta, especialmente en lugares religiosos."
+                },
+                {
+                  "pregunta": "idioma",
+                  "respuesta": "Investigar costumbres locales para evitar malentendidos."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "contactos",
+                  "respuesta": "Emergencias: Consultar número local (generalmente 112)."
+                },
+                {
+                  "pregunta": "medicos",
+                  "respuesta": "Consultar embajada o consulado de tu país en Singapur."
+                },
+                {
+                  "pregunta": "robos",
+                  "respuesta": "Aprender frases básicas: hola, gracias, ayuda, policía."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "África",
+      "countries": [
+        {
+          "name": "Marruecos",
+          "description": "Medinas que huelen a especias, desiertos dorados y ciudades donde la artesanía y la tradición siguen vivas en cada rincón.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1539020140153-e479b8c22e70?q=80&w=1742&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Marruecos"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "2"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado hasta 90 días para muchos países."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "Hepatitis A recomendada."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Dírham (MAD)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Cuidado con estafas en zocos."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado hasta 90 días para muchos países."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Consultar recomendaciones sanitarias. Seguro médico recomendado."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro de viaje muy recomendado con cobertura médica amplia."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Moneda: Dírham (MAD). Informarse sobre cambio."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Adaptar al clima y actividades. Consultar estación del año."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Precaución con estafas típicas a turistas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Informarse sobre opciones de transporte locales."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Precaución con agua y alimentos en algunas zonas."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Consultar zonas a evitar antes de viajar."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "costumbres",
+                  "respuesta": "Informarse sobre leyes locales importantes."
+                },
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar códigos de vestimenta, especialmente en lugares religiosos."
+                },
+                {
+                  "pregunta": "idioma",
+                  "respuesta": "Investigar costumbres locales para evitar malentendidos."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "contactos",
+                  "respuesta": "Emergencias: Consultar número local (generalmente 112)."
+                },
+                {
+                  "pregunta": "medicos",
+                  "respuesta": "Consultar embajada o consulado de tu país en Marruecos."
+                },
+                {
+                  "pregunta": "robos",
+                  "respuesta": "Aprender frases básicas: hola, gracias, ayuda, policía."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Sudáfrica",
+          "description": "Paisajes costeros espectaculares, fauna salvaje y ciudades vibrantes que fusionan culturas y naturaleza.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1484318571209-661cf29a69c3?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Sudáfrica"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "3"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado hasta 90 días para muchos países."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "Fiebre amarilla si vienes de zona endémica."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Rand (ZAR)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Alta criminalidad en algunas zonas. Precaución."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado hasta 90 días para muchos países."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Consultar recomendaciones sanitarias. Seguro médico recomendado."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro de viaje muy recomendado con cobertura médica amplia."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Moneda: Rand (ZAR). Informarse sobre cambio."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Adaptar al clima y actividades. Consultar estación del año."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Precaución con estafas típicas a turistas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Informarse sobre opciones de transporte locales."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Precaución con agua y alimentos en algunas zonas."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Consultar zonas a evitar antes de viajar."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "costumbres",
+                  "respuesta": "Informarse sobre leyes locales importantes."
+                },
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar códigos de vestimenta, especialmente en lugares religiosos."
+                },
+                {
+                  "pregunta": "idioma",
+                  "respuesta": "Investigar costumbres locales para evitar malentendidos."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "contactos",
+                  "respuesta": "Emergencias: Consultar número local (generalmente 112)."
+                },
+                {
+                  "pregunta": "medicos",
+                  "respuesta": "Consultar embajada o consulado de tu país en Sudáfrica."
+                },
+                {
+                  "pregunta": "robos",
+                  "respuesta": "Aprender frases básicas: hola, gracias, ayuda, policía."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Oceanía",
+      "countries": [
+        {
+          "name": "Australia",
+          "description": "Playas infinitas, naturaleza salvaje y metrópolis rodeadas de mar que crean un estilo de vida relajado y luminoso.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?q=80&w=2730&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Australia"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "1"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "ETA o visado electrónico obligatorio."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Dólar australiano (AUD)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Fauna peligrosa. Respetar naturaleza."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "ETA o visado electrónico obligatorio."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Consultar recomendaciones sanitarias. Seguro médico recomendado."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro de viaje muy recomendado con cobertura médica amplia."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Moneda: Dólar australiano (AUD). Informarse sobre cambio."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Adaptar al clima y actividades. Consultar estación del año."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Precaución con estafas típicas a turistas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Informarse sobre opciones de transporte locales."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Precaución con agua y alimentos en algunas zonas."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Consultar zonas a evitar antes de viajar."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "costumbres",
+                  "respuesta": "Informarse sobre leyes locales importantes."
+                },
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar códigos de vestimenta, especialmente en lugares religiosos."
+                },
+                {
+                  "pregunta": "idioma",
+                  "respuesta": "Investigar costumbres locales para evitar malentendidos."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "contactos",
+                  "respuesta": "Emergencias: Consultar número local (generalmente 112)."
+                },
+                {
+                  "pregunta": "medicos",
+                  "respuesta": "Consultar embajada o consulado de tu país en Australia."
+                },
+                {
+                  "pregunta": "robos",
+                  "respuesta": "Aprender frases básicas: hola, gracias, ayuda, policía."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Nueva Zelanda",
+          "description": "Montañas cinematográficas, lagos intensos y pueblos tranquilos en un país hecho para la aventura y la contemplación.",
+          "banner": {
+            "image": "https://plus.unsplash.com/premium_photo-1661962302792-4b05d3e08513?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Nueva Zelanda"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "1"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "NZeTA obligatorio."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Dólar neozelandés (NZD)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Sin alertas. País muy seguro."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "NZeTA obligatorio."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Consultar recomendaciones sanitarias. Seguro médico recomendado."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro de viaje muy recomendado con cobertura médica amplia."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Moneda: Dólar neozelandés (NZD). Informarse sobre cambio."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Adaptar al clima y actividades. Consultar estación del año."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Precaución con estafas típicas a turistas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Informarse sobre opciones de transporte locales."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Precaución con agua y alimentos en algunas zonas."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Consultar zonas a evitar antes de viajar."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "costumbres",
+                  "respuesta": "Informarse sobre leyes locales importantes."
+                },
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar códigos de vestimenta, especialmente en lugares religiosos."
+                },
+                {
+                  "pregunta": "idioma",
+                  "respuesta": "Investigar costumbres locales para evitar malentendidos."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "contactos",
+                  "respuesta": "Emergencias: Consultar número local (generalmente 112)."
+                },
+                {
+                  "pregunta": "medicos",
+                  "respuesta": "Consultar embajada o consulado de tu país en Nueva Zelanda."
+                },
+                {
+                  "pregunta": "robos",
+                  "respuesta": "Aprender frases básicas: hola, gracias, ayuda, policía."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "América del Norte",
+      "countries": [
+        {
+          "name": "Canadá",
+          "description": "Inmensos bosques, ciudades elegantes y parques naturales donde el paisaje cambia con las estaciones.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=1622&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Canadá"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "1"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "eTA obligatorio para viajes en avión."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Dólar canadiense (CAD)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Sin alertas. País muy seguro."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "eTA obligatorio para viajes en avión."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Consultar recomendaciones sanitarias. Seguro médico recomendado."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro de viaje muy recomendado con cobertura médica amplia."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Moneda: Dólar canadiense (CAD). Informarse sobre cambio."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Adaptar al clima y actividades. Consultar estación del año."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Precaución con estafas típicas a turistas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Informarse sobre opciones de transporte locales."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Precaución con agua y alimentos en algunas zonas."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Consultar zonas a evitar antes de viajar."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "costumbres",
+                  "respuesta": "Informarse sobre leyes locales importantes."
+                },
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar códigos de vestimenta, especialmente en lugares religiosos."
+                },
+                {
+                  "pregunta": "idioma",
+                  "respuesta": "Investigar costumbres locales para evitar malentendidos."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "contactos",
+                  "respuesta": "Emergencias: Consultar número local (generalmente 112)."
+                },
+                {
+                  "pregunta": "medicos",
+                  "respuesta": "Consultar embajada o consulado de tu país en Canadá."
+                },
+                {
+                  "pregunta": "robos",
+                  "respuesta": "Aprender frases básicas: hola, gracias, ayuda, policía."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Cuba",
+          "description": "Colores coloniales, música constante y una calidez humana que impregna calles, plazas y paseos costeros.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1536686598161-1b946fd6dfcf?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Cuba"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "2"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "Tarjeta de turista obligatoria."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Peso cubano (CUP)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Escasez de productos. Llevar efectivo."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "Tarjeta de turista obligatoria."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Consultar recomendaciones sanitarias. Seguro médico recomendado."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro de viaje muy recomendado con cobertura médica amplia."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Moneda: Peso cubano (CUP). Informarse sobre cambio."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Adaptar al clima y actividades. Consultar estación del año."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Precaución con estafas típicas a turistas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Informarse sobre opciones de transporte locales."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Precaución con agua y alimentos en algunas zonas."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Consultar zonas a evitar antes de viajar."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "costumbres",
+                  "respuesta": "Informarse sobre leyes locales importantes."
+                },
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar códigos de vestimenta, especialmente en lugares religiosos."
+                },
+                {
+                  "pregunta": "idioma",
+                  "respuesta": "Investigar costumbres locales para evitar malentendidos."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "contactos",
+                  "respuesta": "Emergencias: Consultar número local (generalmente 112)."
+                },
+                {
+                  "pregunta": "medicos",
+                  "respuesta": "Consultar embajada o consulado de tu país en Cuba."
+                },
+                {
+                  "pregunta": "robos",
+                  "respuesta": "Aprender frases básicas: hola, gracias, ayuda, policía."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Estados Unidos",
+          "description": "Diversidad total: grandes ciudades icónicas, parques nacionales monumentales y culturas que conviven en continuo movimiento.",
+          "banner": {
+            "image": "https://plus.unsplash.com/premium_photo-1694475364942-b755ad751a40?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Estados Unidos"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "2"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "ESTA obligatorio para países del VWP."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Dólar (USD)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Seguro médico imprescindible. Sanidad muy cara."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "ESTA obligatorio para países del VWP."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Consultar recomendaciones sanitarias. Seguro médico recomendado."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro de viaje muy recomendado con cobertura médica amplia."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Moneda: Dólar (USD). Informarse sobre cambio."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Adaptar al clima y actividades. Consultar estación del año."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Precaución con estafas típicas a turistas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Informarse sobre opciones de transporte locales."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Precaución con agua y alimentos en algunas zonas."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Consultar zonas a evitar antes de viajar."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "costumbres",
+                  "respuesta": "Informarse sobre leyes locales importantes."
+                },
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar códigos de vestimenta, especialmente en lugares religiosos."
+                },
+                {
+                  "pregunta": "idioma",
+                  "respuesta": "Investigar costumbres locales para evitar malentendidos."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "contactos",
+                  "respuesta": "Emergencias: Consultar número local (generalmente 112)."
+                },
+                {
+                  "pregunta": "medicos",
+                  "respuesta": "Consultar embajada o consulado de tu país en Estados Unidos."
+                },
+                {
+                  "pregunta": "robos",
+                  "respuesta": "Aprender frases básicas: hola, gracias, ayuda, policía."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "México",
+          "description": "Herencia indígena y colonial, gastronomía vibrante y ciudades llenas de color rodeadas de volcanes y paisajes históricos.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1647220499997-ae2a94540ed6?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Mexico"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "3"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado hasta 180 días para muchos países."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "Hepatitis A recomendada."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Peso mexicano (MXN)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Evitar ciertas zonas por violencia."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado hasta 180 días para muchos países."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Consultar recomendaciones sanitarias. Seguro médico recomendado."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro de viaje muy recomendado con cobertura médica amplia."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Moneda: Peso mexicano (MXN). Informarse sobre cambio."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Adaptar al clima y actividades. Consultar estación del año."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Precaución con estafas típicas a turistas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Informarse sobre opciones de transporte locales."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Precaución con agua y alimentos en algunas zonas."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Consultar zonas a evitar antes de viajar."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "costumbres",
+                  "respuesta": "Informarse sobre leyes locales importantes."
+                },
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar códigos de vestimenta, especialmente en lugares religiosos."
+                },
+                {
+                  "pregunta": "idioma",
+                  "respuesta": "Investigar costumbres locales para evitar malentendidos."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "contactos",
+                  "respuesta": "Emergencias: Consultar número local (generalmente 112)."
+                },
+                {
+                  "pregunta": "medicos",
+                  "respuesta": "Consultar embajada o consulado de tu país en México."
+                },
+                {
+                  "pregunta": "robos",
+                  "respuesta": "Aprender frases básicas: hola, gracias, ayuda, policía."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "América del Sur",
+      "countries": [
+        {
+          "name": "Argentina",
+          "description": "Desde glaciares australes hasta barrios bohemios, el país combina naturaleza extrema y una identidad cultural apasionada.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1612294037637-ec328d0e075e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Argentina"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "2"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado hasta 90 días para muchos países."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "No obligatorias."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Peso argentino (ARS)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Inflación alta. Llevar dólares en efectivo."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado hasta 90 días para muchos países."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Consultar recomendaciones sanitarias. Seguro médico recomendado."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro de viaje muy recomendado con cobertura médica amplia."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Moneda: Peso argentino (ARS). Informarse sobre cambio."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Adaptar al clima y actividades. Consultar estación del año."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Precaución con estafas típicas a turistas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Informarse sobre opciones de transporte locales."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Precaución con agua y alimentos en algunas zonas."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Consultar zonas a evitar antes de viajar."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "costumbres",
+                  "respuesta": "Informarse sobre leyes locales importantes."
+                },
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar códigos de vestimenta, especialmente en lugares religiosos."
+                },
+                {
+                  "pregunta": "idioma",
+                  "respuesta": "Investigar costumbres locales para evitar malentendidos."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "contactos",
+                  "respuesta": "Emergencias: Consultar número local (generalmente 112)."
+                },
+                {
+                  "pregunta": "medicos",
+                  "respuesta": "Consultar embajada o consulado de tu país en Argentina."
+                },
+                {
+                  "pregunta": "robos",
+                  "respuesta": "Aprender frases básicas: hola, gracias, ayuda, policía."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Brasil",
+          "description": "Música, playas y selva se unen en un país lleno de ritmo, energía y paisajes tan vastos como variados.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?q=80&w=1826&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Brasil"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "3"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado hasta 90 días para muchos países."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "Fiebre amarilla recomendada."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Real (BRL)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Alta criminalidad en grandes ciudades."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado hasta 90 días para muchos países."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Consultar recomendaciones sanitarias. Seguro médico recomendado."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro de viaje muy recomendado con cobertura médica amplia."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Moneda: Real (BRL). Informarse sobre cambio."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Adaptar al clima y actividades. Consultar estación del año."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Precaución con estafas típicas a turistas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Informarse sobre opciones de transporte locales."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Precaución con agua y alimentos en algunas zonas."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Consultar zonas a evitar antes de viajar."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "costumbres",
+                  "respuesta": "Informarse sobre leyes locales importantes."
+                },
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar códigos de vestimenta, especialmente en lugares religiosos."
+                },
+                {
+                  "pregunta": "idioma",
+                  "respuesta": "Investigar costumbres locales para evitar malentendidos."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "contactos",
+                  "respuesta": "Emergencias: Consultar número local (generalmente 112)."
+                },
+                {
+                  "pregunta": "medicos",
+                  "respuesta": "Consultar embajada o consulado de tu país en Brasil."
+                },
+                {
+                  "pregunta": "robos",
+                  "respuesta": "Aprender frases básicas: hola, gracias, ayuda, policía."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Colombia",
+          "description": "Ciudades coloniales, selvas tropicales y una alegría contagiosa que define su cultura y su gente.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1536308037887-165852797016?q=80&w=1652&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Colombia"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "3"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado hasta 90 días para muchos países."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "Fiebre amarilla recomendada."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Peso colombiano (COP)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Evitar zonas rurales conflictivas."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado hasta 90 días para muchos países."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Consultar recomendaciones sanitarias. Seguro médico recomendado."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro de viaje muy recomendado con cobertura médica amplia."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Moneda: Peso colombiano (COP). Informarse sobre cambio."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Adaptar al clima y actividades. Consultar estación del año."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Precaución con estafas típicas a turistas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Informarse sobre opciones de transporte locales."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Precaución con agua y alimentos en algunas zonas."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Consultar zonas a evitar antes de viajar."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "costumbres",
+                  "respuesta": "Informarse sobre leyes locales importantes."
+                },
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar códigos de vestimenta, especialmente en lugares religiosos."
+                },
+                {
+                  "pregunta": "idioma",
+                  "respuesta": "Investigar costumbres locales para evitar malentendidos."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "contactos",
+                  "respuesta": "Emergencias: Consultar número local (generalmente 112)."
+                },
+                {
+                  "pregunta": "medicos",
+                  "respuesta": "Consultar embajada o consulado de tu país en Colombia."
+                },
+                {
+                  "pregunta": "robos",
+                  "respuesta": "Aprender frases básicas: hola, gracias, ayuda, policía."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Ecuador",
+          "description": "Cordilleras andinas, ciudades históricas y una biodiversidad que convierte cada región en un mundo distinto.",
+          "banner": {
+            "image": "https://images.unsplash.com/photo-1610226977124-9fd2755d09f2?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Ecuador"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "2"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado hasta 90 días para muchos países."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "Fiebre amarilla si vas a la Amazonía."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Dólar (USD)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Precaución en Guayaquil."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado hasta 90 días para muchos países."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Consultar recomendaciones sanitarias. Seguro médico recomendado."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro de viaje muy recomendado con cobertura médica amplia."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Moneda: Dólar (USD). Informarse sobre cambio."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Adaptar al clima y actividades. Consultar estación del año."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Precaución con estafas típicas a turistas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Informarse sobre opciones de transporte locales."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Precaución con agua y alimentos en algunas zonas."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Consultar zonas a evitar antes de viajar."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "costumbres",
+                  "respuesta": "Informarse sobre leyes locales importantes."
+                },
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar códigos de vestimenta, especialmente en lugares religiosos."
+                },
+                {
+                  "pregunta": "idioma",
+                  "respuesta": "Investigar costumbres locales para evitar malentendidos."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "contactos",
+                  "respuesta": "Emergencias: Consultar número local (generalmente 112)."
+                },
+                {
+                  "pregunta": "medicos",
+                  "respuesta": "Consultar embajada o consulado de tu país en Ecuador."
+                },
+                {
+                  "pregunta": "robos",
+                  "respuesta": "Aprender frases básicas: hola, gracias, ayuda, policía."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Perú",
+          "description": "Historia milenaria, montañas sagradas y una de las gastronomías más ricas del planeta, todo en un territorio fascinante.",
+          "banner": {
+            "image": "https://plus.unsplash.com/premium_photo-1733342523406-43ad5578305e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "alt": "Perú"
+          },
+          "secciones": {
+            "sec0": {
+              "titulo": "Resumen",
+              "items": [
+                {
+                  "pregunta": "riesgo",
+                  "respuesta": "2"
+                },
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado hasta 183 días para muchos países."
+                },
+                {
+                  "pregunta": "vacunas",
+                  "respuesta": "Fiebre amarilla si vas a la selva."
+                },
+                {
+                  "pregunta": "moneda",
+                  "respuesta": "Sol (PEN)"
+                },
+                {
+                  "pregunta": "alerta",
+                  "respuesta": "Mal de altura en zonas andinas."
+                }
+              ]
+            },
+            "sec1": {
+              "titulo": "Antes de Viajar",
+              "items": [
+                {
+                  "pregunta": "visado",
+                  "respuesta": "No requiere visado hasta 183 días para muchos países."
+                },
+                {
+                  "pregunta": "salud",
+                  "respuesta": "Consultar recomendaciones sanitarias. Seguro médico recomendado."
+                },
+                {
+                  "pregunta": "seguros",
+                  "respuesta": "Seguro de viaje muy recomendado con cobertura médica amplia."
+                },
+                {
+                  "pregunta": "dinero",
+                  "respuesta": "Moneda: Sol (PEN). Informarse sobre cambio."
+                },
+                {
+                  "pregunta": "equipaje",
+                  "respuesta": "Adaptar al clima y actividades. Consultar estación del año."
+                }
+              ]
+            },
+            "sec2": {
+              "titulo": "Seguridad Diaria",
+              "items": [
+                {
+                  "pregunta": "estafas",
+                  "respuesta": "Precaución con estafas típicas a turistas."
+                },
+                {
+                  "pregunta": "transportes",
+                  "respuesta": "Informarse sobre opciones de transporte locales."
+                },
+                {
+                  "pregunta": "comida",
+                  "respuesta": "Precaución con agua y alimentos en algunas zonas."
+                },
+                {
+                  "pregunta": "peligro",
+                  "respuesta": "Consultar zonas a evitar antes de viajar."
+                }
+              ]
+            },
+            "sec3": {
+              "titulo": "Cultura y Leyes",
+              "items": [
+                {
+                  "pregunta": "costumbres",
+                  "respuesta": "Informarse sobre leyes locales importantes."
+                },
+                {
+                  "pregunta": "leyes",
+                  "respuesta": "Respetar códigos de vestimenta, especialmente en lugares religiosos."
+                },
+                {
+                  "pregunta": "idioma",
+                  "respuesta": "Investigar costumbres locales para evitar malentendidos."
+                }
+              ]
+            },
+            "sec4": {
+              "titulo": "Emergencia",
+              "items": [
+                {
+                  "pregunta": "contactos",
+                  "respuesta": "Emergencias: Consultar número local (generalmente 112)."
+                },
+                {
+                  "pregunta": "medicos",
+                  "respuesta": "Consultar embajada o consulado de tu país en Perú."
+                },
+                {
+                  "pregunta": "robos",
+                  "respuesta": "Aprender frases básicas: hola, gracias, ayuda, policía."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

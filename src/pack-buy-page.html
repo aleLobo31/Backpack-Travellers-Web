@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar Pack - Aventuras</title>
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="style/pack-buy-styles.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav class="nav">
+
+            <!-- IZQUIERDA: LOGO + MENÚ -->
+            <div class="nav-left">
+                <div class="logo">
+                    <img src="../assets/images/logo.png" alt="webLogo">
+                </div>
+                
+                <ul class="nav-menu">
+                    <li><a href="main-page.html" data-i18n="nav.home">Home</a></li>
+                    <li><a href="main-page.html#continentes" data-i18n="nav.continents">Continentes</a></li>
+                    <li><a href="forum-page.html" data-i18n="nav.forum">Foro</a></li>
+                    <li><a href="footer-sites.html?section=quienes-somos" data-i18n="nav.about">¿Quiénes somos?</a></li>
+                </ul>
+            </div>
+
+            <!-- DERECHA: ICONOS Y BOTONES -->
+            <div class="nav-right">
+                <div class="language-wrapper">
+                    <button class="icon-btn" id="language-btn">🌐︎</button>
+                    <div id="language-menu" class="language-menu">
+                        <button data-lang="es">🇪🇸 Español</button>
+                        <button data-lang="en">🇬🇧 English</button>
+                    </div>
+                </div>
+                <!-- Zona auth dinámica -->
+                <div class="user-area" id="user-area">
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="pack-buy-main">
+        <div class="pack-buy-container">
+            
+            <div class="pack-buy-left">
+                <div class="pack-card">
+                    <div class="pack-header">
+                        <span class="pack-name">Pack x: ciudad</span>
+                        <span class="pack-price">Precio</span>
+                    </div>
+                    <div class="pack-image">
+                        <img src="" alt="Imagen del pack">
+                    </div>
+                    <div class="pack-lema">
+                        <p>Lema ciudad</p>
+                    </div>
+                </div>
+
+                <div class="calendar-container">
+                    <div class="calendar-header">
+                        <button class="calendar-nav" id="prev-month">&lt;</button>
+                        <span class="calendar-month" id="calendar-month">Junio</span>
+                        <button class="calendar-nav" id="next-month">&gt;</button>
+                    </div>
+                    <table class="calendar-table">
+                        <thead>
+                            <tr><th>L</th><th>M</th><th>X</th><th>J</th><th>V</th><th>S</th><th>D</th></tr>
+                        </thead>
+                        <tbody id="calendar-body">
+                            </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="pack-buy-right">
+                <h1>Formulario de compra</h1>
+                
+                <form class="purchase-form" id="purchase-form">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Correo electrónico</label>
+                        <input type="email" id="correo" name="correo">
+                    </div>
+                    <div class="form-group">
+                        <label for="tipo-tarjeta">Tipo de tarjeta</label>
+                        <select id="tipo-tarjeta" name="tipo-tarjeta">
+                            <option value="">Seleccionar...</option>
+                            <option value="visa">Visa</option>
+                            <option value="mastercard">Mastercard</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="numero-tarjeta">Número de tarjeta</label>
+                        <input type="text" id="numero-tarjeta" name="numero-tarjeta" maxlength="19" placeholder="0000 0000 0000 0000">
+                    </div>
+                    <div class="form-group">
+                        <label for="titular">Nombre del titular</label>
+                        <input type="text" id="titular" name="titular">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="expiracion">Fecha expiración</label>
+                            <input type="date" id="expiracion" name="expiracion">
+                        </div>
+                        <div class="form-group">
+                            <label for="cvv">CVV</label>
+                            <input type="text" id="cvv" name="cvv" maxlength="3">
+                        </div>
+                    </div>
+
+                    <div class="extras-link-container">
+                        <a href="#extras-section" class="btn-scroll-down">
+                            ¿Añadir acompañantes, mascotas o alergias? ↓
+                        </a>
+                    </div>
+
+                    <div class="form-buttons">
+                        <button type="submit" class="btn-comprar">Comprar</button>
+                        <button type="reset" class="btn-borrar">Borrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="extras-section"> 
+            
+            <div class="companions-section">
+                <h2>Acompañantes y mascotas</h2>
+                <div class="companions-form">
+                    <h3 class="section-subtitle">Acompañantes</h3>
+                    <div id="companions-list" class="companions-list"></div>
+                    <div class="add-btn-container">
+                        <button type="button" class="btn-add" id="add-companion">Añadir acompañante <span>+</span></button>
+                    </div>
+
+                    <h3 class="section-subtitle">Mascotas</h3>
+                    <div id="pets-list" class="pets-list"></div>
+                    <div class="add-btn-container">
+                        <button type="button" class="btn-add" id="add-pet">Añadir mascota <span>+</span></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="allergies-section">
+                <label class="allergy-checkbox" for="has-allergies">
+                    <input type="checkbox" id="has-allergies" name="has-allergies">
+                    <span class="checkmark"></span>
+                    ¿Tiene alergias?
+                </label>
+                <label for="allergies-input" class="allergies-label">Especifique:</label>
+                <input type="text" id="allergies-input" name="allergies" disabled>
+            </div>
+
+        </div> 
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+
+            <!-- IZQUIERDA -->
+            <div class="footer-left">
+                <p>Camino de Ulises © 2025</p>
+            </div>
+
+            <!-- CENTRO -->
+            <nav class="footer-center">
+                <a href="footer-sites.html?section=quienes-somos">¿Quiénes somos?</a>
+                <a href="footer-sites.html?section=privacidad">Política de privacidad</a>
+                <a href="footer-sites.html?section=faq">FAQs</a>
+                <a href="footer-sites.html?section=contacto">Contacto</a>
+            </nav>
+
+
+            <!-- DERECHA -->
+            <div class="footer-right">
+                <a href="#" aria-label="Instagram">
+                    <img src="../assets/icons/instagram.svg" alt="Instagram">
+                </a>
+                <a href="#" aria-label="TikTok">
+                    <img src="../assets/icons/tiktok.svg" alt="TikTok">
+                </a>
+                <a href="#" aria-label="X">
+                    <img src="../assets/icons/x.svg" alt="X">
+                </a>
+                <a href="#" aria-label="YouTube">
+                    <img src="../assets/icons/youtube.svg" alt="YouTube">
+                </a>
+        </div>
+    </footer>
+    <!-- MODAL SIMPLE (1 botón) -->
+    <div id="modal-info" class="modal">
+        <div class="modal-contenido">
+            <p id="modal-info-texto"></p>
+            <button id="modal-info-ok" class="modal-btn primary">Aceptar</button>
+        </div>
+    </div>
+
+    <!-- MODAL CONFIRMACIÓN (2 botones) -->
+    <div id="modal-confirm" class="modal">
+        <div class="modal-contenido">
+            <p id="modal-confirm-texto"></p>
+            <div class="modal-actions">
+                <button id="modal-confirm-cancel" class="modal-btn secondary">Cancelar</button>
+                <button id="modal-confirm-ok" class="modal-btn primary">Aceptar</button>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/header-auth.js"></script>
+    <script src="scripts/pack-buy-page.js"></script>
+</body>

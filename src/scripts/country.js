@@ -112,7 +112,7 @@ function createCityCard(city) {
     </div>
 
     <div class="city-info">
-      <h3 class="city-name">${city.name}</h3>
+      <h2 class="city-name">${city.name}</h2>
 
       <p class="city-description">${city.description}</p>
 
@@ -139,6 +139,8 @@ function setupSecurityButton(country) {
   const btn = document.getElementById("safety-button");
 
   btn.addEventListener("click", () => {
-    window.location.href = `security.html?country=${encodeURIComponent(country.name)}`;
+    // CORRECCIÓN: Asegúrate de que el nombre del archivo HTML es correcto.
+    // He puesto "security-page.html" porque así parece llamarse tu archivo.
+    window.location.href = `security-page.html?country=${encodeURIComponent(country.name)}`;
   });
 }

@@ -2,7 +2,7 @@
  *  PÁGINA FOOTER-SITES — SIN FONDO GLOBAL
  *******************************************/
 .footer-site-main {
-    background: #fffaf5; /* mismo fondo que la home */
+    background: #fffaf5; /* crema limpio, sin gris */
     padding-bottom: 40px;
 }
 
@@ -13,7 +13,6 @@
     width: 100%;
     height: 260px;
 
-    /* La imagen de fondo se reemplaza por JS */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,21 +25,19 @@
     border-bottom: 1px solid #d7c9b8;
 }
 
-/* Caja del título dentro del banner */
+
 .banner-title-box {
-    background: rgba(255, 248, 235, 0.55);   /* crema translúcido */
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
+    background: rgba(255, 250, 240, 0.82); 
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
 
-    padding: 18px 26px;
-    border-radius: 14px;
+    padding: 20px 28px;
+    border-radius: 16px;
 
-    border: 1px solid rgba(162, 106, 51, 0.65);
+    border: 1px solid rgba(162, 106, 51, 0.55);
 
-    /* Oscurecido suave alrededor + sombra */
     box-shadow:
-        0 0 0 2000px rgba(0, 0, 0, 0.12),
-        0 4px 12px rgba(58, 47, 34, 0.25);
+        0 6px 18px rgba(58, 47, 34, 0.28);
 
     max-width: 520px;
 }
@@ -52,7 +49,7 @@
     color: #2b2218;
     margin: 0;
 
-    text-shadow: 0 2px 4px rgba(255, 255, 255, 0.35);
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.4);
 }
 
 /*******************************************
@@ -66,37 +63,52 @@
 
 /* Caja del contenido dinámico */
 #footer-dynamic-content {
-    background: none;
-    border: none;
-    padding: 0;
+    background: #fffdf9;                
+    border: 1px solid #e1d6c8;
+    border-radius: 18px;
+    padding: 36px 40px;
 
     color: #3a2f22;
-    font-size: 16px;
-    line-height: 1.65;
+    font-size: 17px;
+    line-height: 1.75;
+
+    box-shadow: 0 6px 18px rgba(58, 47, 34, 0.08);
 }
 
+/* Títulos principales */
 #footer-dynamic-content h2 {
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: 800;
     color: #3a2f22;
+    margin-top: 36px;
+    margin-bottom: 12px;
+    letter-spacing: 0.3px;
+}
+
+/* Subtítulos */
+#footer-dynamic-content h3 {
+    font-size: 19px;
+    font-weight: 600;
+    color: #6c5b4a;
     margin-top: 24px;
     margin-bottom: 8px;
 }
 
-#footer-dynamic-content h3 {
-    font-size: 18px;
-    color: #6c5b4a;
-    margin-top: 18px;
-    margin-bottom: 6px;
-}
-
+/* Párrafos */
 #footer-dynamic-content p {
-    margin-bottom: 12px;
+    margin-bottom: 16px;
 }
 
+/* Listas */
 #footer-dynamic-content ul {
-    margin: 10px 0 20px 20px;
+    margin: 14px 0 24px 22px;
+    padding-left: 1.2rem;
 }
 
 #footer-dynamic-content li {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
+}
+
+#footer-dynamic-content ul li::marker {
+    color: #a26a33; 
 }
