@@ -451,7 +451,11 @@
     position: relative;
     display: flex;
     align-items: center;
+    gap: 8px;
     cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    color: #3f2f1e;
 }
 
 .allergy-checkbox input {
@@ -459,6 +463,13 @@
     height: 24px;
     cursor: pointer;
     accent-color: #a26a33;
+}
+
+.allergies-label {
+    font-size: 15px;
+    font-weight: 500;
+    color: #6c5b4a;
+    white-space: nowrap;
 }
 
 .allergies-section input[type="text"] {

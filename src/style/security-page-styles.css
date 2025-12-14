@@ -21,19 +21,20 @@ ul, ol {
 }
 
 .sec-breadcrumbs a {
-    color: #a26a33;
-    font-size: 14px;
-    font-weight: 400;
+    color: #5a4a3a;
+    font-size: 18px;
+    font-weight: 500;
     transition: color 0.2s ease;
 }
 
 .sec-breadcrumbs a:hover {
-    color: #6c5b4a;
+    color: #3f2f1e;
 }
 
 .sec-breadcrumbs p {
-    color: #d7c9b8;
-    font-size: 14px;
+    color: #5a4a3a;
+    font-size: 18px;
+    font-weight: 500;
     user-select: none;
 }
 

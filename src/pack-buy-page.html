@@ -162,11 +162,13 @@
 
         <!-- SECCIÓN ALERGIAS -->
         <div class="allergies-section">
-            <label class="allergy-checkbox">
+            <label class="allergy-checkbox" for="has-allergies">
                 <input type="checkbox" id="has-allergies" name="has-allergies">
                 <span class="checkmark"></span>
+                ¿Tiene alergias?
             </label>
-            <input type="text" id="allergies-input" name="allergies" placeholder="Indicar alergias" disabled>
+            <label for="allergies-input" class="allergies-label">Especifique:</label>
+            <input type="text" id="allergies-input" name="allergies" disabled>
         </div>
 
     </main>
