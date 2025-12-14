@@ -372,3 +372,94 @@ footer .footer-right a:hover {
     object-fit: cover;
     border: 1px solid #d7c9b8;
 }
+
+/* =====================
+   MOBILE MENU
+===================== */
+.mobile-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    max-width: 320px;
+
+    background: #fffaf5;
+    border-left: 1px solid #d7c9b8;
+    border-bottom: 1px solid #d7c9b8;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: opacity 0.25s ease, transform 0.25s ease;
+
+    z-index: 2000;
+}
+
+.mobile-menu.open {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.mobile-menu-content {
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+/* Separador */
+.mobile-menu hr {
+    width: 100%;
+    border: none;
+    border-top: 2px solid #3f2f1e;
+}
+
+/* Auth */
+.mobile-auth {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    align-items: center;
+}
+
+/* Idiomas */
+.mobile-language {
+    display: flex;
+    gap: 12px;
+}
+
+.mobile-language button {
+    border: 1px solid #d7c9b8;
+    background: #ffffff;
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: 14px;
+}
+
+/* Botón hamburguesa */
+.hamburger-btn {
+    display: none;
+    font-size: 20px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+    /* Mostramos hamburguesa */
+    .hamburger-btn {
+        display: flex;
+    }
+
+    /* Opcional: ocultar selector de idioma fuera del menú */
+    .language-wrapper {
+        display: none;
+    }
+
+    .user-area {
+        display: none;
+    }
+}

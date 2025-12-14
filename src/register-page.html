@@ -28,7 +28,6 @@
 
             <div class="nav-right">
                 <button class="icon-btn">🌐︎</button>
-                <button class="icon-btn">♿︎</button>
             </div>
         </nav>
     </header>
@@ -106,7 +105,7 @@
                     <input type="checkbox" id="privacidad" name="privacidad" required>
 
                     <label for="privacidad">
-                        Acepto la <a href="#" target="_blank">política de privacidad</a>
+                        Acepto la <a href="footer-sites.html?section=privacidad">política de privacidad</a>
                     </label>
                 </div>
 
@@ -122,25 +121,35 @@
     <footer>
         <div class="footer-content">
 
+            <!-- IZQUIERDA -->
             <div class="footer-left">
                 <p>Camino de Ulises © 2025</p>
             </div>
 
+            <!-- CENTRO -->
             <nav class="footer-center">
-                <a href="footer-sites.html?section=quienes-somos">¿Quiénes somos?</a>
-                <a href="footer-sites.html?section=privacidad">Política de privacidad</a>
-                <a href="footer-sites.html?section=faq">FAQs</a>
-                <a href="footer-sites.html?section=contacto">Contacto</a>
+                <a href="footer-sites.html?section=quienes-somos" data-i18n="footer.about">¿Quiénes somos?</a>
+                <a href="footer-sites.html?section=privacidad"data-i18n="footer.privacy">Política de privacidad</a>
+                <a href="footer-sites.html?section=faq"data-i18n="footer.faq">FAQs</a>
+                <a href="footer-sites.html?section=contacto"data-i18n="footer.contact">Contacto</a>
             </nav>
 
 
+            <!-- DERECHA -->
             <div class="footer-right">
-                <a href="#"><img src="../assets/icons/instagram.svg"></a>
-                <a href="#"><img src="../assets/icons/tiktok.svg"></a>
-                <a href="#"><img src="../assets/icons/x.svg"></a>
-                <a href="#"><img src="../assets/icons/youtube.svg"></a>
+                <a href="#" aria-label="Instagram">
+                    <img src="../assets/icons/instagram.svg" alt="Instagram">
+                </a>
+                <a href="#" aria-label="TikTok">
+                    <img src="../assets/icons/tiktok.svg" alt="TikTok">
+                </a>
+                <a href="#" aria-label="X">
+                    <img src="../assets/icons/x.svg" alt="X">
+                </a>
+                <a href="#" aria-label="YouTube">
+                    <img src="../assets/icons/youtube.svg" alt="YouTube">
+                </a>
             </div>
-
         </div>
     </footer>
 

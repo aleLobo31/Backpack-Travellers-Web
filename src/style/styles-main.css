@@ -385,3 +385,105 @@
     filter: brightness(1.05);
     cursor: pointer;
 }
+
+
+/* =========================
+   CARRUSEL – TABLET
+   ≤ 768px
+========================= */
+@media (max-width: 768px) {
+
+    .carousel-section {
+        margin: 12px;
+    }
+
+    .pack-card {
+        width: 85%;
+        height: 230px;
+    }
+
+    .pack-title {
+        font-size: 20px;
+        margin: 16px;
+    }
+
+    .pack-price {
+        top: auto;
+        right: auto;
+        bottom: 16px;
+        left: 16px;
+        font-size: 13px;
+    }
+
+    .pack-buy {
+        font-size: 13px;
+        padding: 6px 14px;
+    }
+
+    .grid-continents {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        max-width: 700px;
+    }
+
+    .continent-card {
+        height: 240px;
+    }
+
+    .card-title {
+        font-size: 30px;
+    }
+}
+
+
+/* =========================
+   CARRUSEL – MÓVIL
+   ≤ 600px
+========================= */
+@media (max-width: 600px) {
+
+    .carousel-section {
+        margin: 12px;
+    }
+
+    .pack-card {
+        width: 92%;
+        height: 200px;
+        border-radius: 14px;
+    }
+
+    .pack-title {
+        font-size: 17px;
+        margin: 12px;
+        padding: 5px 10px;
+    }
+
+    .pack-price {
+        bottom: 14px;
+        left: 14px;
+        font-size: 12px;
+        padding: 3px 8px;
+    }
+
+    .pack-buy {
+        bottom: 12px;
+        right: 12px;
+        font-size: 12px;
+        padding: 5px 12px;
+    }
+
+    .grid-continents {
+        grid-template-columns: 1fr;
+        gap: 18px;
+        max-width: 100%;
+    }
+
+    .continent-card {
+        height: 220px;
+    }
+
+    .card-title {
+        font-size: 34px;
+        padding: 6px 14px;
+    }
+}

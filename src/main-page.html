@@ -30,6 +30,9 @@
 
             <!-- DERECHA: ICONOS Y BOTONES -->
             <div class="nav-right">
+                <button class="icon-btn hamburger-btn" id="hamburger-btn" aria-label="Abrir menú">
+                    ☰
+                </button>
                 <div class="language-wrapper">
                     <button class="icon-btn" id="language-btn">🌐︎</button>
                     <div id="language-menu" class="language-menu">
@@ -43,6 +46,25 @@
             </div>
 
         </nav>
+        <div class="mobile-menu" id="mobile-menu">
+            <div class="mobile-menu-content">
+
+                <!-- AUTH -->
+                <div class="mobile-auth" id="mobile-auth">
+                    <!-- aquí se clona login / register o user -->
+                </div>
+
+                <hr>
+
+                <!-- IDIOMA -->
+                <div class="mobile-language">
+                    <button data-lang="es">🇪🇸 Español</button>
+                    <button data-lang="en">🇬🇧 English</button>
+                </div>
+
+            </div>
+        </div>
+
     </header>
 
     <!-- CONTENIDO PRINCIPAL -->
@@ -138,34 +160,35 @@
     <footer>
         <div class="footer-content">
 
-        <!-- IZQUIERDA -->
-        <div class="footer-left">
-            <p>Camino de Ulises © 2025</p>
-        </div>
+            <!-- IZQUIERDA -->
+            <div class="footer-left">
+                <p>Camino de Ulises © 2025</p>
+            </div>
 
-        <!-- CENTRO -->
-        <nav class="footer-center">
-            <a href="footer-sites.html?section=quienes-somos" data-i18n="footer.about">¿Quiénes somos?</a>
-            <a href="footer-sites.html?section=privacidad"data-i18n="footer.privacy">Política de privacidad</a>
-            <a href="footer-sites.html?section=faq"data-i18n="footer.faq">FAQs</a>
-            <a href="footer-sites.html?section=contacto"data-i18n="footer.contact">Contacto</a>
-        </nav>
+            <!-- CENTRO -->
+            <nav class="footer-center">
+                <a href="footer-sites.html?section=quienes-somos" data-i18n="footer.about">¿Quiénes somos?</a>
+                <a href="footer-sites.html?section=privacidad"data-i18n="footer.privacy">Política de privacidad</a>
+                <a href="footer-sites.html?section=faq"data-i18n="footer.faq">FAQs</a>
+                <a href="footer-sites.html?section=contacto"data-i18n="footer.contact">Contacto</a>
+            </nav>
 
 
-        <!-- DERECHA -->
-        <div class="footer-right">
-            <a href="#" aria-label="Instagram">
-                <img src="../assets/icons/instagram.svg" alt="Instagram">
-            </a>
-            <a href="#" aria-label="TikTok">
-                <img src="../assets/icons/tiktok.svg" alt="TikTok">
-            </a>
-            <a href="#" aria-label="X">
-                <img src="../assets/icons/x.svg" alt="X">
-            </a>
-            <a href="#" aria-label="YouTube">
-                <img src="../assets/icons/youtube.svg" alt="YouTube">
-            </a>
+            <!-- DERECHA -->
+            <div class="footer-right">
+                <a href="#" aria-label="Instagram">
+                    <img src="../assets/icons/instagram.svg" alt="Instagram">
+                </a>
+                <a href="#" aria-label="TikTok">
+                    <img src="../assets/icons/tiktok.svg" alt="TikTok">
+                </a>
+                <a href="#" aria-label="X">
+                    <img src="../assets/icons/x.svg" alt="X">
+                </a>
+                <a href="#" aria-label="YouTube">
+                    <img src="../assets/icons/youtube.svg" alt="YouTube">
+                </a>
+            </div>
         </div>
     </footer>
     <!-- MODAL SIMPLE (1 botón) -->
