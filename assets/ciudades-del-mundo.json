@@ -110,7 +110,7 @@
               "name": "Liubliana",
               "description": "Capital pequeña y escénica, con casco peatonal, cafés junto al río y el castillo en lo alto. Base ideal para excursiones al lago Bled y los Alpes Julianos.",
               "description_extended": "Liubliana es una capital íntima que combina modernidad, historia y naturaleza. El río Ljubljanica atraviesa el centro, rodeado de terrazas, librerías y mercados donde la vida fluye con tranquilidad. El castillo domina la ciudad desde lo alto, ofreciendo vistas hacia tejados coloridos y colinas verdes. La arquitectura del reconocido Jože Plečnik otorga una personalidad única a puentes, plazas y edificios. La ciudad es, además, una de las más sostenibles de Europa: peatones y bicicletas reinan en el casco antiguo. Su ubicación estratégica permite acceder a lagos, montañas y cuevas espectaculares en menos de una hora.",
-              "footer": "Liubliana, pequeña en tamaño, grande en encanto.",
+              "footer": "Liubliana, grande en encanto.",
               "motto": "La joya verde de Europa",
               "banner": {
                 "image": "https://images.unsplash.com/photo-1716831313996-307f651b18c6?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -1030,7 +1030,7 @@
               "name": "Ciudad del Cabo",
               "description": "Table Mountain, playas con pingüinos y barrios coloridos como Bo-Kaap. Jardines, viñedos cercanos y rutas panorámicas costeras.",
               "description_extended": "Ciudad del Cabo combina naturaleza imponente con una vida urbana llena de color y diversidad. La presencia de Table Mountain domina el horizonte y ofrece vistas inolvidables desde sus senderos y teleférico. Las playas cercanas reúnen fauna única, como los pingüinos africanos de Boulders Beach, mientras que barrios como Bo-Kaap destacan por sus casas pintadas y su herencia cultural malaya. A pocos kilómetros, viñedos históricos permiten degustar algunos de los mejores vinos del país. Las rutas costeras, como Chapman’s Peak Drive, muestran uno de los paisajes marítimos más bellos del mundo. Es una ciudad vibrante, natural y multicultural.",
-              "footer": "Ciudad del Cabo, belleza salvaje a orillas del Atlántico.",
+              "footer": "Ciudad del Cabo, belleza salvaje",
               "motto": "Donde la montaña se encuentra con el mar",
               "banner": {
                 "image": "https://images.unsplash.com/photo-1591742708307-ce49d19450d4?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -1140,7 +1140,7 @@
               "name": "Ciudad de Quebec",
               "description": "Casco amurallado en altura con vistas al San Lorenzo. Ambiente europeo, tejados empinados y puestas de sol rosadas.",
               "description_extended": "La Ciudad de Quebec es una postal viva de arquitectura europea en pleno norte americano. Su casco histórico amurallado, declarado Patrimonio de la Humanidad, conserva calles adoquinadas, plazas acogedoras y edificios de estilo francés que evocan siglos de historia. Desde la Terrasse Dufferin hasta el imponente Château Frontenac, las vistas sobre el río San Lorenzo cambian con las estaciones: otoños dorados, inviernos de nieve espesa y veranos animados por festivales. Cafés, artesanía local y una gastronomía marcada por productos regionales completan una ciudad que combina tradición, cultura y paisajes únicos.",
-              "footer": "Ciudad de Quebec, encanto europeo a orillas del San Lorenzo.",
+              "footer": "Ciudad de Quebec, encanto europeo.",
               "motto": "Historia viva en cada calle",
               "banner": {
                 "image": "https://images.unsplash.com/photo-1710881710078-d25d578fedc3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -1250,7 +1250,7 @@
               "name": "San Miguel de Allende",
               "description": "Centro colonial con parroquia neogótica rosada. Calles adoquinadas, patios y arte en galerías y talleres.",
               "description_extended": "San Miguel de Allende es una joya colonial donde cada rincón parece diseñado para la contemplación. Sus calles empedradas conducen a plazas luminosas, talleres artesanales y cafeterías con encanto. La Parroquia de San Miguel Arcángel, con su icónico tono rosado, domina un centro histórico lleno de color y tradición. La ciudad es también un polo artístico: galerías, escuelas de arte y mercados creativos atraen a visitantes de todo el mundo. Entre gastronomía local, terrazas con vistas y un ambiente cálido y bohemio, San Miguel se convierte en un destino que enamora sin esfuerzo.",
-              "footer": "San Miguel de Allende, arte y tradición entre montañas.",
+              "footer": "San Miguel de Allende, arte y tradición.",
               "motto": "La joya colonial de México",
               "banner": {
                 "image": "https://images.unsplash.com/photo-1563085463-3761d7041366?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
