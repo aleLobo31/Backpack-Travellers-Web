@@ -229,9 +229,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
             mostrarModalInfo("Registro completado con éxito. ¡Bienvenido/a!");
 
-            // Redirigir (ajusta la página de destino si quieres otra)
+            // Redirección inteligente tras registro
             setTimeout(() => {
-                window.location.href = "main-page.html";
+                const redirectUrl = sessionStorage.getItem("redirectAfterAuth");
+
+                if (redirectUrl) {
+                    sessionStorage.removeItem("redirectAfterAuth");
+                    window.location.href = redirectUrl;
+                } else {
+                    window.location.href = "main-page.html";
+                }
             }, 1000);
         };
 

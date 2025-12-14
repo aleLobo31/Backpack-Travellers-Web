@@ -1,3 +1,36 @@
+document.addEventListener("DOMContentLoaded", () => {
+
+    const usuarioActivo = sessionStorage.getItem("usuarioActivo");
+
+    // URL actual (con parámetros)
+    const currentUrl = window.location.href;
+
+    // Si NO hay sesión → guardar destino y mandar a login
+    if (!usuarioActivo) {
+        sessionStorage.setItem("redirectAfterAuth", currentUrl);
+        window.location.href = "login.html";
+        return;
+    }
+
+    const params = new URLSearchParams(window.location.search);
+    const city = params.get("city");
+    const type = params.get("type");
+    const price = params.get("price");
+
+    if (!city || !type || !price) {
+        window.location.href = "main-page.html";
+        return;
+    }
+
+    initPackInfo();
+    initCalendar();
+    initCompanions();
+    initPets();
+    initAllergies();
+    initPaymentForm();
+
+});
+
 // Meses del Año
 const months = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 
                 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
@@ -66,10 +99,6 @@ function initPackInfo() {
         })
         .catch(error => console.error(error));
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-    initPackInfo();
-});
 
 function renderCalendar(month, year) {
     // Extraemos los elementos del DOM
@@ -556,9 +585,3 @@ function initPaymentForm() {
     });
 }
 
-// Invocamos las funciones de inicialización
-initCalendar();
-initCompanions();
-initPets();
-initAllergies();
-initPaymentForm();

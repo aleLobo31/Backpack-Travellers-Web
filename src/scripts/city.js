@@ -98,16 +98,22 @@ function renderPacks(city, country) {
 
   // Botón 1: Fin de semana
   buyButtons[0].onclick = () => {
-    window.location.href = `pack-buy-page.html?city=${encodeURIComponent(city.name)}&type=Fin de semana&price=${prices.weekend}`;
+    goToPurchase(
+      `pack-buy-page.html?city=${encodeURIComponent(city.name)}&type=Fin de semana&price=${prices.weekend}`
+    );
   };
 
   // Botón 2: 7 días
   buyButtons[1].onclick = () => {
-    window.location.href = `pack-buy-page.html?city=${encodeURIComponent(city.name)}&type=7 días&price=${prices.week}`;
+    goToPurchase(
+      `pack-buy-page.html?city=${encodeURIComponent(city.name)}&type=7 días&price=${prices.week}`
+    );
   };
 
   // Botón 3: 15 días
   buyButtons[2].onclick = () => {
-    window.location.href = `pack-buy-page.html?city=${encodeURIComponent(city.name)}&type=15 días&price=${prices.days_15}`;
+    goToPurchase(
+      `pack-buy-page.html?city=${encodeURIComponent(city.name)}&type=15 días&price=${prices.days_15}`
+    );
   };
 }
