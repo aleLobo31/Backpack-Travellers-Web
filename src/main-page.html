@@ -30,14 +30,16 @@
 
             <!-- DERECHA: ICONOS Y BOTONES -->
             <div class="nav-right">
-                <button class="icon-btn" id="language-btn">🌐︎</button>
-                <div id="language-menu" class="language-menu">
-                    <button data-lang="es">🇪🇸 Español</button>
-                    <button data-lang="en">🇬🇧 English</button>
+                <div class="language-wrapper">
+                    <button class="icon-btn" id="language-btn">🌐︎</button>
+                    <div id="language-menu" class="language-menu">
+                        <button data-lang="es">🇪🇸 Español</button>
+                        <button data-lang="en">🇬🇧 English</button>
+                    </div>
                 </div>
-                <button class="icon-btn" id="accessibility-btn">♿︎</button>
-                    <a href="login.html" class="btn-login" data-i18n="auth.login">Iniciar sesión</a>
-                    <a href="register-page.html" class="btn-register" data-i18n="auth.register">Registrarse</a>
+                <!-- Zona auth dinámica -->
+                <div class="user-area" id="user-area">
+                </div>
             </div>
 
         </nav>
@@ -140,10 +142,10 @@
 
             <!-- CENTRO -->
             <nav class="footer-center">
-                <a data-i18n="footer.about">¿Quiénes somos?</a>
-                <a data-i18n="footer.privacy">Política de privacidad</a>
-                <a data-i18n="footer.faq">FAQs</a>
-                <a data-i18n="footer.contact">Contacto</a>
+                <a href="footer-sites.html?section=quienes-somos" data-i18n="footer.about">¿Quiénes somos?</a>
+                <a href="footer-sites.html?section=privacidad"data-i18n="footer.privacy">Política de privacidad</a>
+                <a href="footer-sites.html?section=faq"data-i18n="footer.faq">FAQs</a>
+                <a href="footer-sites.html?section=contacto"data-i18n="footer.contact">Contacto</a>
             </nav>
 
 
@@ -163,6 +165,26 @@
                 </a>
         </div>
     </footer>
+    <!-- MODAL SIMPLE (1 botón) -->
+    <div id="modal-info" class="modal">
+        <div class="modal-contenido">
+            <p id="modal-info-texto"></p>
+            <button id="modal-info-ok" class="modal-btn primary">Aceptar</button>
+        </div>
+    </div>
+
+    <!-- MODAL CONFIRMACIÓN (2 botones) -->
+    <div id="modal-confirm" class="modal">
+        <div class="modal-contenido">
+            <p id="modal-confirm-texto"></p>
+            <div class="modal-actions">
+                <button id="modal-confirm-cancel" class="modal-btn secondary">Cancelar</button>
+                <button id="modal-confirm-ok" class="modal-btn primary">Aceptar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/header-auth.js"></script>
     <script src="scripts/carousel.js"></script>
     <script src="scripts/search.js"></script>
     <script src="scripts/language.js"></script>

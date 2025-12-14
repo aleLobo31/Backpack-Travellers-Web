@@ -1,5 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
 
+  document.addEventListener("forceLanguage", (e) => {
+    applyLanguage(e.detail);
+  });
+
   const translations = {
     es: {
       nav: {
@@ -10,7 +14,12 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       auth: {
         login: "Iniciar sesión",
-        register: "Registrarse"
+        register: "Registrarse",
+        logout: "Cerrar sesión",
+        logoutConfirm: "¿Está seguro de que quiere cerrar sesión?",
+        logoutSuccess: "Sesión cerrada correctamente",
+        accept: "Aceptar",
+        cancel: "Cancelar"
       },
       hero: {
         title: "CAMINO DE ULISES",
@@ -50,7 +59,12 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       auth: {
         login: "Log in",
-        register: "Sign up"
+        register: "Sign up",
+        logout: "Log out",
+        logoutConfirm: "Are you sure you want to log out?",
+        logoutSuccess: "Session closed successfully",
+        accept: "Accept",
+        cancel: "Cancel"
       },
       hero: {
         title: "ULYSSES' JOURNEY",

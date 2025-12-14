@@ -33,6 +33,14 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     ];
 
+    preloadImages(packs);
+
+    function preloadImages(packs) {
+        packs.forEach(pack => {
+            const img = new Image();
+            img.src = pack.image;
+        });
+    }
 
     let currentIndex = 0;
     let autoSlide;
