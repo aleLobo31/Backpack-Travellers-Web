@@ -5,6 +5,26 @@ document.addEventListener("DOMContentLoaded", () => {
   const searchForm = document.querySelector(".search-bar");
   const resultsBox = document.getElementById("search-results");
 
+  const continentTranslations = {
+    es: {
+        Europa: "Europa",
+        Asia: "Asia",
+        África: "África",
+        Oceanía: "Oceanía",
+        "América del Norte": "América del Norte",
+        "América del Sur": "América del Sur"
+    },
+    en: {
+        Europa: "Europe",
+        Asia: "Asia",
+        África: "Africa",
+        Oceanía: "Oceania",
+        "América del Norte": "North America",
+        "América del Sur": "South America"
+    }
+};
+
+
   // Evitar recarga del formulario
   searchForm.addEventListener("submit", (e) => e.preventDefault());
 
@@ -53,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (norm(contName).includes(query)) {
         results.push({
           type: "continent",
-          label: contName,
+          label: translateContinent(contName),
           link: `continent.html?name=${encodeURIComponent(contName)}`
         });
       }
@@ -63,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (norm(countryName).includes(query)) {
           results.push({
             type: "country",
-            label: `${countryName} · ${contName}`,
+            label: `${country.name} · ${translateContinent(contName)}`,
             link: `country.html?country=${encodeURIComponent(country.name)}`
           });
         }
@@ -93,6 +113,12 @@ document.addEventListener("DOMContentLoaded", () => {
       });
       return;
     }
+
+    function translateContinent(name) {
+        const lang = localStorage.getItem("language") || "es";
+        return continentTranslations[lang]?.[name] || name;
+    }
+
 
     // País existe pero no está disponible en la web (lista de ejemplo)
     const knownCountries = [

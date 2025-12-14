@@ -104,6 +104,42 @@ header {
     align-items: center;
 }
 
+/* CONTENEDOR DEL MENÚ DE IDIOMAS */
+.language-menu {
+    position: absolute;
+    top: 60px;
+    right: 260px; /* ajusta según tu header */
+    background: #fffaf5;
+    border: 1px solid #d7c9b8;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    padding: 8px;
+    display: none;
+    z-index: 2000;
+}
+
+/* Visible */
+.language-menu.active {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Botones idioma */
+.language-menu button {
+    background: none;
+    border: none;
+    padding: 8px 14px;
+    text-align: left;
+    font-size: 14px;
+    cursor: pointer;
+    color: #3a2f22;
+    border-radius: 8px;
+}
+
+.language-menu button:hover {
+    background: #f1e6d8;
+}
+
 .btn-login,
 .btn-register {
     text-decoration: none;

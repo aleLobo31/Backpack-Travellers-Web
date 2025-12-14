@@ -2,31 +2,37 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const packs = [
         {
-            title: "Austria · Viena · 7 días",
-            price: "Desde 1.150€",
-            image: "https://images.unsplash.com/photo-1519923041107-e4dc8d9193da?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        title: "Austria · Viena",
+        duration: { type: "days", value: 7 },
+        price: 1150,
+        image: "https://images.unsplash.com/photo-1519923041107-e4dc8d9193da"
         },
         {
-            title: "Japón · Kioto · 15 días",
-            price: "Desde 2.250€",
-            image: "https://images.unsplash.com/photo-1602897387777-f89c6b7e4a9e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        title: "Japón · Kioto",
+        duration: { type: "days", value: 15 },
+        price: 2250,
+        image: "https://images.unsplash.com/photo-1602897387777-f89c6b7e4a9e"
         },
         {
-            title: "Marruecos · Chefchaouen · Fin de semana",
-            price: "Desde 300€",
-            image: "https://images.unsplash.com/flagged/photo-1555169048-3c4845cfcf1c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        title: "Marruecos · Chefchaouen",
+        duration: { type: "weekend" },
+        price: 300,
+        image: "https://images.unsplash.com/flagged/photo-1555169048-3c4845cfcf1c"
         },
         {
-            title: "Canadá · Quebec · 7 días",
-            price: "Desde 1.600€",
-            image: "https://images.unsplash.com/photo-1710881710078-d25d578fedc3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        title: "Canadá · Quebec",
+        duration: { type: "days", value: 7 },
+        price: 1600,
+        image: "https://images.unsplash.com/photo-1710881710078-d25d578fedc3"
         },
         {
-            title: "Perú · Cuzco · 15 días",
-            price: "Desde 2.000€",
-            image: "https://images.unsplash.com/photo-1724224842062-e81ff62325fb?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        title: "Perú · Cuzco",
+        duration: { type: "days", value: 15 },
+        price: 2000,
+        image: "https://images.unsplash.com/photo-1724224842062-e81ff62325fb"
         }
     ];
+
 
     let currentIndex = 0;
     let autoSlide;
@@ -43,10 +49,13 @@ document.addEventListener("DOMContentLoaded", () => {
     // Renderizar pack actual
     function renderPack(index) {
         const pack = packs[index];
+
         packCard.style.backgroundImage = `url("${pack.image}")`;
-        packTitle.textContent = pack.title;
-        packPrice.textContent = pack.price;
+        packTitle.textContent = `${pack.title} · ${formatDuration(pack.duration)}`;
+        packPrice.textContent = formatPrice(pack.price);
     }
+
+
 
     function nextPack() {
         currentIndex = (currentIndex + 1) % packs.length;
@@ -67,6 +76,34 @@ document.addEventListener("DOMContentLoaded", () => {
         startAutoSlide();
     }
 
+    function formatPrice(amount) {
+        const lang = localStorage.getItem("language") || "es";
+
+        if (lang === "en") {
+            return `From €${amount.toLocaleString("en-US")}`;
+        }
+
+        // Español (por defecto)
+        return `Desde ${amount.toLocaleString("es-ES")}€`;
+    }
+
+    function formatDuration(duration) {
+        const lang = localStorage.getItem("language") || "es";
+
+        if (duration.type === "weekend") {
+            return lang === "en" ? "Weekend" : "Fin de semana";
+        }
+
+        if (duration.type === "days") {
+            if (lang === "en") {
+            return `${duration.value} days`;
+            }
+            return `${duration.value} días`;
+        }
+
+        return "";
+    }
+
     // Flechas
     btnRight.addEventListener("click", () => {
         nextPack();
@@ -81,4 +118,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // Inicialización
     renderPack(currentIndex);
     startAutoSlide();
+});
+
+document.addEventListener("languageChanged", () => {
+  renderPack(currentIndex);
 });
