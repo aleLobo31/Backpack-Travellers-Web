@@ -1,0 +1,114 @@
+/*******************************************
+ *  PÁGINA FOOTER-SITES — SIN FONDO GLOBAL
+ *******************************************/
+.footer-site-main {
+    background: #fffaf5; /* crema limpio, sin gris */
+    padding-bottom: 40px;
+}
+
+/*******************************************
+ *  BANNER SUPERIOR
+ *******************************************/
+.footer-banner {
+    width: 100%;
+    height: 260px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px 40px;
+
+    border-bottom: 1px solid #d7c9b8;
+}
+
+
+.banner-title-box {
+    background: rgba(255, 250, 240, 0.82); 
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+
+    padding: 20px 28px;
+    border-radius: 16px;
+
+    border: 1px solid rgba(162, 106, 51, 0.55);
+
+    box-shadow:
+        0 6px 18px rgba(58, 47, 34, 0.28);
+
+    max-width: 520px;
+}
+
+.banner-title-box h2 {
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 0.4px;
+    color: #2b2218;
+    margin: 0;
+
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.4);
+}
+
+/*******************************************
+ *  CONTENIDO DE LA PÁGINA FOOTER-SITES
+ *******************************************/
+.footer-content-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Caja del contenido dinámico */
+#footer-dynamic-content {
+    background: #fffdf9;                
+    border: 1px solid #e1d6c8;
+    border-radius: 18px;
+    padding: 36px 40px;
+
+    color: #3a2f22;
+    font-size: 17px;
+    line-height: 1.75;
+
+    box-shadow: 0 6px 18px rgba(58, 47, 34, 0.08);
+}
+
+/* Títulos principales */
+#footer-dynamic-content h2 {
+    font-size: 26px;
+    font-weight: 800;
+    color: #3a2f22;
+    margin-top: 36px;
+    margin-bottom: 12px;
+    letter-spacing: 0.3px;
+}
+
+/* Subtítulos */
+#footer-dynamic-content h3 {
+    font-size: 19px;
+    font-weight: 600;
+    color: #6c5b4a;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+/* Párrafos */
+#footer-dynamic-content p {
+    margin-bottom: 16px;
+}
+
+/* Listas */
+#footer-dynamic-content ul {
+    margin: 14px 0 24px 22px;
+    padding-left: 1.2rem;
+}
+
+#footer-dynamic-content li {
+    margin-bottom: 10px;
+}
+
+#footer-dynamic-content ul li::marker {
+    color: #a26a33; 
+}
