@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Principal - Aventuras</title>
+    <link rel="stylesheet" href="style/styles.css">
     <link rel="stylesheet" href="style/security-page-styles.css">
 </head>
 
@@ -42,20 +43,23 @@
         <!-- Navegador para volver a atrás -->
         <nav class="sec-breadcrumbs">
             <ol>
-                <li><a href="">Home </a></li>
+                <li><a href="main-page.html">Home </a></li>
                 <li><p>></p></li>
-                <li><a href="">Continente</a></li>
+                <li><a id=sec-continent href="continent-page.html">Continente</a></li>
                 <li><p>></p></li> 
-                <li><a href="">Pais</a></li>
+                <li><a id=sec-country href="country-page.html">Pais</a></li>
                 <li><p>></p></li>
-                <li><a href="">Seguridad</a></li>  
+                <li><a href="security-page.html">Seguridad</a></li>  
             </ol>    
         </nav>
 
         <!-- Banner con Título del País e Imagen de Fondo -->
         <section class="sec-hero-banner">
-            <img src="../assets/ondeando-la-bandera-española.webp" alt="Vista Panorámica [País]">
-            <h1>Seguridad Nombre Pais</h1>
+            <img src="../assets/images/sec-banner2.png" alt="Vista Panorámica [País]">
+            <div class="sec-front">
+                <img id="sec-flag" alt="Bandera [País]" src="">
+                <h1 id="sec-title">Seguridad [Nombre Pais]</h1>
+            </div>
         </section>
 
         <!-- Índice + Resumen -->
@@ -63,56 +67,76 @@
             <aside class="sec-index">
                 <nav class="nav-sec-index">
                     <ul>
-                        <li><a href="">Antes de Viajar</a></li>
-                        <li><a href="">Seguridad Diaria</a></li>
-                        <li><a href="">Cultura y Leyes</a></li>
-                        <li><a href="">Emergencias</a></li>
+                        <li><a href="#sec-sug1">Antes de Viajar</a></li>
+                        <li><a href="#sec-sug2">Seguridad Diaria</a></li>
+                        <li><a href="#sec-sug3">Cultura y Leyes</a></li>
+                        <li><a href="#sec-sug4">Emergencias</a></li>
                     </ul>
                 </nav>
             </aside>
 
             <section class="sec-summary">
                 <h2>¿Qué necesitas saber?</h2>
-                <h3>Nivel de Riesgo [⚪ ⚪ ⚪ ⚪ ⚪]</h3>
-                <h3>Visado</h3>
-                <h3>Vacunas</h3>
-                <h3>Moneda</h3>
-                <h3>Alerta de Seguridad</h3>
+                <div class="sum">
+                    <h3>Nivel de Riesgo: </h3>
+                    <p id=sec1></p>
+                </div>
+                <div class="sum">
+                    <h3>Visado: </h3>
+                    <p id="sec2"></p>
+                </div>
+                <div class="sum">
+                    <h3>Vacunas: </h3>
+                    <p id="sec3"></p>
+                </div>
+                <div class="sum">
+                    <h3>Moneda: </h3>
+                    <p id="sec4"></p>
+                </div>
+                <div class="sum">
+                    <h3>Alerta de Seguridad: </h3>
+                    <p id="sec5"></p>
+                </div>
+                
+                
+                
+                
+                
             </section>
         </div>
 
         <!-- Sección: Antes de Viajar -->
-        <section id="#sec-sug1" class="sec-suggestions">
+        <section id="sec-sug1" class="sec-suggestions">
             <h2>Antes de Viajar</h2>
             <ul>
                 <li>
                     <details>
                         <summary>Visados y Documentación Necesaria</summary>
-                        <p>Lorem Ipsum</p>
+                        <p id="sec6"></p>
                     </details>
                 </li>
                 <li>
                     <details>
                         <summary>Salud, Vacunas y Botiquín Esencial</summary>
-                        <p>Lorem Ipsum</p>
+                        <p id="sec7"></p>
                     </details>
                 </li>
                 <li>
                     <details>
                         <summary>Seguros de Viaje</summary>
-                        <p>Lorem Ipsum</p>
+                        <p id="sec8"></p>
                     </details>
                 </li>
                 <li>
                     <details>
                         <summary>Dinero y Tarjetas</summary>
-                        <p>Lorem Ipsum</p>
+                        <p id="sec9"></p>
                     </details>
                 </li>
                 <li>
                     <details>
                         <summary>Equipaje, Ropa y Tecnología</summary>
-                        <p>Lorem Ipsum</p>
+                        <p id="sec10"></p>
                     </details>
                 </li>
             </ul>
@@ -121,31 +145,31 @@
         <hr>
 
         <!-- Sección: Seguridad Diaria -->
-        <section id="#sec-sug2" class="sec-suggestions">
+        <section id="sec-sug2" class="sec-suggestions">
             <h2>Seguridad Diaria</h2>
             <ul>
                 <li>
                     <details>
                         <summary>Estafas Comunes y Cómo Evitar "Scams"</summary>
-                        <p>Lorem Ipsum</p>
+                        <p id="sec11"></p>
                     </details>
                 </li>
                 <li>
                     <details>
                         <summary>Transportes Disponibles</summary>
-                        <p>Lorem Ipsum</p>
+                        <p id="sec12"></p>
                     </details>
                 </li>
                 <li>
                     <details>
                         <summary>Comida Callejera e Higiene</summary>
-                        <p>Lorem Ipsum</p>
+                        <p id="sec13"></p>
                     </details>
                 </li>
                 <li>
                     <details>
                         <summary>Zonas a Evitar</summary>
-                        <p>Lorem Ipsum</p>
+                        <p id="sec14"></p>
                     </details>
                 </li>
             </ul>
@@ -154,25 +178,25 @@
         <hr>
 
         <!-- Sección Cultura y Leyes -->
-        <section id="#sec-sug3" class="sec-suggestions">
+        <section id="sec-sug3" class="sec-suggestions">
             <h2>Cultura y Leyes</h2>
             <ul>
                 <li>
                     <details>
                         <summary>Leyes Locales Clave (Drogas, Drones, Vaping)</summary>
-                        <p>Lorem Ipsum</p>
+                        <p id="sec15"></p>
                     </details>
                 </li>
                 <li>
                     <details>
                         <summary>Código de Vestimenta</summary>
-                        <p>Lorem Ipsum</p>
+                        <p id="sec16"></p>
                     </details>
                 </li>
                 <li>
                     <details>
                         <summary>Etiqueta Social y Propinas (Qué SÍ y qué NO Hacer)</summary>
-                        <p>Lorem Ipsum</p>
+                        <p id="sec17"></p>
                     </details>
                 </li>
             </ul>
@@ -181,25 +205,25 @@
         <hr>
 
         <!-- Sección: Emergencia -->
-        <section id="#sec-sug4" class="sec-suggestions">
+        <section id="sec-sug4" class="sec-suggestions">
             <h2>Emergencia</h2>
             <ul>
                 <li>
                     <details>
                         <summary>Números de Emergencia</summary>
-                        <p>Lorem Ipsum</p>
+                        <p id="sec18"></p>
                     </details>
                 </li>
                 <li>
                     <details>
                         <summary>Contacto de tu Embajada o Consulado</summary>
-                        <p>Lorem Ipsum</p>
+                        <p id="sec19"></p>
                     </details>
                 </li>
                 <li>
                     <details>
                         <summary>Vocabulario Básico de Emergencia</summary>
-                        <p>Lorem Ipsum</p>
+                        <p id="sec20"></p>
                     </details>
                 </li>
             </ul>
@@ -240,4 +264,6 @@
                 </a>
         </div>
     </footer>
+
+    <script src="scripts/security-page.js"></script>
 </body>
