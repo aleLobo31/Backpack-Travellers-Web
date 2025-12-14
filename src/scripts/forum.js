@@ -185,8 +185,7 @@ function renderPosts() {
   }
 
   // Limpiar posts existentes
-  const existingPosts = postsContainer.querySelectorAll('.forum-post, .post-divider');
-  existingPosts.forEach(post => post.remove());
+  postsContainer.innerHTML = '';
 
   // Si no hay posts que mostrar
   if (filteredPosts.length === 0) {
@@ -259,7 +258,7 @@ function createPostElement(post) {
   postElement.addEventListener('click', function() {
     // Aquí puedes redirigir a una página de detalle del post
     console.log('Redirigiendo al post:', post.id);
-    // window.location.href = `post-detail.html?id=${post.id}`;
+    window.location.href = `post-page.html?id=${post.id}`;
   });
 
   return postElement;

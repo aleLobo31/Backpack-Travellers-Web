@@ -232,7 +232,7 @@
 .posts-title {
     font-size: clamp(1.6rem, 3vw, 2.3rem);
     text-align: center;
-    margin: 3rem 0 1.5rem;
+    margin: 3rem auto 1.5rem;
     letter-spacing: 0.05em;
     font-weight: 800;
     color: #3a2f22;
@@ -392,59 +392,7 @@
     background: #f9f5f0;
 }
 
-/***********************
-    ENLACES DEL FOOTER EN EL FORO
-************************/
-.forum-footer-links {
-    max-width: 1200px;
-    margin: 4rem auto 2rem;
-    padding: 2rem 2.5rem;
-    background: #fffaf5;
-    border-radius: 20px;
-    border: 1px solid #d7c9b8;
-    box-shadow: 0 4px 12px rgba(90, 70, 50, 0.1);
-    text-align: center;
-}
-
-.forum-footer-links span {
-    display: block;
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: #3a2f22;
-    margin-bottom: 1.4rem;
-}
-
-.forum-footer-links a {
-    display: inline-block;
-    margin: 0 1rem;
-    font-size: 1rem;
-    color: #6c5b4a;
-    text-decoration: none;
-    transition: all 0.2s;
-    position: relative;
-    padding: 0.5rem 0;
-}
-
-.forum-footer-links a:hover {
-    color: #a26a33;
-}
-
-.forum-footer-links a::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: #a26a33;
-    transition: width 0.3s ease;
-}
-
-.forum-footer-links a:hover::after {
-    width: 100%;
-}
-
-/* Contenedor de posts - AÑADIR ESTE */
+/* Contenedor de posts */
 .posts-container {
     margin-top: 1rem;
 }

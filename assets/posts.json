@@ -2,77 +2,63 @@
   "posts": [
     {
       "id": 1,
-      "title": "Consejos para viajar a Tailandia con poco presupuesto",
-      "description": "Comparto mi experiencia viajando 3 semanas por Tailandia con menos de 800€. Incluye alojamiento, transporte y comidas.",
-      "category": "Destinos",
-      "subcategory": "Asia",
+      "title": "Mi viaje por el Sudeste Asiático",
+      "description": "Comparto mi experiencia de 3 meses viajando por Tailandia, Vietnam y Camboya...",
+      "author": "María López",
+      "date": "2024-03-15T10:30:00Z",
       "verified": true,
-      "comments": 24,
-      "likes": 45,
-      "date": "2025-03-15",
-      "author": "mochilera92",
-      "tags": ["presupuesto", "asia", "alojamiento-barato"]
+      "category": "Destinos",
+      "likes": 89,
+      "comments": 12,
+      "image": {
+        "url": "../../assets/images/camboya-mapa-angkor.jpg",
+        "alt": "Atardecer en Angkor Wat, Camboya"
+      },
+      "content": "<p>¡Hola viajeros! Después de años soñando con ello, finalmente me lancé a la aventura de recorrer el Sudeste Asiático durante 3 meses con mi mochila. Ha sido, sin duda, la experiencia más transformadora de mi vida y quiero compartir los detalles con vosotros.</p><h2>Primera parada: Tailandia</h2><p>Mi viaje comenzó en <strong>Bangkok</strong>, una ciudad que te golpea con sus olores, ruidos y energía. Pasé una semana explorando los templos imprescindibles como el Wat Arun al atardecer y el Gran Palacio. Pero mi parte favorita fue perderme en el caos organizado de los mercados nocturnos y probar la comida callejera. <em>Tip pro:</em> El Pad Thai de la calle es mejor (y más barato) que el de los restaurantes.</p><p>Desde allí tomé un tren nocturno hacia el norte, a Chiang Mai, donde el ritmo es mucho más relajado y la naturaleza te envuelve. Las montañas de esta zona son increíbles para hacer trekking.</p><h2>Vietnam: Historia y Paisajes</h2><p>Cruzar a Vietnam fue un cambio cultural fascinante. Lo más destacado fue, indiscutiblemente, el crucero de dos días por la <strong>Bahía de Halong</strong>. Navegar entre esos miles de pilares de piedra caliza surgiendo del agua esmeralda parece de otro planeta. Recomiendo no escatimar en el barco; merece la pena pagar un poco más por seguridad y comodidad.</p><p>También me enamoré de Hoi An, la ciudad de los farolillos. Es el lugar perfecto para alquilar una bicicleta y recorrer los arrozales al atardecer.</p><h2>Camboya: El amanecer en Angkor Wat</h2><p>Para terminar la ruta, crucé a Camboya. La visita a los templos de Angkor es agotadora por el calor, pero vale cada gota de sudor. Nos levantamos a las 4:00 AM para ver el amanecer sobre Angkor Wat y fue mágico ver cómo el sol iluminaba las torres de loto mientras la selva despertaba.</p><h3>Consejos prácticos para vuestra ruta:</h3><ul><li><strong>Visados:</strong> Revisa bien los requisitos con antelación. Vietnam ahora ofrece e-visa para muchas nacionalidades, lo cual facilita mucho el proceso, pero Camboya suele ser Visa on Arrival.</li><li><strong>Transporte:</strong> Usé mucho la app <em>12Go Asia</em> para reservar trenes y autobuses nocturnos. Es fiable y te ahorra regatear en las estaciones.</li><li><strong>Presupuesto:</strong> Se puede viajar muy barato. Yo gasté una media de 30-35€ al día incluyendo alojamiento en hostels y comida local.</li></ul><p>Si tenéis dudas específicas sobre el itinerario o cómo cruzar las fronteras por tierra, ¡dejadme un comentario abajo y os ayudo!</p>",
+      "commentsData": [
+        {
+          "id": 101,
+          "author": "Carlos M.",
+          "date": "2024-03-16T14:20:00Z",
+          "content": "¡Qué viaje tan increíble! ¿Cuál fue tu presupuesto aproximado?"
+        },
+        {
+          "id": 102,
+          "author": "Ana R.",
+          "date": "2024-03-17T09:15:00Z",
+          "content": "Me encantaría hacer un viaje similar. ¿Recomiendas algún alojamiento en particular?"
+        }
+      ]
     },
     {
       "id": 2,
-      "title": "¿Cómo encontrar compañeros de viaje confiables?",
-      "description": "Guía completa de plataformas y consejos para encontrar personas con quienes viajar de forma segura.",
-      "category": "Compañeros de viaje",
-      "verified": true,
-      "comments": 18,
-      "likes": 32,
-      "date": "2025-03-10",
-      "author": "viajero_experto",
-      "tags": ["compañeros", "seguridad", "comunidad"]
-    },
-    {
-      "id": 3,
-      "title": "Trucos para ahorrar en vuelos internacionales",
-      "description": "Descubre cómo encontrar las mejores ofertas y los momentos ideales para reservar vuelos baratos.",
-      "category": "Presupuesto y ahorros",
-      "verified": false,
-      "comments": 12,
-      "likes": 28,
-      "date": "2025-03-05",
-      "author": "cazaofertas",
-      "tags": ["vuelos", "ahorros", "ofertas"]
-    },
-    {
-      "id": 4,
-      "title": "Requisitos de visa para Europa 2025",
-      "description": "Actualización completa de los requisitos de visado para ciudadanos latinoamericanos que viajen a Europa.",
-      "category": "Seguridad y visados",
-      "verified": true,
-      "comments": 31,
-      "likes": 52,
-      "date": "2025-03-01",
-      "author": "legal_travel",
-      "tags": ["visas", "europa", "documentación"]
-    },
-    {
-      "id": 5,
-      "title": "Viajar con perro por España - Mi experiencia",
-      "description": "Todo lo que necesitas saber para viajar con tu mascota por España: transporte, alojamientos pet-friendly, etc.",
-      "category": "Viajar con mascotas",
-      "verified": true,
-      "comments": 15,
-      "likes": 30,
-      "date": "2025-02-25",
-      "author": "perroviajero",
-      "tags": ["mascotas", "españa", "perros"]
-    },
-    {
-      "id": 6,
-      "title": "Ruta de 2 semanas por Japón",
-      "description": "Itinerario detallado para visitar Tokio, Kioto y Osaka en 14 días sin morir en el intento.",
+      "title": "El Camino Francés: 800km de aprendizajes y ampollas",
+      "description": "Crónica de mi peregrinación a pie desde Roncesvalles hasta Santiago. 32 días de desconexión, albergues y la magia de la plaza del Obradoiro.",
+      "author": "Pablo Caminante",
+      "date": "2024-05-20T18:45:00Z",
       "category": "Destinos",
-      "subcategory": "Asia",
-      "verified": true,
-      "comments": 42,
-      "likes": 12,
-      "date": "2025-02-20",
-      "author": "otaku_viajero",
-      "tags": ["japón", "itinerario", "asia"]
+      "verified": false,
+      "likes": 156,
+      "comments": 8,
+      "image": {
+        "url": "../../assets/images/camino_santiago.jpg.webp",
+        "alt": "Mochila y vieira con señal amarilla del Camino"
+      },
+      "content": "<p>Dicen que el Camino de Santiago empieza en el momento en que decides hacerlo, no cuando das el primer paso. En mi caso, elegí el <strong>Camino Francés</strong> comenzando en Saint-Jean-Pied-de-Port, cruzando los Pirineos hasta Roncesvalles. Fue la etapa más dura físicamente, pero las vistas de las montañas cubiertas de niebla hicieron que cada agujeta valiera la pena.</p><h2>La rutina del peregrino</h2><p>La vida en el camino es sencilla y eso es lo que la hace adictiva. Te levantas antes del amanecer, caminas entre 20 y 30 kilómetros, llegas al albergue, lavas tu ropa a mano, comes y duermes. No hay preocupaciones de trabajo ni correos electrónicos. Esa desconexión mental es brutal.</p><p>Pasé por momentos difíciles, especialmente en la famosa <em>Meseta Castellana</em>. Muchos dicen que es aburrida, pero para mí fue un desafío mental: kilómetros de llanura, sol y silencio. Es donde realmente te encuentras contigo mismo.</p><h2>La llegada a Galicia</h2><p>Entrar en Galicia y ver todo verde de nuevo fue un soplo de aire fresco (literalmente). O Cebreiro es un lugar mágico. Y finalmente, la llegada a la <strong>Plaza del Obradoiro</strong>. No puedo describir con palabras la emoción de ver la Catedral después de un mes andando. Se crea un vínculo invisible con la gente con la que has compartido etapas; llegas siendo familia.</p><h3>Mis consejos si planeas hacerlo:</h3><ul><li><strong>El peso de la mochila:</strong> Regla de oro: no lleves más del 10% de tu peso corporal. Yo llevé cosas 'por si acaso' que acabé enviando a casa por correos desde Logroño.</li><li><strong>El calzado:</strong> No estrenes botas en el camino. Úsalas al menos 2 meses antes. Y lleva siempre vaselina para evitar rozaduras.</li><li><strong>Los albergues:</strong> Lleva tapones para los oídos. En serio, los ronquidos en habitaciones de 20 personas son una sinfonía difícil de ignorar.</li></ul><p>¡Buen Camino a todos los futuros peregrinos!</p>",
+      "commentsData": [
+        {
+          "id": 201,
+          "author": "Lucía G.",
+          "date": "2024-05-21T09:30:00Z",
+          "content": "¡Enhorabuena Pablo! Tengo pensado hacerlo en septiembre. ¿Crees que hará mucho frío por las mañanas?"
+        },
+        {
+          "id": 202,
+          "author": "Marcos1988",
+          "date": "2024-05-21T11:15:00Z",
+          "content": "Totalmente de acuerdo con lo de los tapones, ¡son imprescindibles! Gracias por compartir tu experiencia."
+        }
+      ]
     }
   ]
 }
