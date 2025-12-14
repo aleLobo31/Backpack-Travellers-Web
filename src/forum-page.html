@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foro Mochilero - Camino de Ulises</title>
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="style/styles-forum.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER (igual que en main-page.html) -->
+    <header>
+        <nav class="nav">
+
+            <!-- IZQUIERDA: LOGO + MENÚ -->
+            <div class="nav-left">
+                <div class="logo">
+                    <img src="../assets/images/logo.png" alt="Logo">
+                </div>
+                
+                <ul class="nav-menu">
+                    <li><a href="main-page.html">Home</a></li>
+                    <li><a href="main-page.html#continentes">Continentes</a></li>
+                    <li><a href="forum-page.html">Foro</a></li>
+                    <li><a href="footer-sites.html?section=quienes-somos">¿Quiénes somos?</a></li>
+                </ul>
+            </div>
+
+            <!-- DERECHA: ICONOS Y BOTONES -->
+            <div class="nav-right">
+                <button class="icon-btn" id="language-btn">🌐︎</button>
+                <button class="icon-btn" id="accessibility-btn">♿︎</button>
+                <a href="login.html" class="btn-login">Iniciar sesión</a>
+                <a href="register-page.html" class="btn-register">Registrarse</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL DEL FORO -->
+    <main class="forum-main">
+        
+        <!-- TÍTULO PRINCIPAL DEL FORO CON BOTÓN DENTRO -->
+        <section class="forum-header">
+            <div class="forum-header-content">
+                <h1 class="forum-title">FORO MOCHILERO</h1>
+                <p class="forum-subtitle">Cuéntanos tu experiencia</p>
+                <a href="#" class="btn-contribute">Aportar al foro</a>
+            </div>
+        </section>
+
+        <!-- SECCIÓN DE FILTROS Y CATEGORÍAS -->
+        <div class="filter-section">
+            <!-- CATEGORÍAS (IZQUIERDA) -->
+            <aside class="categories-panel">
+                <h2 class="panel-title">Categorías</h2>
+                <ul class="categories-list">
+                    <li>
+                        <label class="category-item">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            Destinos
+                        </label>
+                    </li>
+                    <li>
+                        <label class="category-item">
+                            <input type="checkbox" checked>
+                            <span class="checkmark"></span>
+                            Compañeros de viaje
+                        </label>
+                    </li>
+                    <li>
+                        <label class="category-item">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            Presupuesto y ahorros
+                        </label>
+                    </li>
+                    <li>
+                        <label class="category-item">
+                            <input type="checkbox" checked>
+                            <span class="checkmark"></span>
+                            Seguridad y visados
+                        </label>
+                    </li>
+                    <li>
+                        <label class="category-item">
+                            <input type="checkbox" checked>
+                            <span class="checkmark"></span>
+                            Viajar con mascotas
+                        </label>
+                    </li>
+                </ul>
+            </aside>
+
+            <!-- FILTROS (DERECHA) -->
+            <aside class="filters-panel">
+                <h2 class="panel-title">Filtros</h2>
+                <ul class="filters-list">
+                    <li>
+                        <label class="filter-item">
+                            <input type="checkbox" checked>
+                            <span class="checkmark"></span>
+                            Sólo post verificados
+                        </label>
+                    </li>
+                    <li>
+                        <label class="filter-item">
+                            <input type="checkbox" checked>
+                            <span class="checkmark"></span>
+                            Más reciente
+                        </label>
+                    </li>
+                    <li>
+                        <label class="filter-item">
+                            <input type="checkbox" checked>
+                            <span class="checkmark"></span>
+                            Más comentados
+                        </label>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+
+            <!-- POSTS POPULARES -->
+        <section class="posts-section">
+            <div class="posts-header">
+                <h2 class="posts-title">Posts populares</h2>
+            </div>
+            <div class="posts-container">
+                <!-- Los posts se cargarán aquí dinámicamente -->
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER (igual que en main-page.html) -->
+    <footer>
+        <div class="footer-content">
+
+            <!-- IZQUIERDA -->
+            <div class="footer-left">
+                <p>Camino de Ulises © 2025</p>
+            </div>
+
+            <!-- CENTRO -->
+            <nav class="footer-center">
+                <a href="footer-sites.html?section=quienes-somos">¿Quiénes somos?</a>
+                <a href="footer-sites.html?section=privacidad">Política de privacidad</a>
+                <a href="footer-sites.html?section=faq">FAQs</a>
+                <a href="footer-sites.html?section=contacto">Contacto</a>
+            </nav>
+
+            <!-- DERECHA -->
+            <div class="footer-right">
+                <a href="#" aria-label="Instagram">
+                    <img src="../assets/icons/instagram.svg" alt="Instagram">
+                </a>
+                <a href="#" aria-label="TikTok">
+                    <img src="../assets/icons/tiktok.svg" alt="TikTok">
+                </a>
+                <a href="#" aria-label="X">
+                    <img src="../assets/icons/x.svg" alt="X">
+                </a>
+                <a href="#" aria-label="YouTube">
+                    <img src="../assets/icons/youtube.svg" alt="YouTube">
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Script para manejar los checkboxes
+        document.addEventListener('DOMContentLoaded', function() {
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            
+            checkboxes.forEach(checkbox => {
+                checkbox.addEventListener('change', function() {
+                    // Puedes agregar aquí la lógica para filtrar los posts
+                    console.log(`Checkbox ${this.parentElement.textContent.trim()} cambiado a ${this.checked}`);
+                });
+            });
+            
+            // Botón para aportar al foro
+            const contributeBtn = document.querySelector('.btn-contribute');
+            if (contributeBtn) {
+                contributeBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    alert('Redirigiendo a la página para crear un nuevo post...');
+                    // Aquí redirigirías a una página de creación de posts
+                });
+            }
+        });
+    </script>
+    <script src="scripts/forum.js"></script>
+
+</body>
+</html>
