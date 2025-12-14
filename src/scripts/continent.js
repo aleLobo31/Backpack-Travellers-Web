@@ -107,7 +107,7 @@ function createCountryCard(country) {
         <a href="country.html?country=${encodeURIComponent(country.name)}"
            class="pill-button primary">¡Quiero viajar!</a>
 
-        <a href="security.html?country=${encodeURIComponent(country.name)}"
+        <a href="security-page.html?country=${encodeURIComponent(country.name)}"
            class="pill-button">¿Es seguro?</a>
       </div>
     </div>

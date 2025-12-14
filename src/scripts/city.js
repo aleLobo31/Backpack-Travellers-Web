@@ -30,7 +30,7 @@ fetch("../assets/ciudades-del-mundo.json")
 
     renderBanner(selectedCity, selectedCountry);
     renderDetail(selectedCity);
-    renderPacks(selectedCity);
+    renderPacks(selectedCity, selectedCountry);
   });
 
 
@@ -58,7 +58,6 @@ function renderBanner(city, country) {
 }
 
 
-
 // --------------------------------------------
 // 4. Detalle
 // --------------------------------------------
@@ -78,9 +77,9 @@ function renderDetail(city) {
 
 
 // --------------------------------------------
-// 5. Packs (precios inventados)
+// 5. Packs (LÓGICA REAL DE PRECIOS + REDIRECCIÓN)
 // --------------------------------------------
-function renderPacks(city) {
+function renderPacks(city, country) {
   const img1 = document.getElementById("city-pack-img-1");
   const img2 = document.getElementById("city-pack-img-2");
   const img3 = document.getElementById("city-pack-img-3");
@@ -89,7 +88,26 @@ function renderPacks(city) {
   img2.src = city.image.url;
   img3.src = city.image.url;
 
-  document.getElementById("pack-price-1").textContent = "150€";
-  document.getElementById("pack-price-2").textContent = "420€";
-  document.getElementById("pack-price-3").textContent = "900€";
+  const prices = city.prices || country.prices || { weekend: 0, week: 0, days_15: 0 };
+
+  document.getElementById("pack-price-1").textContent = `${prices.weekend}€`;
+  document.getElementById("pack-price-2").textContent = `${prices.week}€`;
+  document.getElementById("pack-price-3").textContent = `${prices.days_15}€`;
+
+  const buyButtons = document.querySelectorAll(".pack-button");
+
+  // Botón 1: Fin de semana
+  buyButtons[0].onclick = () => {
+    window.location.href = `pack-buy-page.html?city=${encodeURIComponent(city.name)}&type=Fin de semana&price=${prices.weekend}`;
+  };
+
+  // Botón 2: 7 días
+  buyButtons[1].onclick = () => {
+    window.location.href = `pack-buy-page.html?city=${encodeURIComponent(city.name)}&type=7 días&price=${prices.week}`;
+  };
+
+  // Botón 3: 15 días
+  buyButtons[2].onclick = () => {
+    window.location.href = `pack-buy-page.html?city=${encodeURIComponent(city.name)}&type=15 días&price=${prices.days_15}`;
+  };
 }
