@@ -15,27 +15,17 @@ document.addEventListener("DOMContentLoaded", () => {
     const btnGuardar    = document.querySelector(".boton-guardar");
     const fileLabel     = document.querySelector("#file-archivo-sel");
 
-    // --- PEQUEÑO HELPER PARA MENSAJES ---
-    function mostrarMensaje(texto) {
-        const modal = document.querySelector("#modal-mensaje");
-        const modalTexto = document.querySelector("#modal-texto");
-        const btnCerrar = document.querySelector("#modal-cerrar");
+    function mostrarModalInfo(texto, onClose = null) {
+        const modal = document.getElementById("modal-info");
+        const textoEl = document.getElementById("modal-info-texto");
+        const btnOk = document.getElementById("modal-info-ok");
 
-        modalTexto.textContent = texto;
-
-        // Mostrar modal
+        textoEl.textContent = texto;
         modal.classList.add("visible");
 
-        // Cerrar modal al pulsar el botón
-        btnCerrar.onclick = () => {
+        btnOk.onclick = () => {
             modal.classList.remove("visible");
-        };
-
-        // Opcional: cerrar haciendo clic fuera del contenido
-        modal.onclick = (e) => {
-            if (e.target === modal) {
-                modal.classList.remove("visible");
-            }
+            if (onClose) onClose();
         };
     }
 
@@ -89,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         if (campoVacio) {
-            mostrarMensaje("Por favor, completa todos los campos obligatorios antes de continuar.");
+            mostrarModalInfo("Por favor, completa todos los campos obligatorios antes de continuar.");
             campoVacio.focus();
             return;
         }
@@ -97,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // 2) Nombre (mínimo 3 caracteres)
         const nombre = nombreInput.value.trim();
         if (nombre.length < 3) {
-            mostrarMensaje("El nombre debe tener al menos 3 caracteres.");
+            mostrarModalInfo("El nombre debe tener al menos 3 caracteres.");
             nombreInput.focus();
             return;
         }
@@ -107,7 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const partesApellidos = apellidos.split(" ").filter(p => p !== "");
 
         if (partesApellidos.length < 2 || partesApellidos.some(p => p.length < 3)) {
-            mostrarMensaje("Introduce al menos dos apellidos de tres caracteres cada uno.");
+            mostrarModalInfo("Introduce al menos dos apellidos de tres caracteres cada uno.");
             apellidosInput.focus();
             return;
         }
@@ -117,7 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
         if (!emailRegex.test(email)) {
-            mostrarMensaje("El correo electrónico no tiene un formato válido (nombre@dominio.extensión).");
+            mostrarModalInfo("El correo electrónico no tiene un formato válido (nombre@dominio.extensión).");
             emailInput.focus();
             return;
         }
@@ -125,7 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // 5) Nombre de usuario (mínimo 5 caracteres)
         const usuario = usuarioInput.value.trim();
         if (usuario.length < 5) {
-            mostrarMensaje("El nombre de usuario debe tener al menos 5 caracteres.");
+            mostrarModalInfo("El nombre de usuario debe tener al menos 5 caracteres.");
             usuarioInput.focus();
             return;
         }
@@ -136,14 +126,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=(?:.*\d){2,})(?=.*[^A-Za-z0-9]).{8,}$/;
         if (!passwordRegex.test(password)) {
-            mostrarMensaje("La contraseña debe tener al menos 8 caracteres, 2 números, 1 mayúscula, 1 minúscula y 1 carácter especial.");
+            mostrarModalInfo("La contraseña debe tener al menos 8 caracteres, 2 números, 1 mayúscula, 1 minúscula y 1 carácter especial.");
             passInput.focus();
             return;
         }
 
         // 7) Confirmación de contraseña
         if (password !== password2) {
-            mostrarMensaje("Las contraseñas no coinciden.");
+            mostrarModalInfo("Las contraseñas no coinciden.");
             pass2Input.focus();
             return;
         }
@@ -151,7 +141,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // 8) Fecha de nacimiento (no futuro, >= 12 años, año razonable)
         const fechaNacStr = fechaInput.value;
         if (!fechaNacStr) {
-            mostrarMensaje("Selecciona una fecha de nacimiento.");
+            mostrarModalInfo("Selecciona una fecha de nacimiento.");
             fechaInput.focus();
             return;
         }
@@ -161,7 +151,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Fecha en el futuro
         if (fechaNac >= hoy) {
-            mostrarMensaje("La fecha de nacimiento no puede ser en el futuro.");
+            mostrarModalInfo("La fecha de nacimiento no puede ser en el futuro.");
             fechaInput.focus();
             return;
         }
@@ -173,13 +163,13 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         if (edad < 12) {
-            mostrarMensaje("Debes tener al menos 12 años para registrarte.");
+            mostrarModalInfo("Debes tener al menos 12 años para registrarte.");
             fechaInput.focus();
             return;
         }
 
         if (fechaNac.getFullYear() < 1900) {
-            mostrarMensaje("La fecha de nacimiento introducida no es válida.");
+            mostrarModalInfo("La fecha de nacimiento introducida no es válida.");
             fechaInput.focus();
             return;
         }
@@ -187,7 +177,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // 9) Imagen de perfil (obligatoria + extensión válida)
         const archivo = imagenInput.files[0];
         if (!archivo) {
-            mostrarMensaje("Selecciona una imagen de perfil.");
+            mostrarModalInfo("Selecciona una imagen de perfil.");
             imagenInput.focus();
             return;
         }
@@ -195,14 +185,14 @@ document.addEventListener("DOMContentLoaded", () => {
         const extension = archivo.name.split(".").pop().toLowerCase();
         const extensionesValidas = ["webp", "png", "jpg", "jpeg"];
         if (!extensionesValidas.includes(extension)) {
-            mostrarMensaje("La imagen de perfil debe ser .webp, .png, .jpg o .jpeg.");
+            mostrarModalInfo("La imagen de perfil debe ser .webp, .png, .jpg o .jpeg.");
             imagenInput.focus();
             return;
         }
 
         // 10) Política de privacidad
         if (!privacidadChk.checked) {
-            mostrarMensaje("Debes aceptar la política de privacidad para continuar.");
+            mostrarModalInfo("Debes aceptar la política de privacidad para continuar.");
             privacidadChk.focus();
             return;
         }
@@ -212,7 +202,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const yaExiste = usuarios.some(u => u.usuario === usuario || u.email === email);
         if (yaExiste) {
-            mostrarMensaje("El usuario o el correo ya están registrados. Prueba con otros datos.");
+            mostrarModalInfo("El usuario o el correo ya están registrados. Prueba con otros datos.");
             usuarioInput.focus();
             return;
         }
@@ -237,7 +227,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // Iniciar sesión automáticamente
             sessionStorage.setItem("usuarioActivo", usuario);
 
-            mostrarMensaje("Registro completado con éxito. ¡Bienvenido/a!");
+            mostrarModalInfo("Registro completado con éxito. ¡Bienvenido/a!");
 
             // Redirigir (ajusta la página de destino si quieres otra)
             setTimeout(() => {
@@ -246,7 +236,7 @@ document.addEventListener("DOMContentLoaded", () => {
         };
 
         reader.onerror = function () {
-            mostrarMensaje("Se ha producido un error al procesar la imagen. Inténtalo de nuevo.");
+            mostrarModalInfo("Se ha producido un error al procesar la imagen. Inténtalo de nuevo.");
         };
 
         reader.readAsDataURL(archivo);
