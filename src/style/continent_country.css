@@ -13,7 +13,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 3rem;
+  margin-bottom: 48px;
 }
 
 .banner img {
@@ -22,21 +22,39 @@
   width: 100%; height: 100%;
   object-fit: cover;
   opacity: 0.45;
+  transition: transform 1.2s ease, opacity 0.6s ease;
 }
 
-.banner-content { position: relative; text-align: center; }
+.banner:hover img {
+  transform: scale(1.04);
+  opacity: 0.5;
+}
+
+
+.banner-content { 
+  position: relative; 
+  text-align: center; 
+  transition: transform 0.6s ease, opacity 0.6s ease;
+}
+
+.banner:hover .banner-content {
+  transform: translateY(-6px);
+}
+
 
 .banner-title {
-  font-size: clamp(3rem,6vw,5rem);
+  /* clamp(48px, 6vw, 80px) */
+  font-size: clamp(48px, 6vw, 80px);
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  /* CORREGIDO: Aumentado de 1.28px a 5px para igualar el 0.08em en títulos grandes */
+  letter-spacing: 5px; 
 }
 
 .banner-quote {
-  margin-top: 0.5rem;
+  margin-top: 8px; 
   background: rgba(58,47,34,0.55);
-  padding: 0.6rem 1rem;
+  padding: 9.6px 16px; 
   border-radius: 999px;
   border: 1px solid rgba(255,255,255,0.4);
 }
@@ -44,15 +62,17 @@
 /* Grid de Países (Home) */
 main {
   max-width: 1200px;
-  margin: 0 auto 3rem;
-  padding: 0 1.5rem;
+  margin: 0 auto 48px; 
+  padding: 0 24px; 
 }
 
 .countries-title {
-  font-size: clamp(1.6rem,3vw,2.3rem);
+  /* clamp(25.6px, 3vw, 36.8px) */
+  font-size: clamp(25.6px, 3vw, 36.8px);
   text-align: center;
-  margin: 3rem 0 1.5rem;
-  letter-spacing: 0.05em;
+  margin: 48px 0 24px; 
+  /* CORREGIDO: Aumentado de 0.8px a 1.5px */
+  letter-spacing: 1.5px; 
   font-weight: 800;
   color: #3a2f22;
 }
@@ -64,18 +84,18 @@ main {
   background: #a26a33;
   border-radius: 5px;
   display: block;
-  margin: 0.6rem auto 0;
+  margin: 9.6px auto 0; 
 }
 
 .countries-grid {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 32px; 
 }
 
 .country-row {
   display: flex;
-  gap: 2rem;
+  gap: 32px; 
   justify-content: center;
 }
 
@@ -90,33 +110,40 @@ main {
   display: flex;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(90,70,50,0.15);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
 }
+
+.country-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 28px rgba(90,70,50,0.25);
+}
+
 
 .country-image { flex: 0 0 38%; }
 .country-image img { width: 100%; height: 100%; object-fit: cover; }
 
 .country-info {
   flex: 1;
-  padding: 1rem 1.25rem;
+  padding: 16px 20px; 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .country-name {
-  font-size: 1.2rem;
+  font-size: 19.2px; 
   font-weight: 700;
   color: #3a2f22;
 }
 
 .country-description {
-  font-size: 0.9rem;
+  font-size: 14.4px; 
   color: #6c5b4a;
 }
 
 .country-actions {
   display: flex;
-  gap: 0.5rem;
+  gap: 8px; 
 }
 
 /* ========================================= */
@@ -131,7 +158,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1.5rem;
+  padding: 24px; 
   text-align: center;
   color: #fff;
   
@@ -146,51 +173,64 @@ main {
   border-bottom: 1px solid #d7c9b8;
 }
 
-.country-header-content { z-index: 2; }
+
+.country-header-content { 
+  z-index: 2; 
+  transition: transform 0.35s ease;
+}
+
+.country-header-banner:hover .country-header-content {
+  transform: translateY(-4px);
+}
+
 
 .country-flag {
   width: 70px; height: 48px;
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 3px 10px rgba(58, 47, 34, 0.3);
-  margin-bottom: 0.75rem;
+  margin-bottom: 12px; 
 }
 
 .country-header-content h1 {
-  font-size: clamp(2rem, 5vw, 3rem);
+  /* clamp(32px, 5vw, 48px) */
+  font-size: clamp(32px, 5vw, 48px);
   font-weight: 800;
-  letter-spacing: 0.03em;
-  margin-bottom: 0.5rem;
+  /* CORREGIDO: Aumentado de 0.48px a 1.2px */
+  letter-spacing: 1.2px; 
+  margin-bottom: 8px; 
   text-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 
 .country-header-content p {
-  font-size: 1.05rem;
+  font-size: 16.8px; 
   max-width: 700px;
-  margin: 0.4rem auto 0;
+  margin: 6.4px auto 0; 
   color: #f3eee7;
 }
+
+
 
 .underline {
   width: 70px; height: 3px;
   background: #a26a33;
-  margin: 0.4rem auto 0.8rem;
+  margin: 6.4px auto 12.8px; 
   border-radius: 2px;
 }
 
 /* Grid de Ciudades */
 .cities-grid {
   max-width: 1200px;
-  margin: 2rem auto 3rem;
-  padding: 0 1.5rem;
+  margin: 32px auto 48px; 
+  padding: 0 24px; 
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 32px; 
 }
 
 .city-row {
   display: flex;
-  gap: 2rem;
+  gap: 32px; 
   justify-content: center; 
 }
 
@@ -205,8 +245,15 @@ main {
   box-shadow: 0 4px 12px rgba(90,70,50,0.1);
   display: flex;
   flex-direction: column;
-  height: 420px; /* Altura fija para alineación */
+  height: 420px; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.city-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 26px rgba(90,70,50,0.22);
+}
+
 
 .city-image img {
   width: 100%;
@@ -216,22 +263,22 @@ main {
 
 .city-info {
   flex: 1;                
-  padding: 1rem 1.2rem;
+  padding: 16px 19.2px; 
   display: flex;
   flex-direction: column;
 }
 
 .city-name {
-  font-size: 1.25rem;
+  font-size: 20px; 
   font-weight: 700;
   color: #3a2f22;
 }
 
 .city-description {
-  font-size: 0.92rem;
+  font-size: 14.72px; 
   color: #6c5b4a;
   line-height: 1.45;
-  margin-top: 0.25rem;
+  margin-top: 4px; 
 }
 
 .city-footer {
@@ -245,7 +292,7 @@ main {
 .city-separator {
   width: 100%; height: 1px;
   background: #d7c9b8;
-  margin-bottom: 0.6rem;
+  margin-bottom: 9.6px; 
 }
 
 
@@ -253,32 +300,44 @@ main {
 
 /* Caja de Seguridad (Safety Box) */
 .safety-box {
-  max-width: 900px;
-  margin: 4rem auto;
-  padding: 2rem 2.5rem;
+  max-width: 750px;
+  margin: 64px auto; 
+  padding: 32px 40px; 
   background: #fffaf5;
   border-radius: 20px;
   border: 1px solid #d7c9b8;
   box-shadow: 0 4px 12px rgba(90,70,50,0.1); 
   text-align: center;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
 }
 
+.safety-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(90,70,50,0.2);
+}
+
+
 .safety-box p {
-  font-size: 1.25rem;
+  font-size: 20px; 
   font-weight: 600;
   color: #3a2f22;
-  margin-bottom: 1.4rem;
+  margin-bottom: 22.4px; 
 }
 
 .safety-button {
   display: inline-block;
   background: #a26a33;
   color: white;
-  padding: 0.55rem 1.4rem;
+  padding: 8.8px 22.4px; 
   border-radius: 999px;
-  font-size: 0.95rem;
+  font-size: 15.2px; 
   border: 1px solid #a26a33;
   cursor: pointer;
+}
+
+.safety-button:hover {
+  background: #8e5528;
+  border-color: #8e5528;
 }
 
 /* ========================================= */
@@ -288,12 +347,12 @@ main {
 /* Botones tipo Píldora (Usado en home y cities) */
 .pill-button {
   display: inline-block;
-  padding: 0.35rem 0.9rem;
+  padding: 5.6px 14.4px; 
   border-radius: 999px;
   border: 1px solid #a26a33;
   background: #fffaf5;
   color: #a26a33;
-  font-size: 0.85rem;
+  font-size: 13.6px; 
   text-align: center;
   cursor: pointer;
 }
@@ -301,34 +360,117 @@ main {
 .pill-button.primary {
   background: #a26a33;
   color: #fff;
-  /* Flex alignment para cuando se usa dentro de city-footer */
   align-self: flex-end; 
+}
+
+.pill-button.primary:hover {
+    background-color: #8e5528;   
+    border-color: #8e5528;
+    color: #fff;
+}
+
+.country-actions .pill-button:not(.primary):hover {
+    background-color: #f3eee7;   
+    color: #a26a33;
 }
 
 
 /* ========================================= */
 /* 7. RESPONSIVE                             */
 /* ========================================= */
-@media (max-width: 720px) {
-  /* Ajuste Tarjeta Home */
-  .country-card {
-    flex-direction: column;
-    height: auto;
+/* ========================================= */
+/* 7. RESPONSIVE (Móvil y Tablets)           */
+/* ========================================= */
+
+/* ========================================= */
+/* 7. RESPONSIVE (Móvil y Tablets)           */
+/* ========================================= */
+
+/* ========================================= */
+/* 7. RESPONSIVE (Móvil y Tablets)           */
+/* ========================================= */
+
+@media (max-width: 768px) {
+
+  /* 1. Ajustes Generales del Layout */
+  main, 
+  .cities-grid {
+    padding: 0 16px;
   }
-  .country-image {
-    height: 180px;
+
+  .banner {
+    min-height: 260px;
   }
   
-  /* Ajuste Tarjeta Ciudad */
-  .city-row {
-    flex-direction: column;
+  /* 2. Tarjetas de Países (Home) */
+  .country-row {
+    flex-direction: column; 
+    gap: 32px;
   }
+
+  .country-card {
+    max-width: 100%;
+    flex-direction: column; 
+    height: auto; 
+  }
+
+  .country-image {
+    flex: none; 
+    width: 100%;
+    height: 200px; 
+  }
+
+  .country-info {
+    padding: 24px; 
+  }
+
+  .country-actions {
+    margin-top: 24px; /* Espacio extra botones */
+    justify-content: flex-start; 
+  }
+
+  /* 3. Tarjetas de Ciudades (Detalle) */
+  .city-row {
+    flex-direction: column; 
+    gap: 32px;
+  }
+
   .city-card {
     max-width: 100%;
+    height: auto; 
+  }
+
+  .city-image img {
+    height: 200px; 
   }
   
-  .nav {
-    flex-direction: column;
-    gap: 1rem;
+  .city-info {
+    padding: 24px; 
+  }
+
+  .city-footer {
+    margin-top: 32px; /* Espacio extra footer */
+  }
+
+  /* 4. Ajustes de Fuentes y Safety Box */
+  .banner-title {
+    font-size: 36px; 
+    letter-spacing: 2px;
+  }
+
+  .country-header-banner {
+    height: auto;
+    padding: 48px 16px;
+  }
+  
+  .country-header-content h1 {
+    font-size: 32px;
+  }
+  
+  /* --- AQUÍ ESTÁ EL CAMBIO SOLICITADO --- */
+  .safety-box {
+    /* 40px arriba/abajo, 24px izquierda/derecha */
+    margin: 40px 24px; 
+    padding: 32px 24px; /* Un poco más de aire interno también */
   }
 }
