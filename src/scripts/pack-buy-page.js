@@ -11,6 +11,66 @@ let currentYear = currentDate.getFullYear();
 let selectedStartDate = null;
 let selectedEndDate = null;
 
+function initPackInfo() {
+    const params = new URLSearchParams(window.location.search);
+    const cityName = params.get("city");
+    const packType = params.get("type");
+    const packPrice = params.get("price");
+
+    if (!cityName || !packType) return;
+
+    const packNameEl = document.querySelector(".pack-name");
+    const packPriceEl = document.querySelector(".pack-price");
+
+    if (packNameEl) packNameEl.textContent = `Pack ${packType}: ${cityName}`;
+    if (packPriceEl) packPriceEl.textContent = `${packPrice}€`;
+
+    fetch("../assets/ciudades-del-mundo.json")
+        .then(response => {
+            if (!response.ok) throw new Error("Error cargando JSON");
+            return response.json();
+        })
+        .then(data => {
+            const continents = data.continents || data;
+            let foundCity = null;
+
+            if (Array.isArray(continents)) {
+                continents.some(continent => {
+                    return continent.countries.some(country => {
+                        const city = country.cities.find(c => c.name === cityName);
+                        if (city) {
+                            foundCity = city;
+                            return true;
+                        }
+                        return false;
+                    });
+                });
+            }
+
+            if (foundCity) {
+                const imgEl = document.querySelector(".pack-image img");
+                if (imgEl) {
+                    const imgSrc = (foundCity.image && foundCity.image.url) 
+                                   ? foundCity.image.url 
+                                   : (foundCity.banner ? foundCity.banner.image : "");
+                    
+                    if (imgSrc) imgEl.src = imgSrc;
+                    imgEl.alt = `Viaje a ${foundCity.name}`;
+                }
+
+                const lemaEl = document.querySelector(".pack-lema p");
+                if (lemaEl) {
+                    lemaEl.textContent = foundCity.motto || foundCity.description || `¡Disfruta de ${cityName}!`;
+                }
+            }
+        })
+        .catch(error => console.error(error));
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    initPackInfo();
+});
+
 function renderCalendar(month, year) {
     // Extraemos los elementos del DOM
     const calendarBody = document.getElementById('calendar-body');
