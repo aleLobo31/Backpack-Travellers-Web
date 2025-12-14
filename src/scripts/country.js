@@ -112,7 +112,7 @@ function createCityCard(city) {
     </div>
 
     <div class="city-info">
-      <h3 class="city-name">${city.name}</h3>
+      <h2 class="city-name">${city.name}</h2>
 
       <p class="city-description">${city.description}</p>
 

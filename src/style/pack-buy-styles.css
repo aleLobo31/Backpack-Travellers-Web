@@ -43,7 +43,7 @@
     font-size: 16px;
     font-weight: 500;
     color: #a26a33;
-    background-color: #f3eee7;
+    background-color: #ffffff;
     padding: 8px 16px;
     border-radius: 6px;
 }
@@ -159,7 +159,7 @@
 }
 
 .calendar-table td span.disabled {
-    color: #d7c9b8;
+    color: #6c6053;
     cursor: not-allowed;
 }
 
@@ -171,7 +171,7 @@
 /***********************
     Purchase Form
 ************************/
-.pack-buy-right h2 {
+.pack-buy-right h1 {
     font-size: 24px;
     font-weight: 600;
     color: #3f2f1e;
