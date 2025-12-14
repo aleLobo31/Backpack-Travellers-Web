@@ -282,3 +282,144 @@ main hr {
     border: none;
     border-top: 1px solid #d7c9b8;
 }
+
+/***********************
+    Responsive - Tablet (768px)
+************************/
+@media (max-width: 768px) {
+    .sec-hero-banner {
+        min-height: 260px;
+    }
+
+    .sec-hero-banner h1 {
+        font-size: 42px;
+    }
+
+    .sec-review {
+        grid-template-columns: 320px 1fr;
+        gap: 32px;
+        padding: 0 16px;
+    }
+
+    .sec-index a {
+        font-size: 24px;
+        padding: 10px 14px;
+    }
+
+    .sec-summary h2 {
+        font-size: 28px;
+    }
+
+    .sec-suggestions h2 {
+        font-size: 30px;
+    }
+}
+
+/***********************
+    Responsive - Mobile (600px)
+************************/
+@media (max-width: 600px) {
+    .sec-breadcrumbs ol {
+        margin: 0 8px;
+        padding: 12px 16px;
+        gap: 6px;
+    }
+
+    .sec-breadcrumbs a,
+    .sec-breadcrumbs p {
+        font-size: 13px;
+    }
+
+    .sec-hero-banner {
+        min-height: 200px;
+    }
+
+    .sec-hero-banner h1 {
+        font-size: 32px;
+        padding: 0 16px;
+    }
+
+    #sec-flag {
+        width: 56px;
+        height: 38px;
+    }
+
+    .sec-review {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        margin: 32px auto;
+        padding: 0 16px;
+    }
+
+    .sec-index {
+        order: -1;
+        padding: 24px 16px;
+    }
+
+    .sec-index ul {
+        width: 100%;
+        gap: 8px;
+    }
+
+    .sec-index a {
+        font-size: 18px;
+        padding: 12px 16px;
+    }
+
+    .sec-summary {
+        padding: 24px 16px;
+    }
+
+    .sec-summary h2 {
+        font-size: 24px;
+        margin-bottom: 24px;
+        padding-bottom: 12px;
+    }
+
+    .sec-summary h3 {
+        font-size: 18px;
+    }
+
+    .sum {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        padding: 12px 16px;
+    }
+
+    .sum p {
+        font-size: 15px;
+    }
+
+    .sec-suggestions {
+        margin: 32px auto;
+        padding: 0 16px;
+    }
+
+    .sec-suggestions h2 {
+        font-size: 26px;
+        margin-bottom: 24px;
+    }
+
+    .sec-suggestions summary {
+        padding: 16px;
+        font-size: 15px;
+    }
+
+    .sec-suggestions summary::before {
+        width: 20px;
+        height: 20px;
+        font-size: 18px;
+        line-height: 20px;
+        margin-right: 10px;
+    }
+
+    .sec-suggestions details p {
+        padding: 0 16px 20px 46px;
+        font-size: 14px;
+    }
+
+    main hr {
+        margin: 32px auto;
+    }
+}
