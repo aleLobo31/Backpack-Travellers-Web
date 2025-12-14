@@ -54,8 +54,10 @@
             </div>
 
             <form class="search-bar">
-                <input id="search" type="text" placeholder="🔍︎ Buscar destinos...">
+                <input id="search" type="text" placeholder="🔍︎ Buscar destinos..." autocomplete="off">
                 <button type="submit">Buscar</button>
+
+                <div id="search-results" class="search-results"></div>
             </form>
         </section>
 
@@ -158,5 +160,7 @@
                 </a>
         </div>
     </footer>
+    <script src="scripts/carousel.js"></script>
+    <script src="scripts/search.js"></script>
 </body>
 </html>
