@@ -100,39 +100,41 @@ function initPackInfo() {
         .catch(error => console.error(error));
 }
 
+/*
+* Generamos la tabla del calendario dinámicamente.
+* 
+* Estructura HTML esperada (pack-buy-page.html):
+*   <table class="calendar-table">
+*     <thead>
+*       <tr><th>L</th><th>M</th>...<th>D</th></tr> // Cabecera fija con días de la semana
+*     </thead>
+*     <tbody id="calendar-body">
+*       <!-- Filas generadas aquí -->
+*     </tbody>
+*   </table>
+* 
+* Lógica del bucle:
+*   - i: representa cada fila (semana), máximo 6 filas por mes
+*   - j: representa cada columna (día de la semana, L=0 a D=6)
+*   - Creamos celdas vacías hasta llegar al primer día del mes (startDay)
+*   - Cada celda contiene un <span> con el número del día y data-date="YYYY-MM-DD"
+*   - Añadimos clases CSS según el estado: 'disabled' (pasado), 'today', 'selected', 'in-range'
+*/
 function renderCalendar(month, year) {
-    // Extraemos los elementos del DOM
     const calendarBody = document.getElementById('calendar-body');
     const calendarMonth = document.getElementById('calendar-month');
     
+    // Obtenemos el tipo de pack
+    const params = new URLSearchParams(window.location.search);
+    const type = params.get("type");
+
     calendarBody.innerHTML = '';
     calendarMonth.textContent = `${months[month]} ${year}`;
 
-    // Calculamos el primer día del mes
     const firstDay = new Date(year, month, 1).getDay();
     const daysInMonth = new Date(year, month + 1, 0).getDate();
-    const startDay = firstDay === 0 ? 6 : firstDay - 1; // Ajustar para empezar en lunes
+    const startDay = firstDay === 0 ? 6 : firstDay - 1; 
 
-    /*
-     * Generamos la tabla del calendario dinámicamente.
-     * 
-     * Estructura HTML esperada (pack-buy-page.html):
-     *   <table class="calendar-table">
-     *     <thead>
-     *       <tr><th>L</th><th>M</th>...<th>D</th></tr> // Cabecera fija con días de la semana
-     *     </thead>
-     *     <tbody id="calendar-body">
-     *       <!-- Filas generadas aquí -->
-     *     </tbody>
-     *   </table>
-     * 
-     * Lógica del bucle:
-     *   - i: representa cada fila (semana), máximo 6 filas por mes
-     *   - j: representa cada columna (día de la semana, L=0 a D=6)
-     *   - Creamos celdas vacías hasta llegar al primer día del mes (startDay)
-     *   - Cada celda contiene un <span> con el número del día y data-date="YYYY-MM-DD"
-     *   - Añadimos clases CSS según el estado: 'disabled' (pasado), 'today', 'selected', 'in-range'
-     */
     let date = 1;
     for (let i = 0; i < 6; i++) {
         const row = document.createElement('tr');
@@ -140,64 +142,78 @@ function renderCalendar(month, year) {
         for (let j = 0; j < 7; j++) {
             const cell = document.createElement('td');
 
-            // Primera semana: celdas vacías antes del primer día del mes
             if (i === 0 && j < startDay) {
                 cell.textContent = '';
-            // Días que exceden el mes: celdas vacías al final
             } else if (date > daysInMonth) {
                 cell.textContent = '';
-            // Día válido: creamos el span con la información del día
             } else {
-                // Creamos un span para guardar el día
                 const span = document.createElement('span');
                 span.textContent = date;
-
-                // Guardamos la fecha en formato ISO (YYYY-MM-DD) para facilitar comparaciones
                 span.dataset.date = `${year}-${String(month + 1).padStart(2, '0')}-${String(date).padStart(2, '0')}`;
 
                 const today = new Date();
-                const cellDate = new Date(year, month, date);
+                const cellDate = new Date(year, month, date); 
                 
-                // Si la fecha es anterior a hoy, la deshabilitamos visualmente
-                // Si no, añadimos el evento click para poder seleccionarla
+                // --- LÓGICA DE RESTRICCIÓN Y CURSOR ---
+                
+                // 1. Si es fecha pasada -> Disabled visual y funcional (y cursor prohibido por CSS .disabled)
                 if (cellDate < today.setHours(0,0,0,0)) {
                     span.classList.add('disabled');
-                } else {
-                    span.addEventListener('click', () => selectDate(span));
+                } 
+                else {
+                    let isClickable = true;
+
+                    if (type === "Fin de semana") {
+                        const dayOfWeek = cellDate.getDay(); // 0=Dom, 5=Vie
+                        
+                        // Si NO es viernes
+                        if (dayOfWeek !== 5) {
+                            isClickable = false;
+                            // Aquí forzamos el cursor de prohibido
+                            span.style.cursor = "not-allowed"; 
+                            // Opcional: añade un tooltip nativo
+                            span.title = "Solo disponible salidas los viernes";
+                        }
+                    }
+
+                    if (isClickable) {
+                        span.addEventListener('click', () => selectDate(span));
+                        // Aseguramos que los clickables tengan cursor de mano
+                        span.style.cursor = "pointer"; 
+                    }
                 }
 
-                // Si la fecha coincide con el día actual, la marcamos como 'today'
+                // --- ESTILOS DE ESTADO (Today, Selected, Range) ---
+
                 if (date === new Date().getDate() && month === new Date().getMonth() && year === new Date().getFullYear()) {
                     span.classList.add('today');
                 }
 
-                // Marcar fechas seleccionadas
                 if (selectedStartDate && span.dataset.date === selectedStartDate) {
                     span.classList.add('selected');
                 }
+                
                 if (selectedEndDate && span.dataset.date === selectedEndDate) {
                     span.classList.add('selected');
                 }
 
-                // Marcar rango
                 if (selectedStartDate && selectedEndDate) {
                     const start = new Date(selectedStartDate);
                     const end = new Date(selectedEndDate);
-                    if (cellDate > start && cellDate < end) {
+                    start.setHours(0,0,0,0);
+                    end.setHours(0,0,0,0);
+                    cellDate.setHours(0,0,0,0);
+
+                    if (cellDate >= start && cellDate <= end) {
                         span.classList.add('in-range');
                     }
                 }
 
-                // Añadimos el span al td y avanzamos al siguiente día
                 cell.appendChild(span);
                 date++;
             }
-
-            // Añadimos la celda (td) a la fila (tr)
             row.appendChild(cell);
         }
-
-        // Añadimos la fila completa al tbody y si ya no hay más días, salimos del bucle
         calendarBody.appendChild(row);
         if (date > daysInMonth) break;
     }
@@ -215,24 +231,54 @@ function renderCalendar(month, year) {
  * Al finalizar, vuelve a renderizar el calendario para reflejar la selección.
  */
 function selectDate(span) {
-    const date = span.dataset.date;
+    const params = new URLSearchParams(window.location.search);
+    const type = params.get("type"); // "Fin de semana", "7", "15"
+    
+    // Obtenemos fecha seleccionada
+    const dateStr = span.dataset.date; // YYYY-MM-DD
+    selectedStartDate = dateStr;
 
-    if (!selectedStartDate || (selectedStartDate && selectedEndDate)) {
-        // Primera selección o reinicio (si ya había un rango completo)
-        selectedStartDate = date;
-        selectedEndDate = null;
+    // Calculamos duración basada en el tipo
+    let daysToAdd = 0;
+    
+    if (type === "Fin de semana") {
+        daysToAdd = 2; // Viernes + 2 días = Domingo (Total 3 días)
+    } else if (type === "7 días") {
+        daysToAdd = 6; // Día 1 + 6 días = 7 días total
+    } else if (type === "15 días") {
+        daysToAdd = 14; // Día 1 + 14 días = 15 días total
     } else {
-        // Segunda selección: determinamos orden correcto del rango
-        if (new Date(date) < new Date(selectedStartDate)) {
-            // Si la nueva fecha es anterior, intercambiamos
-            selectedEndDate = selectedStartDate;
-            selectedStartDate = date;
+        // Fallback por si acaso: comportamiento original (click start -> click end)
+        if (!selectedStartDate || (selectedStartDate && selectedEndDate)) {
+            selectedStartDate = dateStr;
+            selectedEndDate = null;
         } else {
-            selectedEndDate = date;
+            if (new Date(dateStr) < new Date(selectedStartDate)) {
+                selectedEndDate = selectedStartDate;
+                selectedStartDate = dateStr;
+            } else {
+                selectedEndDate = dateStr;
+            }
         }
+        renderCalendar(currentMonth, currentYear);
+        return;
     }
 
-    // Re-renderizamos para mostrar el rango seleccionado
+    // Calcular fecha final automáticamente
+    const startDateObj = new Date(selectedStartDate);
+    const endDateObj = new Date(startDateObj);
+    
+    // Sumamos los días
+    endDateObj.setDate(startDateObj.getDate() + daysToAdd);
+
+    // Formateamos la fecha final a YYYY-MM-DD para guardar en la variable
+    const y = endDateObj.getFullYear();
+    const m = String(endDateObj.getMonth() + 1).padStart(2, '0');
+    const d = String(endDateObj.getDate()).padStart(2, '0');
+    
+    selectedEndDate = `${y}-${m}-${d}`;
+
+    // Re-renderizamos para mostrar el rango completo seleccionado
     renderCalendar(currentMonth, currentYear);
 }
 

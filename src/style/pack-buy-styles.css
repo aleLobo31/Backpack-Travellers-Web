@@ -1,3 +1,14 @@
+.calendar-table td span.not-selectable {
+    color: #3f2f1e;
+    cursor: default;
+    background: none;
+    pointer-events: none;
+    transition: none;
+}
+
+.calendar-table td span.not-selectable:hover {
+    background: none;
+}
 /***********************
     Pack Buy Page
 ************************/
@@ -158,9 +169,23 @@
     border: 2px solid #a26a33;
 }
 
+
 .calendar-table td span.disabled {
     color: #6c6053;
     cursor: not-allowed;
+}
+
+/* Días futuros no seleccionables en pack Fin de semana */
+.calendar-table td span.not-selectable {
+    color: #3f2f1e;
+    cursor: default;
+    background: none;
+    pointer-events: none;
+    transition: none;
+}
+
+.calendar-table td span.not-selectable:hover {
+    background: none;
 }
 
 .calendar-table td span.in-range {
@@ -260,6 +285,26 @@
 .btn-borrar:hover {
     background-color: #f3eee7;
     border-color: #a26a33;
+}
+
+.btn-scroll-down {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #a26a33;
+    background-color: transparent;
+    border: 1px solid #a26a33;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-scroll-down:hover {
+    background-color: #a26a33;
+    color: #ffffff;
 }
 
 /***********************
