@@ -626,6 +626,8 @@ function initPaymentForm() {
             successModal.querySelector('.btn-modal-close').addEventListener('click', () => {
                 successModal.remove();
                 purchaseForm.reset();
+
+                window.location.href = "main-page.html";
             });
         }
     });
