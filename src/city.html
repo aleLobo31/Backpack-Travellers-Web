@@ -10,40 +10,63 @@
 
   <body>
 
-    <<!-- HEADER -->
-      <header>
-          <nav class="nav">
+    <!-- HEADER -->
+    <header>
+        <nav class="nav">
 
-              <!-- IZQUIERDA: LOGO + MENÚ -->
-              <div class="nav-left">
-                  <div class="logo">
-                      <img src="../assets/images/logo.png" alt="webLogo">
-                  </div>
-                  
-                  <ul class="nav-menu">
-                      <li><a href="main-page.html" data-i18n="nav.home">Home</a></li>
-                      <li><a href="main-page.html#continentes" data-i18n="nav.continents">Continentes</a></li>
-                      <li><a href="forum-page.html" data-i18n="nav.forum">Foro</a></li>
-                      <li><a href="footer-sites.html?section=quienes-somos" data-i18n="nav.about">¿Quiénes somos?</a></li>
-                  </ul>
-              </div>
+            <!-- IZQUIERDA: LOGO + MENÚ -->
+            <div class="nav-left">
+                <div class="logo">
+                    <img src="../assets/images/logo.png" alt="webLogo">
+                </div>
+                
+                <ul class="nav-menu">
+                    <li><a href="main-page.html" data-i18n="nav.home">Home</a></li>
+                    <li><a href="main-page.html#continentes" data-i18n="nav.continents">Continentes</a></li>
+                    <li><a href="forum-page.html" data-i18n="nav.forum">Foro</a></li>
+                    <li><a href="footer-sites.html?section=quienes-somos" data-i18n="nav.about">¿Quiénes somos?</a></li>
+                </ul>
+            </div>
 
-              <!-- DERECHA: ICONOS Y BOTONES -->
-              <div class="nav-right">
-                  <div class="language-wrapper">
-                      <button class="icon-btn" id="language-btn">🌐︎</button>
-                      <div id="language-menu" class="language-menu">
-                          <button data-lang="es">🇪🇸 Español</button>
-                          <button data-lang="en">🇬🇧 English</button>
-                      </div>
-                  </div>
-                  <!-- Zona auth dinámica -->
-                  <div class="user-area" id="user-area">
-                  </div>
-              </div>
+            <!-- DERECHA: ICONOS Y BOTONES -->
+            <div class="nav-right">
+                <button class="icon-btn hamburger-btn" id="hamburger-btn" aria-label="Abrir menú">
+                    ☰
+                </button>
+                <div class="language-wrapper">
+                    <button class="icon-btn" id="language-btn">🌐︎</button>
+                    <div id="language-menu" class="language-menu">
+                        <button data-lang="es">🇪🇸 Español</button>
+                        <button data-lang="en">🇬🇧 English</button>
+                    </div>
+                </div>
+                <!-- Zona auth dinámica -->
+                <div class="user-area" id="user-area">
+                </div>
+            </div>
 
-          </nav>
-      </header>
+        </nav>
+        <!-- MENÚ MÓVIL -->
+        <div class="mobile-menu" id="mobile-menu">
+            <div class="mobile-menu-content">
+
+                <!-- AUTH -->
+                <div class="mobile-auth" id="mobile-auth">
+                    <!-- aquí se clona login / register o user -->
+                </div>
+
+                <hr>
+
+                <!-- IDIOMA -->
+                <div class="mobile-language">
+                    <button data-lang="es">🇪🇸 Español</button>
+                    <button data-lang="en">🇬🇧 English</button>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
 
       <!-- ▬▬▬ BANNER CIUDAD ▬▬▬ -->
       <section class="city-banner">
@@ -108,26 +131,23 @@
         </div>
       </section>
 
-      <!-- ▬▬▬ FOOTER ▬▬▬ -->
-        <!-- FOOTER -->
+      <!-- FOOTER -->
       <footer>
           <div class="footer-content">
-
               <!-- IZQUIERDA -->
               <div class="footer-left">
                   <p>Camino de Ulises © 2025</p>
               </div>
 
-              <!-- CENTRO -->
+              <!-- CENTRO (desktop) -->
               <nav class="footer-center">
-                  <a href="footer-sites.html?section=quienes-somos">¿Quiénes somos?</a>
-                  <a href="footer-sites.html?section=privacidad">Política de privacidad</a>
-                  <a href="footer-sites.html?section=faq">FAQs</a>
-                  <a href="footer-sites.html?section=contacto">Contacto</a>
+                  <a href="footer-sites.html?section=quienes-somos" data-i18n="footer.about">¿Quiénes somos?</a>
+                  <a href="footer-sites.html?section=privacidad" data-i18n="footer.privacy">Política de privacidad</a>
+                  <a href="footer-sites.html?section=faq" data-i18n="footer.faq">FAQs</a>
+                  <a href="footer-sites.html?section=contacto" data-i18n="footer.contact">Contacto</a>
               </nav>
 
-
-              <!-- DERECHA -->
+              <!-- DERECHA (desktop) -->
               <div class="footer-right">
                   <a href="#" aria-label="Instagram">
                       <img src="../assets/icons/instagram.svg" alt="Instagram">
@@ -141,8 +161,38 @@
                   <a href="#" aria-label="YouTube">
                       <img src="../assets/icons/youtube.svg" alt="YouTube">
                   </a>
+              </div>
+
+              <!-- HAMBURGER (mobile) -->
+              <div class="footer-hamburger">
+                  <button class="footer-hamburger-btn" id="footer-hamburger-btn" aria-label="Menú footer">☰</button>
+                  <div class="footer-menu-mobile" id="footer-menu-mobile">
+                      <nav class="footer-center">
+                          <a href="footer-sites.html?section=quienes-somos" data-i18n="footer.about">¿Quiénes somos?</a>
+                          <a href="footer-sites.html?section=privacidad" data-i18n="footer.privacy">Política de privacidad</a>
+                          <a href="footer-sites.html?section=faq" data-i18n="footer.faq">FAQs</a>
+                          <a href="footer-sites.html?section=contacto" data-i18n="footer.contact">Contacto</a>
+                      </nav>
+                      <div class="footer-divider"></div>
+                      <div class="footer-right">
+                          <a href="#" aria-label="Instagram">
+                              <img src="../assets/icons/instagram.svg" alt="Instagram">
+                          </a>
+                          <a href="#" aria-label="TikTok">
+                              <img src="../assets/icons/tiktok.svg" alt="TikTok">
+                          </a>
+                          <a href="#" aria-label="X">
+                              <img src="../assets/icons/x.svg" alt="X">
+                          </a>
+                          <a href="#" aria-label="YouTube">
+                              <img src="../assets/icons/youtube.svg" alt="YouTube">
+                          </a>
+                      </div>
+                  </div>
+              </div>
           </div>
       </footer>
+
       <!-- MODAL SIMPLE (1 botón) -->
       <div id="modal-info" class="modal">
           <div class="modal-contenido">
@@ -164,5 +214,6 @@
       <script src="scripts/header-auth.js"></script>
       <script src="scripts/auth-redirect.js"></script>
       <script src="scripts/city.js"></script>
+      <script src="scripts/footer-hamburger.js"></script>
   </body>
 </html>

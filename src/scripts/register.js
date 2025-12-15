@@ -14,6 +14,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const privacidadChk = document.querySelector("#privacidad");
     const btnGuardar    = document.querySelector(".boton-guardar");
     const fileLabel     = document.querySelector("#file-archivo-sel");
+    const btnImagen     = document.querySelector("#btn-imagen");
+
 
     function mostrarModalInfo(texto, onClose = null) {
         const modal = document.getElementById("modal-info");
@@ -38,13 +40,20 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
+    // --- ABRIR SELECTOR DE ARCHIVOS ---
+    if (btnImagen && imagenInput) {
+        btnImagen.addEventListener("click", () => {
+            imagenInput.click();
+        });
+    }
+
     // --- MOSTRAR NOMBRE DEL ARCHIVO SELECCIONADO ---
     if (imagenInput && fileLabel) {
         imagenInput.addEventListener("change", () => {
             if (imagenInput.files.length > 0) {
                 const nombreArchivo = imagenInput.files[0].name;
-                fileLabel.textContent = `Imagen: ${nombreArchivo} seleccionada`;
-                fileLabel.style.color = "#000";
+                fileLabel.textContent = `Imagen seleccionada: ${nombreArchivo}`;
+                fileLabel.style.color = "#3a2f22";
                 fileLabel.style.fontStyle = "normal";
             } else {
                 fileLabel.textContent = "Ningún archivo seleccionado";
@@ -178,7 +187,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const archivo = imagenInput.files[0];
         if (!archivo) {
             mostrarModalInfo("Selecciona una imagen de perfil.");
-            imagenInput.focus();
+            btnImagen.focus(); 
             return;
         }
 
@@ -186,7 +195,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const extensionesValidas = ["webp", "png", "jpg", "jpeg"];
         if (!extensionesValidas.includes(extension)) {
             mostrarModalInfo("La imagen de perfil debe ser .webp, .png, .jpg o .jpeg.");
-            imagenInput.focus();
+            btnImagen.focus();
             return;
         }
 

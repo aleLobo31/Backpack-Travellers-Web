@@ -1,10 +1,20 @@
 document.addEventListener("DOMContentLoaded", () => {
 
+    /* =========================
+       ELEMENTOS BASE
+    ========================= */
     const userArea = document.getElementById("user-area");
-    if (!userArea) return;
+    const mobileAuth = document.getElementById("mobile-auth");
+    const hamburgerBtn = document.getElementById("hamburger-btn");
+    const mobileMenu = document.getElementById("mobile-menu");
 
     const usuarioActivo = sessionStorage.getItem("usuarioActivo");
 
+    if (!userArea) return;
+
+    /* =========================
+       MODALES
+    ========================= */
     function mostrarModalInfo(texto, onClose = null) {
         const modal = document.getElementById("modal-info");
         const textoEl = document.getElementById("modal-info-texto");
@@ -38,35 +48,50 @@ document.addEventListener("DOMContentLoaded", () => {
         };
     }
 
-
-    // Si NO hay sesión → mostrar login / register
+    /* =========================
+       NO LOGUEADO
+    ========================= */
     if (!usuarioActivo) {
-        userArea.innerHTML = `
-            <a href="login.html" class="btn-login" data-i18n="auth.login">Iniciar sesión</a>
-            <a href="register-page.html" class="btn-register" data-i18n="auth.register">Registrarse</a>
+        const authHTML = `
+            <a href="login.html" class="btn-login" data-i18n="auth.login">
+                Iniciar sesión
+            </a>
+            <a href="register-page.html" class="btn-register" data-i18n="auth.register">
+                Registrarse
+            </a>
         `;
+
+        // Desktop
+        userArea.innerHTML = authHTML;
+
+        // Mobile
+        if (mobileAuth) {
+            mobileAuth.innerHTML = authHTML;
+        }
+
+        aplicarIdiomaHeader();
+        initHamburger();
         return;
     }
 
-    // Si HAY sesión → cargar usuario completo
+    /* =========================
+       LOGUEADO
+    ========================= */
     const usuarios = JSON.parse(localStorage.getItem("usuarios")) || [];
     const usuario = usuarios.find(u => u.usuario === usuarioActivo);
 
     if (!usuario) {
-        // fallback de seguridad
         sessionStorage.removeItem("usuarioActivo");
         location.reload();
         return;
     }
 
-    // Renderizar info del usuario
+    // Desktop
     userArea.innerHTML = `
         <span class="user-name">${usuario.usuario}</span>
-
         <button class="logout-btn" id="logout-btn" data-i18n="auth.logout">
             Cerrar sesión
         </button>
-
         <img 
             src="${usuario.imagenBase64}" 
             alt="Foto de perfil"
@@ -74,13 +99,11 @@ document.addEventListener("DOMContentLoaded", () => {
         >
     `;
 
-    // Logout
     document.getElementById("logout-btn").addEventListener("click", () => {
         mostrarModalConfirm(
             "¿Está seguro de que quiere cerrar sesión?",
             () => {
                 sessionStorage.removeItem("usuarioActivo");
-
                 mostrarModalInfo("Sesión cerrada correctamente", () => {
                     window.location.href = "main-page.html";
                 });
@@ -88,8 +111,47 @@ document.addEventListener("DOMContentLoaded", () => {
         );
     });
 
-    // Reaplicar idioma al header dinámico
-    const lang = localStorage.getItem("language") || "es";
-    document.dispatchEvent(new CustomEvent("forceLanguage", { detail: lang }));
+    // Mobile
+    if (mobileAuth) {
+        mobileAuth.innerHTML = `
+            <span class="user-name">${usuario.usuario}</span>
+            <button class="logout-btn" id="mobile-logout-btn" data-i18n="auth.logout">
+                Cerrar sesión
+            </button>
+        `;
+
+        document.getElementById("mobile-logout-btn").addEventListener("click", () => {
+            mostrarModalConfirm(
+                "¿Está seguro de que quiere cerrar sesión?",
+                () => {
+                    sessionStorage.removeItem("usuarioActivo");
+                    mostrarModalInfo("Sesión cerrada correctamente", () => {
+                        window.location.href = "main-page.html";
+                    });
+                }
+            );
+        });
+    }
+
+    aplicarIdiomaHeader();
+    initHamburger();
+
+    /* =========================
+       FUNCIONES AUXILIARES
+    ========================= */
+    function aplicarIdiomaHeader() {
+        const lang = localStorage.getItem("language") || "es";
+        document.dispatchEvent(
+            new CustomEvent("forceLanguage", { detail: lang })
+        );
+    }
+
+    function initHamburger() {
+        if (!hamburgerBtn || !mobileMenu) return;
+
+        hamburgerBtn.addEventListener("click", () => {
+            mobileMenu.classList.toggle("open");
+        });
+    }
 
 });
