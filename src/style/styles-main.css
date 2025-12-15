@@ -250,7 +250,7 @@
     border-radius: 6px;
     border: 1px solid rgba(215,201,184,0.85);
     color: #3a2f22;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 /* Botón abajo derecha */
@@ -264,7 +264,7 @@
     border: 1px solid #a26a33;
     background: #a26a33;
     color: white;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .pack-buy:hover {
@@ -439,11 +439,11 @@
         right: auto;
         bottom: 16px;
         left: 16px;
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .pack-buy {
-        font-size: 13px;
+        font-size: 15px;
         padding: 6px 14px;
     }
 
@@ -512,14 +512,14 @@
     .pack-price {
         bottom: 14px;
         left: 14px;
-        font-size: 12px;
+        font-size: 13px;
         padding: 3px 8px;
     }
 
     .pack-buy {
         bottom: 12px;
         right: 12px;
-        font-size: 12px;
+        font-size: 13px;
         padding: 5px 12px;
     }
 
