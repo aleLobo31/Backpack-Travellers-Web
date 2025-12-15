@@ -182,17 +182,22 @@
     display: none;
 }
 
+/* Botón 📂 */
 .boton-examinar {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    justify-content: center;
+
     background: rgba(255,250,245,0.9);
     border: 1px solid #d7c9b8;
     padding: 8px 14px;
     border-radius: 8px;
+
     cursor: pointer;
-    font-size: 1px;
+    font-size: 18px; /* tamaño del icono */
     color: #3a2f22;
+
+    transition: 0.2s;
 }
 
 .boton-examinar:hover {

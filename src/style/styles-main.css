@@ -343,9 +343,10 @@
 
 /* CAJITA DEL TÍTULO */
 .card-title {
-    background: rgba(255, 250, 245, 0.65);       /* crema suave translúcido */
-    border: 1px solid rgba(215, 201, 184, 0.55); /* arena muy sutil */
-    backdrop-filter: blur(6px);                  /* efecto glass */
+    display: inline-block;
+    background: rgba(255, 250, 245, 0.65);
+    border: 1px solid rgba(215, 201, 184, 0.55);
+    backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
 
     color: #3a2f22;
@@ -356,7 +357,13 @@
     border-radius: 12px;
     margin-top: 20px;
 
-    box-shadow: 0 4px 12px rgba(58,47,34,0.15);  /* sombra suave */
+    width: fit-content;
+    max-width: 90%;
+    text-align: center;
+    line-height: 1.2;
+    max-width: 220px;
+
+    box-shadow: 0 4px 12px rgba(58,47,34,0.15);
 }
 
 /* BACKGROUND (por orden, fácil de mantener) */
@@ -392,6 +399,26 @@
    ≤ 768px
 ========================= */
 @media (max-width: 768px) {
+
+    .search-bar input {
+        width: 340px;
+        font-size: 14px;
+        padding: 8px 14px;
+    }
+
+    .search-bar button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .search-results {
+        max-width: 400px;
+    }
+
+    .search-item {
+        font-size: 14px;
+        padding: 9px 14px;
+    }
 
     .carousel-section {
         margin: 12px;
@@ -442,6 +469,30 @@
 ========================= */
 @media (max-width: 600px) {
 
+    .search-bar {
+        gap: 8px;
+    }
+
+    .search-bar input {
+        width: 240px;
+        font-size: 13px;
+        padding: 7px 12px;
+    }
+
+    .search-bar button {
+        font-size: 13px;
+        padding: 7px 14px;
+    }
+
+    .search-results {
+        max-width: 300px;
+    }
+
+    .search-item {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+    
     .carousel-section {
         margin: 12px;
     }
