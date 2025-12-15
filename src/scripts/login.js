@@ -6,11 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const userInput = document.getElementById("user");
     const passInput = document.getElementById("pass");
 
-    function mostrarMensaje(texto) {
-        alert(texto); 
-        // Si luego quieres modal bonito, lo hacemos igual que en register
-    }
-
     form.addEventListener("submit", (e) => {
         e.preventDefault();
 

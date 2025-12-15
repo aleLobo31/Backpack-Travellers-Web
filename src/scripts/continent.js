@@ -82,7 +82,7 @@ function renderCountries(continent) {
 }
 
 // --------------------------------------------
-// 6. Crear tarjeta individual de país (ACTUALIZADO)
+// 6. Crear tarjeta individual de país 
 // --------------------------------------------
 function createCountryCard(country) {
   const card = document.createElement("article");

@@ -205,7 +205,7 @@ function handleFormSubmit(event) {
         id: Date.now(), // ID temporal
         title: title,
         description: content.substring(0, 150) + '...', // Descripción corta
-        author: 'Usuario Actual', // En un caso real, obtendrías esto del sistema de usuarios
+        author: 'Usuario Actual',
         date: new Date().toISOString(),
         category: selectedCategories[0], // Primera categoría como principal
         categories: selectedCategories,

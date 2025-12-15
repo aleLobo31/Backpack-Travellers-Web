@@ -191,10 +191,10 @@ main {
 }
 
 .country-header-content h1 {
-  /* clamp(32px, 5vw, 48px) */
+  
   font-size: clamp(32px, 5vw, 48px);
   font-weight: 800;
-  /* CORREGIDO: Aumentado de 0.48px a 1.2px */
+  
   letter-spacing: 1.2px; 
   margin-bottom: 8px; 
   text-shadow: 0 2px 4px rgba(0,0,0,0.3);
@@ -376,17 +376,6 @@ main {
 /* ========================================= */
 /* 7. RESPONSIVE                             */
 /* ========================================= */
-/* ========================================= */
-/* 7. RESPONSIVE (Móvil y Tablets)           */
-/* ========================================= */
-
-/* ========================================= */
-/* 7. RESPONSIVE (Móvil y Tablets)           */
-/* ========================================= */
-
-/* ========================================= */
-/* 7. RESPONSIVE (Móvil y Tablets)           */
-/* ========================================= */
 
 @media (max-width: 768px) {
 
@@ -423,7 +412,7 @@ main {
   }
 
   .country-actions {
-    margin-top: 24px; /* Espacio extra botones */
+    margin-top: 24px;
     justify-content: flex-start; 
   }
 
@@ -447,7 +436,7 @@ main {
   }
 
   .city-footer {
-    margin-top: 32px; /* Espacio extra footer */
+    margin-top: 32px; 
   }
 
   /* 4. Ajustes de Fuentes y Safety Box */
@@ -465,10 +454,9 @@ main {
     font-size: 32px;
   }
   
-  /* --- AQUÍ ESTÁ EL CAMBIO SOLICITADO --- */
+  
   .safety-box {
-    /* 40px arriba/abajo, 24px izquierda/derecha */
     margin: 40px 24px; 
-    padding: 32px 24px; /* Un poco más de aire interno también */
+    padding: 32px 24px; 
   }
 }

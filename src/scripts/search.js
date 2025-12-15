@@ -41,7 +41,6 @@ document.addEventListener("DOMContentLoaded", () => {
     .catch((err) => {
       console.error("Error cargando JSON:", err);
 
-      // Esto te lo enseña en la web para que sepas que es el fetch
       resultsBox.innerHTML = `
         <div class="search-item disabled">
           No se puede cargar el listado de destinos (JSON). <br>
@@ -64,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
     resultsBox.innerHTML = "";
 
     if (!query) return;
-    if (!data) return; // si aún no cargó, no busques
+    if (!data) return; 
 
     const results = [];
 

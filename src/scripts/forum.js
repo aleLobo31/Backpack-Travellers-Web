@@ -198,7 +198,6 @@ if (filteredPosts.length === 0) {
   `;
   postsContainer.appendChild(noPostsMsg);
 
-  // Ahora sí funcionará porque el botón tiene el ID
   document.getElementById('create-first-post').addEventListener('click', function() {
     window.location.href = 'create-post-page.html';
   });
@@ -263,7 +262,6 @@ function createPostElement(post) {
 
   // Añadir event listener para hacer clic en el post
   postElement.addEventListener('click', function() {
-    // Aquí puedes redirigir a una página de detalle del post
     console.log('Redirigiendo al post:', post.id);
     window.location.href = `post-page.html?id=${post.id}`;
   });
@@ -327,6 +325,3 @@ function updatePostsCounter() {
     counterElement.textContent = `Mostrando ${filteredPosts.length} de ${allPosts.length} posts`;
   }
 }
-
-// Exportar funciones si es necesario
-//export { loadPosts, applyFilters, renderPosts };
