@@ -13,7 +13,7 @@
 }
 
 .back-to-forum {
-    color: #8a7b6a;
+    color: #665b4f;
     text-decoration: none;
     font-weight: 500;
     font-size: 1rem;
@@ -88,7 +88,7 @@
 }
 
 .post-date {
-    color: #8a7b6a;
+    color: #665b4f;
     font-size: 1.1rem;
     display: block;
 }
@@ -188,7 +188,7 @@
 }
 
 .comment-date {
-    color: #8a7b6a;
+    color: #665b4f;
     font-size: 0.95rem;
 }
 
@@ -202,7 +202,7 @@
 .no-comments {
     text-align: center;
     padding: 4rem 2rem;
-    color: #8a7b6a;
+    color: #665b4f;
     font-size: 1.1rem;
     font-style: italic;
     background: #f9f5f0;
@@ -238,7 +238,7 @@
     align-items: center;
     gap: 0.8rem;
     background: none;
-    color: #a26a33;
+    color: #724b24;
     border: 2px solid #a26a33;
     padding: 1rem 2rem;
     border-radius: 10px;
@@ -266,7 +266,7 @@
 
 .like-count {
     display: block;
-    color: #8a7b6a;
+    color: #665b4f;
     font-size: 1rem;
     font-weight: 500;
     margin-top: 0.8rem;

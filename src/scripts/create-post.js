@@ -93,7 +93,7 @@ function updateCharCounter(counterId, currentLength, maxLength) {
         } else if (currentLength > maxLength * 0.7) {
             counter.style.color = '#a26a33';
         } else {
-            counter.style.color = '#8a7b6a';
+            counter.style.color = '#665b4f;';
         }
     }
 }

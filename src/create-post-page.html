@@ -85,56 +85,61 @@
             <form id="create-post-form" class="create-post-form">
                 <!-- SECCIÓN DE CATEGORÍAS -->
                 <section class="form-section">
-                    <h2 class="section-title">Seleccione categoría</h2>
-                    
+                <h2 class="section-title">Seleccione categoría</h2>
+
+                <fieldset class="categories-fieldset">
+                    <legend class="sr-only">Categorías del post</legend>
+
                     <div class="categories-columns-container">
-                        <!-- COLUMNA IZQUIERDA -->
-                        <ul class="categories-list categories-column-left">
-                            <li class="category-item">
-                                <input type="checkbox" id="category-destinos" name="categories" value="Destinos">
-                                <label for="category-destinos">
-                                    Destinos
-                                    <span class="checkmark"></span>
-                                </label>
-                            </li>
-                            
-                            <li class="category-item">
-                                <input type="checkbox" id="category-companeros" name="categories" value="Compañeros de viaje">
-                                <label for="category-companeros">
-                                    Compañeros de viaje
-                                    <span class="checkmark"></span>
-                                </label>
-                            </li>
-                            
-                            <li class="category-item">
-                                <input type="checkbox" id="category-presupuesto" name="categories" value="Presupuesto y ahorros">
-                                <label for="category-presupuesto">
-                                    Presupuesto y ahorros
-                                    <span class="checkmark"></span>
-                                </label>
-                            </li>
-                        </ul>
-                        
-                        <!-- COLUMNA DERECHA -->
-                        <ul class="categories-list categories-column-right">
-                            <li class="category-item">
-                                <input type="checkbox" id="category-seguridad" name="categories" value="Seguridad y visados">
-                                <label for="category-seguridad">
-                                    Seguridad y visados
-                                    <span class="checkmark"></span>
-                                </label>
-                            </li>
-                            
-                            <li class="category-item">
-                                <input type="checkbox" id="category-mascotas" name="categories" value="Viajar con mascotas">
-                                <label for="category-mascotas">
-                                    Viajar con mascotas
-                                    <span class="checkmark"></span>
-                                </label>
-                            </li>
-                        </ul>
+                    <!-- COLUMNA IZQUIERDA -->
+                    <ul class="categories-list categories-column-left">
+                        <li class="category-item">
+                        <input type="checkbox" id="category-destinos" name="categories" value="Destinos">
+                        <label for="category-destinos">
+                            Destinos
+                            <span class="checkmark"></span>
+                        </label>
+                        </li>
+
+                        <li class="category-item">
+                        <input type="checkbox" id="category-companeros" name="categories" value="Compañeros de viaje">
+                        <label for="category-companeros">
+                            Compañeros de viaje
+                            <span class="checkmark"></span>
+                        </label>
+                        </li>
+
+                        <li class="category-item">
+                        <input type="checkbox" id="category-presupuesto" name="categories" value="Presupuesto y ahorros">
+                        <label for="category-presupuesto">
+                            Presupuesto y ahorros
+                            <span class="checkmark"></span>
+                        </label>
+                        </li>
+                    </ul>
+
+                    <!-- COLUMNA DERECHA -->
+                    <ul class="categories-list categories-column-right">
+                        <li class="category-item">
+                        <input type="checkbox" id="category-seguridad" name="categories" value="Seguridad y visados">
+                        <label for="category-seguridad">
+                            Seguridad y visados
+                            <span class="checkmark"></span>
+                        </label>
+                        </li>
+
+                        <li class="category-item">
+                        <input type="checkbox" id="category-mascotas" name="categories" value="Viajar con mascotas">
+                        <label for="category-mascotas">
+                            Viajar con mascotas
+                            <span class="checkmark"></span>
+                        </label>
+                        </li>
+                    </ul>
                     </div>
+                </fieldset>
                 </section>
+
 
                 <!-- SEPARADOR -->
                 <div class="form-divider"></div>
@@ -142,17 +147,19 @@
                 <!-- SECCIÓN DEL TÍTULO -->
                 <section class="form-section">
                     <h2 class="section-title">Título:</h2>
-                    
-                    <div class="input-group">
-                        <input 
-                            type="text" 
-                            id="post-title" 
-                            name="title" 
-                            placeholder="Introduce aquí el título de tu post" 
-                            required
-                            class="title-input">
-                        <div class="char-counter" id="title-counter">0/100</div>
-                    </div>
+
+                    <label for="post-title" class="sr-only">
+                        Título del post
+                    </label>
+
+                    <input 
+                        type="text" 
+                        id="post-title" 
+                        name="title" 
+                        placeholder="Introduce aquí el título de tu post" 
+                        required
+                        class="title-input">
+                    <div class="char-counter" id="title-counter">0/100</div>
                 </section>
 
                 <!-- SEPARADOR -->
@@ -162,16 +169,17 @@
                 <section class="form-section">
                     <h2 class="section-title">Post:</h2>
                     
-                    <div class="input-group">
-                        <textarea 
-                            id="post-content" 
-                            name="content" 
-                            placeholder="Introduce aquí el texto de tu post" 
-                            rows="12"
-                            required
-                            class="content-textarea"></textarea>
-                        <div class="char-counter" id="content-counter">0/2000</div>
-                    </div>
+                    <label for="post-content" class="sr-only">
+                        Contenido del post
+                    </label>
+                    <textarea
+                        id="post-content"
+                        name="content"
+                        placeholder="Introduce aquí el texto de tu post"
+                        rows="12"
+                        required
+                        class="content-textarea"></textarea>
+                    <div class="char-counter" id="content-counter">0/2000</div>
                     
                     <!-- SUBIR IMAGEN -->
                     <div class="upload-section">
