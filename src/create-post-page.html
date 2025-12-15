@@ -1,1 +1,189 @@
-    
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Post - Camino de Ulises</title>
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="style/styles-forum.css">
+    <link rel="stylesheet" href="style/create-post.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav class="nav">
+            <div class="nav-left">
+                <div class="logo">
+                    <img src="../assets/images/logo.png" alt="Logo">
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="main-page.html">Home</a></li>
+                    <li><a href="main-page.html#continentes">Continentes</a></li>
+                    <li><a href="forum-page.html">Foro</a></li>
+                    <li><a href="footer-sites.html?section=quienes-somos">¿Quiénes somos?</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <button class="icon-btn" id="language-btn">🌐︎</button>
+                <button class="icon-btn" id="accessibility-btn">♿︎</button>
+                <a href="login.html" class="btn-login">Iniciar sesión</a>
+                <a href="register-page.html" class="btn-register">Registrarse</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="create-post-main">
+        <!-- Cabecera -->
+        <div class="post-header-nav">
+            <a href="forum-page.html" class="back-to-forum">
+                ← Volver al foro
+            </a>
+        </div>
+
+        <!-- CONTENEDOR PRINCIPAL -->
+        <div class="create-post-container">
+            <h1 class="create-post-title">Crea tu post</h1>
+
+            <!-- FORMULARIO DE CREACIÓN -->
+            <form id="create-post-form" class="create-post-form">
+                <!-- SECCIÓN DE CATEGORÍAS -->
+                <section class="form-section">
+                    <h2 class="section-title">Seleccione categoría</h2>
+                    
+                    <div class="categories-columns-container">
+                        <!-- COLUMNA IZQUIERDA -->
+                        <ul class="categories-list categories-column-left">
+                            <li class="category-item">
+                                <input type="checkbox" id="category-destinos" name="categories" value="Destinos">
+                                <label for="category-destinos">
+                                    Destinos
+                                    <span class="checkmark"></span>
+                                </label>
+                            </li>
+                            
+                            <li class="category-item">
+                                <input type="checkbox" id="category-companeros" name="categories" value="Compañeros de viaje">
+                                <label for="category-companeros">
+                                    Compañeros de viaje
+                                    <span class="checkmark"></span>
+                                </label>
+                            </li>
+                            
+                            <li class="category-item">
+                                <input type="checkbox" id="category-presupuesto" name="categories" value="Presupuesto y ahorros">
+                                <label for="category-presupuesto">
+                                    Presupuesto y ahorros
+                                    <span class="checkmark"></span>
+                                </label>
+                            </li>
+                        </ul>
+                        
+                        <!-- COLUMNA DERECHA -->
+                        <ul class="categories-list categories-column-right">
+                            <li class="category-item">
+                                <input type="checkbox" id="category-seguridad" name="categories" value="Seguridad y visados">
+                                <label for="category-seguridad">
+                                    Seguridad y visados
+                                    <span class="checkmark"></span>
+                                </label>
+                            </li>
+                            
+                            <li class="category-item">
+                                <input type="checkbox" id="category-mascotas" name="categories" value="Viajar con mascotas">
+                                <label for="category-mascotas">
+                                    Viajar con mascotas
+                                    <span class="checkmark"></span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- SEPARADOR -->
+                <div class="form-divider"></div>
+
+                <!-- SECCIÓN DEL TÍTULO -->
+                <section class="form-section">
+                    <h2 class="section-title">Título:</h2>
+                    
+                    <div class="input-group">
+                        <input 
+                            type="text" 
+                            id="post-title" 
+                            name="title" 
+                            placeholder="Introduce aquí el título de tu post" 
+                            required
+                            class="title-input">
+                        <div class="char-counter" id="title-counter">0/100</div>
+                    </div>
+                </section>
+
+                <!-- SEPARADOR -->
+                <div class="form-divider"></div>
+
+                <!-- SECCIÓN DEL CONTENIDO -->
+                <section class="form-section">
+                    <h2 class="section-title">Post:</h2>
+                    
+                    <div class="input-group">
+                        <textarea 
+                            id="post-content" 
+                            name="content" 
+                            placeholder="Introduce aquí el texto de tu post" 
+                            rows="12"
+                            required
+                            class="content-textarea"></textarea>
+                        <div class="char-counter" id="content-counter">0/2000</div>
+                    </div>
+                    
+                    <!-- SUBIR IMAGEN -->
+                    <div class="upload-section">
+                        <label for="post-image" class="upload-label">
+                            <span class="upload-icon">📎</span>
+                            <span class="upload-text">Subir imagen (opcional)</span>
+                        </label>
+                        <input type="file" id="post-image" name="image" accept="image/*" class="file-input">
+                        <div class="file-preview" id="image-preview"></div>
+                    </div>
+                </section>
+
+                <!-- BOTÓN DE ENVÍO -->
+                <div class="submit-section">
+                    <button type="submit" class="submit-btn">
+                        <span class="submit-icon">📤</span>
+                        Publicar post
+                    </button>
+                    <p class="submit-note">
+                        Al publicar, aceptas nuestras <a href="footer-sites.html?section=privacidad">normas de la comunidad</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <p>Camino de Ulises © 2025</p>
+            </div>
+            <nav class="footer-center">
+                <a href="footer-sites.html?section=quienes-somos">¿Quiénes somos?</a>
+                <a href="footer-sites.html?section=privacidad">Política de privacidad</a>
+                <a href="footer-sites.html?section=faq">FAQs</a>
+                <a href="footer-sites.html?section=contacto">Contacto</a>
+            </nav>
+            <div class="footer-right">
+                <a href="#" aria-label="Instagram"><img src="../assets/icons/instagram.svg" alt="Instagram"></a>
+                <a href="#" aria-label="TikTok"><img src="../assets/icons/tiktok.svg" alt="TikTok"></a>
+                <a href="#" aria-label="X"><img src="../assets/icons/x.svg" alt="X"></a>
+                <a href="#" aria-label="YouTube"><img src="../assets/icons/youtube.svg" alt="YouTube"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/create-post.js"></script>
+</body>
+</html>

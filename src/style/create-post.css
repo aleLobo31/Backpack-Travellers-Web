@@ -1,0 +1,494 @@
+/***********************
+    CREAR POST - ESTILOS
+************************/
+.create-post-main {
+    min-height: calc(100vh - 180px);
+    background-color: #fffaf5;
+    padding: 2rem 1rem 4rem;
+}
+
+/* Cabecera de navegación */
+.post-header-nav {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    padding: 0 1rem;
+}
+
+.back-to-forum {
+    color: #8a7b6a;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.back-to-forum:hover {
+    color: #a26a33;
+}
+
+/* Contenedor principal */
+.create-post-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 16px;
+    padding: 3rem;
+    box-shadow: 0 8px 30px rgba(90, 70, 50, 0.1);
+    border: 1px solid #e8dccd;
+}
+
+/* Título principal */
+.create-post-title {
+    font-size: 2.5rem;
+    color: #3a2f22;
+    margin: 0 0 2.5rem 0;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 1.5rem;
+    border-bottom: 3px solid #a26a33;
+}
+
+/* Formulario */
+.create-post-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+/* Secciones del formulario */
+.form-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.section-title {
+    font-size: 1.6rem;
+    color: #3a2f22;
+    font-weight: 700;
+    margin: 0;
+}
+
+/***********************
+    CATEGORÍAS EN DOS COLUMNAS
+************************/
+/* CONTENEDOR DE COLUMNAS */
+.categories-columns-container {
+    display: flex;
+    gap: 3rem;
+    margin-top: 1rem;
+}
+
+/* COLUMNAS INDIVIDUALES */
+.categories-column-left,
+.categories-column-right {
+    flex: 1;
+    min-width: 0;
+}
+
+/* LISTA DE CATEGORÍAS (COMO EN EL FORO) */
+.categories-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.category-item {
+    margin-bottom: 1rem;
+}
+
+/* ESTILOS PARA CHECKBOXES PERSONALIZADOS (EXACTAMENTE COMO EL FORO) */
+.category-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: #3a2f22;
+    position: relative;
+    padding-left: 40px;
+    user-select: none;
+    transition: color 0.2s;
+    font-weight: 500;
+    min-height: 28px;
+}
+
+.category-item:hover {
+    color: #a26a33;
+}
+
+.category-item input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* CHECKMARK PERSONALIZADO - EXACTO AL FORO */
+.category-item .checkmark {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 24px;
+    width: 24px;
+    background-color: #fffaf5;
+    border: 2px solid #a26a33;
+    border-radius: 6px;
+    transition: all 0.2s;
+}
+
+/* Hover - EXACTO AL FORO */
+.category-item:hover input ~ .checkmark {
+    background-color: #f3eee7;
+    border-color: #8e5528;
+}
+
+/* Checked - EXACTO AL FORO */
+.category-item input:checked ~ .checkmark {
+    background-color: #a26a33;
+    border-color: #a26a33;
+}
+
+/* CHECKMARK INTERNO - EXACTO AL FORO */
+.category-item .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 7px;
+    top: 3px;
+    width: 6px;
+    height: 11px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.category-item input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Etiqueta de categoría - ASEGURAR QUE SEA CLICABLE */
+.category-item label {
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+}
+
+/* IMPORTANTE: Para hacer funcionar el selector ~, el checkmark debe estar DESPUÉS del input en el HTML */
+/* Si tu HTML tiene el checkmark DENTRO del label, necesitamos este CSS alternativo: */
+
+/* SOLUCIÓN ALTERNATIVA si el checkmark está dentro del label */
+.category-item label {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 40px;
+}
+
+/* Asegurar que el checkmark esté en la posición correcta */
+.category-item label .checkmark {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Hover cuando el checkmark está dentro del label */
+.category-item label:hover .checkmark {
+    background-color: #f3eee7;
+    border-color: #8e5528;
+}
+
+/* Checked cuando el checkmark está dentro del label */
+.category-item input:checked + label .checkmark {
+    background-color: #a26a33;
+    border-color: #a26a33;
+}
+
+/* Checkmark interno cuando está dentro del label */
+.category-item input:checked + label .checkmark:after {
+    display: block;
+}
+
+/***********************
+    FIN CATEGORÍAS
+************************/
+
+/* Separador */
+.form-divider {
+    height: 1px;
+    background: #e8dccd;
+    margin: 0.5rem 0;
+}
+
+/* Inputs */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.title-input,
+.content-textarea {
+    width: 100%;
+    padding: 1.2rem;
+    border: 2px solid #e8dccd;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 1.1rem;
+    background: white;
+    transition: all 0.3s ease;
+}
+
+.title-input:focus,
+.content-textarea:focus {
+    outline: none;
+    border-color: #a26a33;
+    box-shadow: 0 0 0 3px rgba(162, 106, 51, 0.1);
+}
+
+.title-input::placeholder,
+.content-textarea::placeholder {
+    color: #a69c8f;
+}
+
+.content-textarea {
+    resize: vertical;
+    min-height: 200px;
+    line-height: 1.6;
+}
+
+/* Contador de caracteres */
+.char-counter {
+    text-align: right;
+    font-size: 0.9rem;
+    color: #8a7b6a;
+    margin-top: 0.3rem;
+}
+
+/* Subida de imagen */
+.upload-section {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    background: #f9f5f0;
+    border-radius: 10px;
+    border: 2px dashed #e8dccd;
+}
+
+.upload-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0.8rem 1.5rem;
+    background: white;
+    color: #3a2f22;
+    border: 2px solid #e8dccd;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.upload-label:hover {
+    background: #f3eee7;
+    border-color: #a26a33;
+    transform: translateY(-2px);
+}
+
+.upload-icon {
+    font-size: 1.2rem;
+}
+
+.file-input {
+    display: none;
+}
+
+.file-preview {
+    margin-top: 1rem;
+    display: none;
+}
+
+.file-preview img {
+    max-width: 200px;
+    border-radius: 8px;
+    border: 2px solid #e8dccd;
+}
+
+/* Botón de envío */
+.submit-section {
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 2rem;
+    border-top: 2px solid #f0e6db;
+}
+
+.submit-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8rem;
+    background: #a26a33;
+    color: white;
+    border: none;
+    padding: 1.2rem 3rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(162, 106, 51, 0.2);
+}
+
+.submit-btn:hover {
+    background: #8e5528;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(162, 106, 51, 0.3);
+}
+
+.submit-btn:active {
+    transform: translateY(-1px);
+}
+
+.submit-icon {
+    font-size: 1.4rem;
+}
+
+.submit-note {
+    margin-top: 1rem;
+    color: #8a7b6a;
+    font-size: 0.9rem;
+}
+
+.submit-note a {
+    color: #a26a33;
+    text-decoration: none;
+}
+
+.submit-note a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el overlay de éxito */
+.success-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.success-message {
+    background: white;
+    padding: 3rem;
+    border-radius: 16px;
+    text-align: center;
+    max-width: 400px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.success-icon {
+    font-size: 4rem;
+    color: #2d5a2d;
+    margin-bottom: 1rem;
+}
+
+.remove-image {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #cc3333;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.file-preview {
+    position: relative;
+    display: inline-block;
+}
+
+/***********************
+    RESPONSIVE
+************************/
+@media (max-width: 768px) {
+    .create-post-main {
+        padding: 1rem 0.5rem 3rem;
+    }
+    
+    .create-post-container {
+        padding: 2rem 1.5rem;
+        border-radius: 12px;
+    }
+    
+    .create-post-title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .section-title {
+        font-size: 1.4rem;
+    }
+    
+    /* RESPONSIVE PARA COLUMNAS */
+    .categories-columns-container {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    
+    .category-item {
+        font-size: 1rem;
+        padding-left: 32px;
+    }
+    
+    .category-item .checkmark {
+        height: 22px;
+        width: 22px;
+    }
+    
+    .category-item .checkmark:after {
+        left: 6px;
+        top: 2px;
+        width: 5px;
+        height: 10px;
+    }
+    
+    .submit-btn {
+        width: 100%;
+        justify-content: center;
+        padding: 1rem 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .create-post-container {
+        padding: 1.5rem 1rem;
+    }
+    
+    .create-post-title {
+        font-size: 1.8rem;
+    }
+    
+    .title-input,
+    .content-textarea {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    
+    .upload-label {
+        width: 100%;
+        justify-content: center;
+    }
+}
