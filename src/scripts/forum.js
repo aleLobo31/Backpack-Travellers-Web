@@ -65,8 +65,7 @@ function setupEventListeners() {
   if (contributeBtn) {
     contributeBtn.addEventListener('click', function(e) {
       e.preventDefault();
-      alert('Funcionalidad para crear nuevo post - En desarrollo');
-      // window.location.href = 'create-post.html';
+      window.location.href = 'create-post-page.html';
     });
   }
 }
@@ -188,16 +187,24 @@ function renderPosts() {
   postsContainer.innerHTML = '';
 
   // Si no hay posts que mostrar
-  if (filteredPosts.length === 0) {
-    const noPostsMsg = document.createElement('div');
-    noPostsMsg.className = 'no-posts';
-    noPostsMsg.innerHTML = `
-      <p>No hay posts que coincidan con los filtros seleccionados.</p>
-      <button class="btn-contribute" style="margin-top: 1rem;">¡Sé el primero en publicar!</button>
-    `;
-    postsContainer.appendChild(noPostsMsg);
-    return;
-  }
+if (filteredPosts.length === 0) {
+  const noPostsMsg = document.createElement('div');
+  noPostsMsg.className = 'no-posts';
+  noPostsMsg.innerHTML = `
+    <p>No hay posts que coincidan con los filtros seleccionados.</p>
+    <button class="btn-contribute" id="create-first-post" style="margin-top: 1rem;">
+      ¡Sé el primero en publicar!
+    </button>
+  `;
+  postsContainer.appendChild(noPostsMsg);
+
+  // Ahora sí funcionará porque el botón tiene el ID
+  document.getElementById('create-first-post').addEventListener('click', function() {
+    window.location.href = 'create-post-page.html';
+  });
+
+  return;
+}
 
   // Renderizar cada post
   filteredPosts.forEach((post, index) => {

@@ -11,7 +11,7 @@
 .forum-header {
     width: 100%;
     min-height: 320px;
-    background: #3a2f22; /* Color de respaldo por si la imagen no carga */
+    background: #3a2f22;
     position: relative;
     overflow: hidden;
     color: white;
@@ -46,8 +46,8 @@
 }
 
 .forum-title {
-    font-size: clamp(3rem, 6vw, 5rem); /* EXACTO al continente */
-    font-weight: 800;
+    font-size: 60px;
+    font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 0.08em;
     margin-bottom: 0.5rem;
