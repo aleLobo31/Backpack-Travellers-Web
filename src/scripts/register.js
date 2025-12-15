@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     // --- REFERENCIAS AL DOM ---
     const form          = document.querySelector(".register-grid");
-    if (!form) return; // seguridad
+    if (!form) return; 
 
     const nombreInput   = document.querySelector("#nombre");
     const apellidosInput= document.querySelector("#apellidos");

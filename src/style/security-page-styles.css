@@ -101,6 +101,22 @@ ul, ol {
     z-index: 3;
 }
 
+.sec-hero-banner h1 {
+    padding: 8px 20px;
+    margin-top: 8px;
+
+    background: rgba(63, 47, 30, 0.35); 
+    color: #ffffff;
+    
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+
+    backdrop-filter: blur(2px); 
+    
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.45);
+}
+
+
 /***********************
     Security Review
 ************************/
