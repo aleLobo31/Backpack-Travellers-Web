@@ -58,7 +58,7 @@ function initPackInfo() {
     if (packNameEl) packNameEl.textContent = `Pack ${packType}: ${cityName}`;
     if (packPriceEl) packPriceEl.textContent = `${packPrice}€`;
 
-    fetch("../assets/ciudades-del-mundo.json")
+    fetch("db/ciudades-del-mundo.json")
         .then(response => {
             if (!response.ok) throw new Error("Error cargando JSON");
             return response.json();

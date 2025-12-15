@@ -10,7 +10,7 @@
         rgba(58,47,34,0.55),
         rgba(58,47,34,0.55)
     ),
-    url("../../assets/images/banner_superior.jpg");
+    url("../images/banner_superior.jpg");
 
     background-size: cover;
     background-position: center;
@@ -210,7 +210,6 @@
     box-shadow: 0 4px 12px rgba(90,70,50,0.15);
 
     /* ⭐ Imagen como background */
-    background-image: url("../../assets/images/pack_prueba.jpg");
     background-size: cover;
     background-position: center;
 
@@ -368,22 +367,22 @@
 
 /* BACKGROUND (por orden, fácil de mantener) */
 .grid-continents a:nth-child(1) {
-    background-image: url("../../assets/images/europa.jpg");
+    background-image: url("../images/europa.jpg");
 }
 .grid-continents a:nth-child(2) {
-    background-image: url("../../assets/images/asia.png");
+    background-image: url("../images/asia.png");
 }
 .grid-continents a:nth-child(3) {
-    background-image: url("../../assets/images/africa.png");
+    background-image: url("../images/africa.png");
 }
 .grid-continents a:nth-child(4) {
-    background-image: url("../../assets/images/oceania.png");
+    background-image: url("../images/oceania.png");
 }
 .grid-continents a:nth-child(5) {
-    background-image: url("../../assets/images/norteamerica.png");
+    background-image: url("../images/norteamerica.png");
 }
 .grid-continents a:nth-child(6) {
-    background-image: url("../../assets/images/suramerica.png");
+    background-image: url("../images/suramerica.png");
 }
 
 /* HOVER */

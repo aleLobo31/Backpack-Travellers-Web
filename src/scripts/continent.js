@@ -12,7 +12,7 @@ if (!continentName) {
 // --------------------------------------------
 // 2. Cargar JSON
 // --------------------------------------------
-fetch("../assets/ciudades-del-mundo.json")
+fetch("db/ciudades-del-mundo.json")
   .then(res => res.json())
   .then(data => {
     const continent = data.continents.find(c => c.name === continentName);

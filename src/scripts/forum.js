@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // --------------------------------------------
 async function loadPosts() {
   try {
-    const response = await fetch('../../assets/posts.json');
+    const response = await fetch('db/posts.json');
     const data = await response.json();
     allPosts = data.posts;
     

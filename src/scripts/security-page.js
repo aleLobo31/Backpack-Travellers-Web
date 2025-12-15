@@ -13,7 +13,7 @@ async function loadPage() {
     // --------------------------------------------
     // 2. Cargar JSON de seguridad
     // --------------------------------------------
-    const response = await fetch('../assets/sec-countries.json');
+    const response = await fetch('db/sec-countries.json');
     const db = await response.json();
 
     // --------------------------------------------
@@ -53,7 +53,7 @@ async function loadPage() {
     // 5. Actualizar bandera
     // --------------------------------------------
     const flagDOM = document.getElementById('sec-flag');
-    flagDOM.src = `../assets/flags/${country.name}.png`;
+    flagDOM.src = `images/flags/${country.name}.png`;
     flagDOM.alt = `Bandera de ${country.name}`;
 
     // --------------------------------------------

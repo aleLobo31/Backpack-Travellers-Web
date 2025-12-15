@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
   searchForm.addEventListener("submit", (e) => e.preventDefault());
 
   // Cargar el JSON
-  fetch("../assets/ciudades-del-mundo.json")
+  fetch("db/ciudades-del-mundo.json")
     .then((res) => {
       if (!res.ok) throw new Error(`HTTP ${res.status} al cargar JSON`);
       return res.json();

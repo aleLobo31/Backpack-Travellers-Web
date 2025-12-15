@@ -7,7 +7,7 @@ const countryName = params.get("country");
 // --------------------------------------------
 // 2. Cargar JSON
 // --------------------------------------------
-fetch("../assets/ciudades-del-mundo.json")
+fetch("db/ciudades-del-mundo.json")
   .then(res => res.json())
   .then(data => {
     const continents = data.continents;
@@ -56,7 +56,7 @@ function updateCountryHeader(country) {
   subtitleEl.textContent = country.description_extended || country.description;
 
   // Bandera
-  flagEl.src = `../assets/flags/${country.name}.png`;
+  flagEl.src = `images/flags/${country.name}.png`;
   flagEl.alt = `Bandera de ${country.name}`;
 
   // Imagen del banner → usamos la imagen de la primera ciudad

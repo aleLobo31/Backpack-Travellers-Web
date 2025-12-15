@@ -162,9 +162,7 @@ main {
   text-align: center;
   color: #fff;
   
-  background-image:
-      linear-gradient(rgba(58,47,34,0.55), rgba(58,47,34,0.55)),
-      var(--country-banner-image, url("https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?q=80&w=1600&auto=format"));
+  background-image: linear-gradient(rgba(58,47,34,0.55), rgba(58,47,34,0.55));
   
   background-size: cover;
   background-position: center;

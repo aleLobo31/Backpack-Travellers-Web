@@ -7,7 +7,7 @@ const cityName = params.get("city");
 // --------------------------------------------
 // 2. Cargar JSON
 // --------------------------------------------
-fetch("../assets/ciudades-del-mundo.json")
+fetch("db/ciudades-del-mundo.json")
   .then(res => res.json())
   .then(data => {
     let selectedCity = null;

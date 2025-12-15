@@ -11,7 +11,7 @@ const bannerEl = document.querySelector(".footer-banner");
 const pageData = {
     "quienes-somos": {
         title: "¿Quiénes somos?",
-        img: "../../assets/images/quienes_somos.png",
+        img: "images/quienes_somos.png",
         content: `
             <h2>Nuestra misión</h2>
             <p>
@@ -45,7 +45,7 @@ const pageData = {
 
     "privacidad": {
         title: "Política de privacidad",
-        img: "../../assets/images/privacidad.png",
+        img: "images/privacidad.png",
         content: `
             <h2>Cómo tratamos tus datos</h2>
             <p>
@@ -84,7 +84,7 @@ const pageData = {
 
     "faq": {
         title: "Preguntas frecuentes",
-        img: "../../assets/images/FAQs.png",
+        img: "images/FAQs.png",
         content: `
             <h2>Preguntas frecuentes</h2>
 
@@ -122,7 +122,7 @@ const pageData = {
 
     "contacto": {
         title: "Contacto",
-        img: "../../assets/images/contacto.png",
+        img: "images/contacto.png",
         content: `
             <h2>¿Necesitas ayuda?</h2>
             <p>
