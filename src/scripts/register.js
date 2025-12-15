@@ -198,6 +198,13 @@ document.addEventListener("DOMContentLoaded", () => {
             btnImagen.focus();
             return;
         }
+        
+        const tamanoMaximo = 500 * 1024; 
+        if (archivo.size > tamanoMaximo) {
+            mostrarModalInfo("La imagen es demasiado pesada. Por favor, sube una imagen menor de 500KB.");
+            btnImagen.focus();
+            return;
+        }
 
         // 10) Política de privacidad
         if (!privacidadChk.checked) {
