@@ -461,8 +461,18 @@ footer .footer-right {
 
     /* Mostramos hamburguesa */
     .hamburger-btn {
-        display: flex;
-    }
+    background: none;
+    border: none;
+    width: auto;
+    height: auto;
+    font-size: 28px;
+    color: #a26a33;
+    padding: 6px 10px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
     /* Opcional: ocultar selector de idioma fuera del menú */
     .language-wrapper {
